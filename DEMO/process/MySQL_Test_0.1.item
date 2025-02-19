@@ -299,7 +299,7 @@
   </node>
   <node componentName="tFileOutputExcel" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputExcel_1" show="false"/>
-    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.baseDir+&quot;customers.xlsx&quot;"/>
@@ -325,22 +325,22 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="state" id="8"/>
       <elementValue elementRef="IS_AUTO_SIZE" value="false" id="9"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
+    <elementParameter field="CHECK" name="PROTECT_FILE" value="false" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:mBQ/Pgn12gZt9zuqO/ZuWI9ARsBjtc4YK8OciAYF" show="false"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false" show="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="100" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="TRUNCATE_EXCEEDING_CHARACTERS" value="false"/>
+    <elementParameter field="CHECK" name="TRUNCATE_EXCEEDING_CHARACTERS" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="RECALCULATE_FORMULA" value="false" show="false"/>
     <elementParameter field="CHECK" name="STREAMING_APPEND" value="false" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="CHECK" name="USE_SHARED_STRINGS_TABLE" value="false"/>
+    <elementParameter field="CHECK" name="USE_SHARED_STRINGS_TABLE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Excel_Output"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputExcel_1">
