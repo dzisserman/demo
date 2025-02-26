@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" hide="false" name="Linux">
     <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="_sikBwO7DEe-4QKecQiAXGA" type="id_String" value="/home/ec2-user/testfiles/" internalId="_53xvYO7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_dbname" prompt="mySQL_dbname?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="training" internalId="_53xvYe7DEe-4QKecQiAXGA"/>
-    <contextParameter comment="" name="mySQL_host" prompt="mySQL_host?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="51.17.105.195" internalId="_53xvYu7DEe-4QKecQiAXGA"/>
+    <contextParameter comment="" name="mySQL_host" prompt="mySQL_host?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="51.16.221.35" internalId="_53xvYu7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_pass" prompt="mySQL_pass?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_Password" value="enc:system.encryption.key.v1:uCobbXQdqLzo/KlnmbhbJgZUhplnPAB+jWZCYlm5isSUklx51x/P" internalId="_53xvY-7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_user" prompt="mySQL_user?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="talend" internalId="_53xvZO7DEe-4QKecQiAXGA"/>
   </context>
