@@ -4,4 +4,18 @@
     <migrationTask xmi:id="_zi3ZkO60Ee-4QKecQiAXGA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_zh1e0u60Ee-4QKecQiAXGA" login="daniel.zisserman@qlik.co.il" firstName="Daniel" lastName="Zisserman" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6d_bYPQUEe-mxcBUTdK_Mg" login="benif@aqurate.co.il" firstName="Beni" lastName="Fitoussi" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6d_bYfQUEe-mxcBUTdK_Mg" login="ori@qlik.co.il" firstName="Ori" lastName="Kelsi" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6d_bYvQUEe-mxcBUTdK_Mg" login="oleg.gomer@qlik.co.il" firstName="Oleg" lastName="Gomer" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACcPQUEe-mxcBUTdK_Mg" login="admin@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACcfQUEe-mxcBUTdK_Mg" login="admin1@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACcvQUEe-mxcBUTdK_Mg" login="admin2@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACc_QUEe-mxcBUTdK_Mg" login="admin3@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACdPQUEe-mxcBUTdK_Mg" login="admin4@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACdfQUEe-mxcBUTdK_Mg" login="admin5@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACdvQUEe-mxcBUTdK_Mg" login="admin6@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACd_QUEe-mxcBUTdK_Mg" login="admin7@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACePQUEe-mxcBUTdK_Mg" login="admin8@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACefQUEe-mxcBUTdK_Mg" login="admin9@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_6eACevQUEe-mxcBUTdK_Mg" login="stav@qlik.co.il" firstName="Stav" lastName="Brami" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
