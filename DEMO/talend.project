@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_zh1e0e60Ee-4QKecQiAXGA" label="Demo" description="Dani's Demo" language="java" technicalLabel="DEMO" author="_zh1e0u60Ee-4QKecQiAXGA" productVersion="Talend Real-time Big Data Platform-8.0.1.20250126_0750-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dzisserman/demo&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_zh1e0e60Ee-4QKecQiAXGA" label="Demo" description="Dani's Demo" language="java" technicalLabel="DEMO" author="_zh1e0u60Ee-4QKecQiAXGA" productVersion="Talend Real-time Big Data Platform-8.0.1.20250218_0945-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dzisserman/demo&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3">
     <migrationTask xmi:id="_zi3ZkO60Ee-4QKecQiAXGA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_zh1e0u60Ee-4QKecQiAXGA" login="daniel.zisserman@qlik.co.il" firstName="Daniel" lastName="Zisserman" type="DQ" additionnalData="{}"/>
@@ -18,4 +18,6 @@
   <TalendProperties:User xmi:id="_6eACePQUEe-mxcBUTdK_Mg" login="admin8@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_6eACefQUEe-mxcBUTdK_Mg" login="admin9@aqurate.co.il" firstName="Admin" lastName="User" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_6eACevQUEe-mxcBUTdK_Mg" login="stav@qlik.co.il" firstName="Stav" lastName="Brami" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_J1KK8Pj9Ee-4RbMO3_v8Jw" login="u1@qlik.co.il" firstName="u" lastName="1" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_J1KK8fj9Ee-4RbMO3_v8Jw" login="u2@qlik.co.il" firstName="u" lastName="2" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
