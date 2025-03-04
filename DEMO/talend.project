@@ -20,4 +20,5 @@
   <TalendProperties:User xmi:id="_6eACevQUEe-mxcBUTdK_Mg" login="stav@qlik.co.il" firstName="Stav" lastName="Brami" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_J1KK8Pj9Ee-4RbMO3_v8Jw" login="u1@qlik.co.il" firstName="u" lastName="1" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_J1KK8fj9Ee-4RbMO3_v8Jw" login="u2@qlik.co.il" firstName="u" lastName="2" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_OigY8Pj_Ee-9ToBOKYnIpQ" login="u3@qlik.co.il" firstName="u" lastName="3" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
