@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_saot4FJlEfCKftnLv1LcPQ" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_saot4VJlEfCKftnLv1LcPQ" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_saot4lJlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_saot41JlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_saot5FJlEfCKftnLv1LcPQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_saot5VJlEfCKftnLv1LcPQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_saot5lJlEfCKftnLv1LcPQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_saot51JlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_saot6FJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_saot6VJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_saot6lJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_saot61JlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_saot7FJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_saot7VJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_saot7lJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_saot71JlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_saot8FJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_saot8VJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_saot8lJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_sapU8FJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_sapU8VJlEfCKftnLv1LcPQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_sapU8lJlEfCKftnLv1LcPQ" componentName="cMessageRouter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="280">
+    <elementParameter xmi:id="_sapU81JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+    <elementParameter xmi:id="_sapU9FJlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="ROUTE_WHEN_LANGUAGES" value="constant" show="false"/>
+    <elementParameter xmi:id="_sapU9VJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapU9lJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapU91JlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="160">
+    <elementParameter xmi:id="_sapU-FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_sapU-VJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_sapU-lJlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_4"/>
+    <elementParameter xmi:id="_sapU-1JlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_sapU_FJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapU_VJlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="to_HD_route_1"/>
+    <elementParameter xmi:id="_sapU_lJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapU_1JlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVAFJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="280">
+    <elementParameter xmi:id="_sapVAVJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_sapVAlJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_sapVA1JlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_4"/>
+    <elementParameter xmi:id="_sapVBFJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_sapVBVJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVBlJlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="to_HD_route_2"/>
+    <elementParameter xmi:id="_sapVB1JlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVCFJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVCVJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="400">
+    <elementParameter xmi:id="_sapVClJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+    <elementParameter xmi:id="_sapVC1JlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_sapVDFJlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_5"/>
+    <elementParameter xmi:id="_sapVDVJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_sapVDlJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVD1JlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="to_SD_route"/>
+    <elementParameter xmi:id="_sapVEFJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVEVJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVElJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="400">
+    <elementParameter xmi:id="_sapVE1JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_sapVFFJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_sapVFVJlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_sapVFlJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;HD&quot;"/>
+    <elementParameter xmi:id="_sapVF1JlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVGFJlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="process_HD_movies"/>
+    <elementParameter xmi:id="_sapVGVJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVGlJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVG1JlEfCKftnLv1LcPQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="400">
+    <elementParameter xmi:id="_sapVHFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+    <elementParameter xmi:id="_sapVHVJlEfCKftnLv1LcPQ" field="DIRECTORY" name="URI" value="&quot;/StudentFiles/routes/r07_messageSplitter/output/HD&quot;"/>
+    <elementParameter xmi:id="_sapVHlJlEfCKftnLv1LcPQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_sapVH1JlEfCKftnLv1LcPQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_sapVIFJlEfCKftnLv1LcPQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_sapVIVJlEfCKftnLv1LcPQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_sapVIlJlEfCKftnLv1LcPQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_sapVI1JlEfCKftnLv1LcPQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_sapVJFJlEfCKftnLv1LcPQ" field="TEXT" name="FILENAME" value="&quot;${in.header.movieTitle}.xml&quot;"/>
+    <elementParameter xmi:id="_sapVJVJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_sapVJlJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVJ1JlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVKFJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="520">
+    <elementParameter xmi:id="_sapVKVJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_5" show="false"/>
+    <elementParameter xmi:id="_sapVKlJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_sapVK1JlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_sapVLFJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;SD&quot;"/>
+    <elementParameter xmi:id="_sapVLVJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVLlJlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="process_SD_movies"/>
+    <elementParameter xmi:id="_sapVL1JlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVMFJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVMVJlEfCKftnLv1LcPQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="520">
+    <elementParameter xmi:id="_sapVMlJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_3" show="false"/>
+    <elementParameter xmi:id="_sapVM1JlEfCKftnLv1LcPQ" field="DIRECTORY" name="URI" value="&quot;/StudentFiles/routes/r07_messageSplitter/output/SD&quot;"/>
+    <elementParameter xmi:id="_sapVNFJlEfCKftnLv1LcPQ" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_sapVNVJlEfCKftnLv1LcPQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_sapVNlJlEfCKftnLv1LcPQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_sapVN1JlEfCKftnLv1LcPQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_sapVOFJlEfCKftnLv1LcPQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_sapVOVJlEfCKftnLv1LcPQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_sapVOlJlEfCKftnLv1LcPQ" field="TEXT" name="FILENAME" value="&quot;${in.header.movieTitle}.xml&quot;"/>
+    <elementParameter xmi:id="_sapVO1JlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_sapVPFJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVPVJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVPlJlEfCKftnLv1LcPQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="560" posY="520">
+    <elementParameter xmi:id="_sapVP1JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_sapVQFJlEfCKftnLv1LcPQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;r07_messageRouter&quot;"/>
+    <elementParameter xmi:id="_sapVQVJlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_sapVQlJlEfCKftnLv1LcPQ" field="RADIO" name="NOTHING" value="false"/>
+    <elementParameter xmi:id="_sapVQ1JlEfCKftnLv1LcPQ" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_sapVRFJlEfCKftnLv1LcPQ" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_sapVRVJlEfCKftnLv1LcPQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_sapVRlJlEfCKftnLv1LcPQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_sapVR1JlEfCKftnLv1LcPQ" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_sapVSFJlEfCKftnLv1LcPQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_sapVSVJlEfCKftnLv1LcPQ" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_sapVSlJlEfCKftnLv1LcPQ" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVS1JlEfCKftnLv1LcPQ" field="RADIO" name="USE_LOGEIP" value="true"/>
+    <elementParameter xmi:id="_sapVTFJlEfCKftnLv1LcPQ" field="TEXT" name="MESSAGE" value="&quot;The following movie: ${in.header.movieTitle} is only available in standard definition, please consider upgrading to HD.&quot;"/>
+    <elementParameter xmi:id="_sapVTVJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVTlJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVT1JlEfCKftnLv1LcPQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80">
+    <elementParameter xmi:id="_sapVUFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_4" show="false"/>
+    <elementParameter xmi:id="_sapVUVJlEfCKftnLv1LcPQ" field="DIRECTORY" name="URI" value="&quot;/StudentFiles/routes/r07_messageSplitter/input&quot;"/>
+    <elementParameter xmi:id="_sapVUlJlEfCKftnLv1LcPQ" field="CHECK" name="NOOP" value="false"/>
+    <elementParameter xmi:id="_sapVU1JlEfCKftnLv1LcPQ" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_sapVVFJlEfCKftnLv1LcPQ" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_sapVVVJlEfCKftnLv1LcPQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_sapVVlJlEfCKftnLv1LcPQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_sapVV1JlEfCKftnLv1LcPQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_sapVWFJlEfCKftnLv1LcPQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_sapVWVJlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_sapVWlJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVW1JlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVXFJlEfCKftnLv1LcPQ" componentName="cSplitter" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="80">
+    <elementParameter xmi:id="_sapVXVJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cSplitter_1" show="false"/>
+    <elementParameter xmi:id="_sapVXlJlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="LANGUAGES" value="xpath"/>
+    <elementParameter xmi:id="_sapVX1JlEfCKftnLv1LcPQ" field="TEXT" name="EXPRESSION" value="&quot;/catalog/movie&quot;"/>
+    <elementParameter xmi:id="_sapVYFJlEfCKftnLv1LcPQ" field="CHECK" name="USE_RESULT_CLASS_TYPE" value="false"/>
+    <elementParameter xmi:id="_sapVYVJlEfCKftnLv1LcPQ" field="TEXT" name="RESULT_CLASS_TYPE" value="java.lang.String.class" show="false"/>
+    <elementParameter xmi:id="_sapVYlJlEfCKftnLv1LcPQ" field="CHECK" name="USE_NAMESPACES" value="false"/>
+    <elementParameter xmi:id="_sapVY1JlEfCKftnLv1LcPQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_sapVZFJlEfCKftnLv1LcPQ" field="CHECK" name="USE_STRATEGY" value="false"/>
+    <elementParameter xmi:id="_sapVZVJlEfCKftnLv1LcPQ" field="OPENED_LIST" name="AGGREGATION_STRATEGY" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_sapVZlJlEfCKftnLv1LcPQ" field="CHECK" name="PARALLET_PROCESSING" value="false"/>
+    <elementParameter xmi:id="_sapVZ1JlEfCKftnLv1LcPQ" field="CHECK" name="STOP_ON_EXCEPTION" value="false"/>
+    <elementParameter xmi:id="_sapVaFJlEfCKftnLv1LcPQ" field="CHECK" name="STREAMING" value="false"/>
+    <elementParameter xmi:id="_sapVaVJlEfCKftnLv1LcPQ" field="CHECK" name="SHARE_UNIT_OF_WORK" value="false"/>
+    <elementParameter xmi:id="_sapValJlEfCKftnLv1LcPQ" field="CHECK" name="RETURN_STRING" value="false" show="false"/>
+    <elementParameter xmi:id="_sapVa1JlEfCKftnLv1LcPQ" field="TEXT" name="TIMEOUT" value=""/>
+    <elementParameter xmi:id="_sapVbFJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVbVJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVblJlEfCKftnLv1LcPQ" componentName="cSetHeader" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="80">
+    <elementParameter xmi:id="_sapVb1JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_2" show="false"/>
+    <elementParameter xmi:id="_sapVcFJlEfCKftnLv1LcPQ" field="TABLE" name="VALUES">
+      <elementValue xmi:id="_sapVcVJlEfCKftnLv1LcPQ" elementRef="NAME" value="&quot;movieTitle&quot;" id="0"/>
+      <elementValue xmi:id="_sapVclJlEfCKftnLv1LcPQ" elementRef="LANGUAGE" value="xpath" id="1"/>
+      <elementValue xmi:id="_sapVc1JlEfCKftnLv1LcPQ" elementRef="EXPRESSION" value="&quot;/movie/title/text()&quot;" id="2"/>
+    </elementParameter>
+    <elementParameter xmi:id="_sapVdFJlEfCKftnLv1LcPQ" field="TABLE" name="CLEAN_VALUES"/>
+    <elementParameter xmi:id="_sapVdVJlEfCKftnLv1LcPQ" field="CHECK" name="USE_NAMESPACES" value="false"/>
+    <elementParameter xmi:id="_sapVdlJlEfCKftnLv1LcPQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_sapVd1JlEfCKftnLv1LcPQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;                     *Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;                     *Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_sapVeFJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVeVJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVelJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="80">
+    <elementParameter xmi:id="_sapVe1JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_6" show="false"/>
+    <elementParameter xmi:id="_sapVfFJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_sapVfVJlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_7"/>
+    <elementParameter xmi:id="_sapVflJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_sapVf1JlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapVgFJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVgVJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_sapVglJlEfCKftnLv1LcPQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="120" posY="280">
+    <elementParameter xmi:id="_sapVg1JlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_7" show="false"/>
+    <elementParameter xmi:id="_sapVhFJlEfCKftnLv1LcPQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_sapVhVJlEfCKftnLv1LcPQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_sapVhlJlEfCKftnLv1LcPQ" field="TEXT" name="NAME" value="&quot;messageRouter&quot;"/>
+    <elementParameter xmi:id="_sapVh1JlEfCKftnLv1LcPQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_sapViFJlEfCKftnLv1LcPQ" field="TEXT" name="LABEL" value="route_message"/>
+    <elementParameter xmi:id="_sapViVJlEfCKftnLv1LcPQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_sapVilJlEfCKftnLv1LcPQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_sapVi1JlEfCKftnLv1LcPQ" connectorName="ROUTE_OTHER" label="otherwise1" lineStyle="16" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" source="cMessageRouter_1" target="cDirect_3">
+    <elementParameter xmi:id="_sapVjFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="otherwise1" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVjVJlEfCKftnLv1LcPQ" connectorName="ROUTE_WHEN" label="when_4K" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="cMessageRouter_1" target="cDirect_1">
+    <elementParameter xmi:id="_sapVjlJlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="ROUTETYPE" value="xpath"/>
+    <elementParameter xmi:id="_sapVj1JlEfCKftnLv1LcPQ" field="MEMO_JAVA" name="CONDITION" value="&quot;/movie/discType = '4k'&quot;"/>
+    <elementParameter xmi:id="_sapVkFJlEfCKftnLv1LcPQ" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_sapVkVJlEfCKftnLv1LcPQ" field="CHECK" name="USE_NAMESPACES" value="false"/>
+    <elementParameter xmi:id="_sapVklJlEfCKftnLv1LcPQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_sapVk1JlEfCKftnLv1LcPQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_sapVlFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="when_4K" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVlVJlEfCKftnLv1LcPQ" connectorName="ROUTE_WHEN" label="when_blu_ray" lineStyle="15" metaname="cMessageRouter_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="cMessageRouter_1" target="cDirect_2">
+    <elementParameter xmi:id="_sapVllJlEfCKftnLv1LcPQ" field="CLOSED_LIST" name="ROUTETYPE" value="xpath"/>
+    <elementParameter xmi:id="_sapVl1JlEfCKftnLv1LcPQ" field="MEMO_JAVA" name="CONDITION" value="&quot;/movie/discType = 'Blu-ray'&quot;"/>
+    <elementParameter xmi:id="_sapVmFJlEfCKftnLv1LcPQ" field="CHECK" name="ENDOFCHOICE" value="false"/>
+    <elementParameter xmi:id="_sapVmVJlEfCKftnLv1LcPQ" field="CHECK" name="USE_NAMESPACES" value="false"/>
+    <elementParameter xmi:id="_sapVmlJlEfCKftnLv1LcPQ" field="TABLE" name="NAMESPACES" show="false"/>
+    <elementParameter xmi:id="_sapVm1JlEfCKftnLv1LcPQ" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;*Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;*Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
+    <elementParameter xmi:id="_sapVnFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="when_blu_ray" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVnVJlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cDirect_4" offsetLabelX="0" offsetLabelY="0" source="cDirect_4" target="cFile_2">
+    <elementParameter xmi:id="_sapVnlJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVn1JlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cDirect_5" offsetLabelX="0" offsetLabelY="0" source="cDirect_5" target="cFile_3">
+    <elementParameter xmi:id="_sapVoFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVoVJlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cFile_3" offsetLabelX="0" offsetLabelY="0" source="cFile_3" target="cLog_1">
+    <elementParameter xmi:id="_sapVolJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVo1JlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cFile_4" offsetLabelX="0" offsetLabelY="0" source="cFile_4" target="cSplitter_1">
+    <elementParameter xmi:id="_sapVpFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVpVJlEfCKftnLv1LcPQ" connectorName="SPLIT" label="split1" lineStyle="14" metaname="cSplitter_1" offsetLabelX="0" offsetLabelY="0" source="cSplitter_1" target="cSetHeader_2">
+    <elementParameter xmi:id="_sapVplJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="split1" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVp1JlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route7" lineStyle="14" metaname="cSetHeader_2" offsetLabelX="0" offsetLabelY="0" source="cSetHeader_2" target="cDirect_6">
+    <elementParameter xmi:id="_sapVqFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route7" show="false"/>
+  </connection>
+  <connection xmi:id="_sapVqVJlEfCKftnLv1LcPQ" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cDirect_7" offsetLabelX="0" offsetLabelY="0" source="cDirect_7" target="cMessageRouter_1">
+    <elementParameter xmi:id="_sapVqlJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_sapVq1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVrFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cMessageRouter_1" show="false"/>
+    <elementParameter xmi:id="_sapVrVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVrlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVr1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVsFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_1" show="false"/>
+    <elementParameter xmi:id="_sapVsVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVslJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVs1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVtFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_sapVtVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVtlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVt1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVuFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+    <elementParameter xmi:id="_sapVuVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVulJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVu1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVvFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_4" show="false"/>
+    <elementParameter xmi:id="_sapVvVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVvlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVv1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVwFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+    <elementParameter xmi:id="_sapVwVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVwlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVw1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVxFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_5" show="false"/>
+    <elementParameter xmi:id="_sapVxVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVxlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVx1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVyFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_3" show="false"/>
+    <elementParameter xmi:id="_sapVyVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVylJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVy1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapVzFJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_sapVzVJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapVzlJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapVz1JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapV0FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cFile_4" show="false"/>
+    <elementParameter xmi:id="_sapV0VJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapV0lJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapV01JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapV1FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cSplitter_1" show="false"/>
+    <elementParameter xmi:id="_sapV1VJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapV1lJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapV11JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapV2FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cSetHeader_2" show="false"/>
+    <elementParameter xmi:id="_sapV2VJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapV2lJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapV21JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapV3FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_6" show="false"/>
+    <elementParameter xmi:id="_sapV3VJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapV3lJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob xmi:id="_sapV31JlEfCKftnLv1LcPQ">
+    <elementParameter xmi:id="_sapV4FJlEfCKftnLv1LcPQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_7" show="false"/>
+    <elementParameter xmi:id="_sapV4VJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter xmi:id="_sapV4lJlEfCKftnLv1LcPQ" field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
