@@ -122,7 +122,7 @@
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="true"/>
-    <elementParameter field="TEXT" name="REGION_ENDPOINT" value="&quot;il-central-1.s3.amazonaws.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT" value="&quot;il-central-1.amazonaws.com&quot;"/>
     <elementParameter field="CHECK" name="PATHSTYLEACCESS" value="false"/>
     <elementParameter field="FILE" name="WEB_IDENTITY_TOKEN_FILE" value="" show="false"/>
     <elementParameter field="TEXT" name="WEB_TOKEN_ARN" value="" show="false"/>
@@ -138,8 +138,8 @@
     <elementParameter field="TABLE" name="TAGS" show="false"/>
     <elementParameter field="TABLE" name="POLICY_TABLE" show="false"/>
     <elementParameter field="MEMO" name="POLICY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CHECK_ACCESSIBILITY" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="CHECK_METHOD" value="BY_ACCOUNT_OWNER"/>
+    <elementParameter field="CHECK" name="CHECK_ACCESSIBILITY" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="CHECK_METHOD" value="BY_ACCOUNT_OWNER" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_ACCELERATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
