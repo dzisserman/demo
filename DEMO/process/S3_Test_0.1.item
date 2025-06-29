@@ -122,7 +122,7 @@
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_REGION_ENDPOINT" value="true"/>
-    <elementParameter field="TEXT" name="REGION_ENDPOINT" value="&quot;s3.il-central-1.amazonaws.com&quot;"/>
+    <elementParameter field="TEXT" name="REGION_ENDPOINT" value="&quot;il-central-1.amazonaws.com&quot;"/>
     <elementParameter field="CHECK" name="PATHSTYLEACCESS" value="false"/>
     <elementParameter field="FILE" name="WEB_IDENTITY_TOKEN_FILE" value="" show="false"/>
     <elementParameter field="TEXT" name="WEB_TOKEN_ARN" value="" show="false"/>
