@@ -145,6 +145,7 @@
   </node>
   <node componentName="tS3List" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3List_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS" show="false"/>
@@ -157,9 +158,9 @@
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SESSION_DURATION" value="15" show="false"/>
     <elementParameter field="OPENED_LIST" name="REGION" value="DEFAULT" show="false"/>
-    <elementParameter field="CHECK" name="LISTALL" value="true"/>
-    <elementParameter field="TEXT" name="OBJECTS_PREFIX" value=""/>
-    <elementParameter field="TABLE" name="BUCKETS" show="false"/>
+    <elementParameter field="CHECK" name="LISTALL" value="false"/>
+    <elementParameter field="TEXT" name="OBJECTS_PREFIX" value="" show="false"/>
+    <elementParameter field="TABLE" name="BUCKETS"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="FILE" name="WEB_IDENTITY_TOKEN_FILE" value="" show="false"/>
     <elementParameter field="TEXT" name="WEB_TOKEN_ARN" value="" show="false"/>
@@ -179,23 +180,70 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(((String)globalMap.get(&quot;tS3List_1_ERROR_MESSAGE&quot;))+&quot;/&quot;+((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)));"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tS3List_1">
+  <node componentName="tS3BucketList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketList_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS" show="false"/>
+    <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:/hu1fLHZ8kW43TKQMk1Yk8hKpbmcJQZQbvzv1oxm" show="false"/>
+    <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SESSION_DURATION" value="15" show="false"/>
+    <elementParameter field="OPENED_LIST" name="REGION" value="DEFAULT" show="false"/>
+    <elementParameter field="FILE" name="WEB_IDENTITY_TOKEN_FILE" value="" show="false"/>
+    <elementParameter field="TEXT" name="WEB_TOKEN_ARN" value="" show="false"/>
+    <elementParameter field="TEXT" name="WEB_TOKEN_ROLE_SESSION_NAME" value="" show="false"/>
+    <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false" show="false"/>
+    <elementParameter field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
+    <elementParameter field="CHECK" name="SET_STS_ENDPOINT" value="false" show="false"/>
+    <elementParameter field="TEXT" name="STS_ENDPOINT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="OPENED_LIST" name="SIGNING_REGION" value="DEFAULT" show="false"/>
+    <elementParameter field="TEXT" name="EXTERNALID" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SERIALNUMBER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TOKENCODE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="TAGS" show="false"/>
+    <elementParameter field="TABLE" name="POLICY_TABLE" show="false"/>
+    <elementParameter field="MEMO" name="POLICY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(((String)globalMap.get(&quot;tS3BucketList_1_CURRENT_BUCKET_NAME&quot;)));"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tS3BucketList_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tS3List_1" offsetLabelX="0" offsetLabelY="0" source="tS3List_1" target="tJava_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tS3BucketList_1" offsetLabelX="0" offsetLabelY="0" source="tS3BucketList_1" target="tJava_2">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate2" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3List_1" show="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketList_1" show="false"/>
   </subjob>
 </talendfile:ProcessType>
