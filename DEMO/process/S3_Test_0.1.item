@@ -206,7 +206,7 @@
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;dz-talend&quot;"/>
     <elementParameter field="TEXT" name="KEY" value="&quot;Custs.csv&quot;"/>
-    <elementParameter field="FILE" name="FILE" value="&quot;C:/Talend/S3Test/&quot;"/>
+    <elementParameter field="FILE" name="FILE" value="&quot;C:/Talend/S3Test/test.csv&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="FILE" name="WEB_IDENTITY_TOKEN_FILE" value="" show="false"/>
     <elementParameter field="TEXT" name="WEB_TOKEN_ARN" value="" show="false"/>
