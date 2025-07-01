@@ -1,233 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_CSflgFaZEfCFTZGT_Wf57A" defaultContext="Default" jobType="Standard">
-  <context xmi:id="_CSflgVaZEfCFTZGT_Wf57A" confirmationNeeded="false" hide="false" name="Default"/>
-  <parameters xmi:id="_CSflglaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSflg1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter xmi:id="_CSflhFaZEfCFTZGT_Wf57A" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_CSflhVaZEfCFTZGT_Wf57A" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_CSflhlaZEfCFTZGT_Wf57A" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_CSflh1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_CSfliFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_CSfliVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_CSflilaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_CSfli1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_CSfljFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_CSfljVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_CSfljlaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_CSflj1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_CSflkFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_CSflkVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_CSflklaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_CSflk1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_CSfllFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_JzxloFaZEfCFTZGT_Wf57A" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_JzxloVaZEfCFTZGT_Wf57A" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_JzxlolaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_Jzxlo1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_JzxlpFaZEfCFTZGT_Wf57A" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_JzxlpVaZEfCFTZGT_Wf57A" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_JzxlplaZEfCFTZGT_Wf57A" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_Jzxlp1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlqFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlqVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlqlaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_Jzxlq1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlrFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlrVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlrlaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_Jzxlr1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlsFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlsVaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_JzxlslaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_Jzxls1aZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_JzxltFaZEfCFTZGT_Wf57A" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
   </parameters>
-  <node xmi:id="_CSfllVaZEfCFTZGT_Wf57A" componentName="cAWSConnection" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
-    <elementParameter xmi:id="_CSflllaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSConnection_1" show="false"/>
-    <elementParameter xmi:id="_CSfll1aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSflmFaZEfCFTZGT_Wf57A" field="TEXT" name="ACCESS_KEY" value="&quot;AKIAQFC2636IHZPNJEMS&quot;"/>
-    <elementParameter xmi:id="_CSflmVaZEfCFTZGT_Wf57A" field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:Dg5whioaGOqiF4N6E+gSkC32YS+eavzsv6+YuSrhyR6o6BO2XR3513++1WezAtXEAswoBh1YJARS7S1/3MBSRcILiQvnkQ=="/>
-    <elementParameter xmi:id="_CSflmlaZEfCFTZGT_Wf57A" field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
-    <elementParameter xmi:id="_CSflm1aZEfCFTZGT_Wf57A" field="RADIO" name="REGION_INPUT_TYPE_LIST" value="false"/>
-    <elementParameter xmi:id="_CSflnFaZEfCFTZGT_Wf57A" field="RADIO" name="REGION_INPUT_TYPE_CUSTOM" value="true"/>
-    <elementParameter xmi:id="_CSflnVaZEfCFTZGT_Wf57A" field="OPENED_LIST" name="REGION" value="&quot;eu-west-1&quot;" show="false"/>
-    <elementParameter xmi:id="_CSflnlaZEfCFTZGT_Wf57A" field="TEXT" name="CUSTOM_REGION" value="&quot;aws2-s3://my-bucket?accessKey=MINIO_ACCESS_KEY&amp;secretKey=MINIO_SECRET_KEY&amp;endpointOverride=http://localhost:9000&amp;overrideEndpoint=true&amp;region=us-east-1&amp;deleteAfterRead=false&quot;"/>
-    <elementParameter xmi:id="_CSfln1aZEfCFTZGT_Wf57A" field="CHECK" name="CONFIG_CLIENT" value="false"/>
-    <elementParameter xmi:id="_CSfloFaZEfCFTZGT_Wf57A" field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
-    <elementParameter xmi:id="_CSfloVaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSflolaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxltVaZEfCFTZGT_Wf57A" componentName="cAWSConnection" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
+    <elementParameter xmi:id="_JzxltlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSConnection_1" show="false"/>
+    <elementParameter xmi:id="_Jzxlt1aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_JzxluFaZEfCFTZGT_Wf57A" field="TEXT" name="ACCESS_KEY" value="&quot;AKIAQFC2636IHZPNJEMS&quot;"/>
+    <elementParameter xmi:id="_JzxluVaZEfCFTZGT_Wf57A" field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:Dg5whioaGOqiF4N6E+gSkC32YS+eavzsv6+YuSrhyR6o6BO2XR3513++1WezAtXEAswoBh1YJARS7S1/3MBSRcILiQvnkQ=="/>
+    <elementParameter xmi:id="_JzxlulaZEfCFTZGT_Wf57A" field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
+    <elementParameter xmi:id="_Jzxlu1aZEfCFTZGT_Wf57A" field="RADIO" name="REGION_INPUT_TYPE_LIST" value="false"/>
+    <elementParameter xmi:id="_JzxlvFaZEfCFTZGT_Wf57A" field="RADIO" name="REGION_INPUT_TYPE_CUSTOM" value="true"/>
+    <elementParameter xmi:id="_JzxlvVaZEfCFTZGT_Wf57A" field="OPENED_LIST" name="REGION" value="&quot;eu-west-1&quot;" show="false"/>
+    <elementParameter xmi:id="_JzxlvlaZEfCFTZGT_Wf57A" field="TEXT" name="CUSTOM_REGION" value="&quot;aws2-s3://my-bucket?accessKey=MINIO_ACCESS_KEY&amp;secretKey=MINIO_SECRET_KEY&amp;endpointOverride=http://localhost:9000&amp;overrideEndpoint=true&amp;region=us-east-1&amp;deleteAfterRead=false&quot;"/>
+    <elementParameter xmi:id="_Jzxlv1aZEfCFTZGT_Wf57A" field="CHECK" name="CONFIG_CLIENT" value="false"/>
+    <elementParameter xmi:id="_JzxlwFaZEfCFTZGT_Wf57A" field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
+    <elementParameter xmi:id="_JzxlwVaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxlwlaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSflo1aZEfCFTZGT_Wf57A" componentName="cAWSS3" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="160">
-    <elementParameter xmi:id="_CSflpFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSS3_1" show="false"/>
-    <elementParameter xmi:id="_CSflpVaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSflplaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="AWS_CONNECTION_CLIENT" value="cAWSConnection_1"/>
-    <elementParameter xmi:id="_CSflp1aZEfCFTZGT_Wf57A" field="TEXT" name="BUCKET_NAME" value="&quot;dz-talend&quot;"/>
-    <elementParameter xmi:id="_CSflqFaZEfCFTZGT_Wf57A" field="TEXT" name="FILE_NAME" value="&quot;Custs.csv&quot;"/>
-    <elementParameter xmi:id="_CSflqVaZEfCFTZGT_Wf57A" field="TEXT" name="MAX_MESSAGES_PER_POLL" value="&quot;1&quot;"/>
-    <elementParameter xmi:id="_CSflqlaZEfCFTZGT_Wf57A" field="OPENED_LIST" name="STORAGE_CLASS" value="STANDARD" show="false"/>
-    <elementParameter xmi:id="_CSflq1aZEfCFTZGT_Wf57A" field="TEXT" name="PREFIX" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_CSflrFaZEfCFTZGT_Wf57A" field="CHECK" name="DELETE_AFTER_READ" value="false"/>
-    <elementParameter xmi:id="_CSflrVaZEfCFTZGT_Wf57A" field="CHECK" name="DELETE_AFTER_WRITE" value="false" show="false"/>
-    <elementParameter xmi:id="_CSflrlaZEfCFTZGT_Wf57A" field="CHECK" name="MULTI_PART_UPLOAD" value="false" show="false"/>
-    <elementParameter xmi:id="_CSflr1aZEfCFTZGT_Wf57A" field="TEXT" name="PART_SIZE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_CSflsFaZEfCFTZGT_Wf57A" field="CHECK" name="SERVER_SIDE_ENCRYPTION" value="false" show="false"/>
-    <elementParameter xmi:id="_CSflsVaZEfCFTZGT_Wf57A" field="CHECK" name="INCLUDE_BODY" value="true"/>
-    <elementParameter xmi:id="_CSflslaZEfCFTZGT_Wf57A" field="TABLE" name="MESSAGE_HEADERS" show="false"/>
-    <elementParameter xmi:id="_CSfls1aZEfCFTZGT_Wf57A" field="CHECK" name="USE_MESSAGE_HEADERS_USER_DEFINED" value="false" show="false"/>
-    <elementParameter xmi:id="_CSfltFaZEfCFTZGT_Wf57A" field="TABLE" name="MESSAGE_HEADERS_USER_DEFINED" show="false"/>
-    <elementParameter xmi:id="_CSfltVaZEfCFTZGT_Wf57A" field="TABLE" name="URI_OPTIONS"/>
-    <elementParameter xmi:id="_CSfltlaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSflt1aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_Jzxlw1aZEfCFTZGT_Wf57A" componentName="cAWSS3" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="160">
+    <elementParameter xmi:id="_JzxlxFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSS3_1" show="false"/>
+    <elementParameter xmi:id="_JzxlxVaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_JzxlxlaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="AWS_CONNECTION_CLIENT" value="cAWSConnection_1"/>
+    <elementParameter xmi:id="_Jzxlx1aZEfCFTZGT_Wf57A" field="TEXT" name="BUCKET_NAME" value="&quot;dz-talend&quot;"/>
+    <elementParameter xmi:id="_JzxlyFaZEfCFTZGT_Wf57A" field="TEXT" name="FILE_NAME" value="&quot;Custs.csv&quot;"/>
+    <elementParameter xmi:id="_JzxlyVaZEfCFTZGT_Wf57A" field="TEXT" name="MAX_MESSAGES_PER_POLL" value="&quot;1&quot;"/>
+    <elementParameter xmi:id="_JzxlylaZEfCFTZGT_Wf57A" field="OPENED_LIST" name="STORAGE_CLASS" value="STANDARD" show="false"/>
+    <elementParameter xmi:id="_Jzxly1aZEfCFTZGT_Wf57A" field="TEXT" name="PREFIX" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_JzxlzFaZEfCFTZGT_Wf57A" field="CHECK" name="DELETE_AFTER_READ" value="false"/>
+    <elementParameter xmi:id="_JzxlzVaZEfCFTZGT_Wf57A" field="CHECK" name="DELETE_AFTER_WRITE" value="false" show="false"/>
+    <elementParameter xmi:id="_JzxlzlaZEfCFTZGT_Wf57A" field="CHECK" name="MULTI_PART_UPLOAD" value="false" show="false"/>
+    <elementParameter xmi:id="_Jzxlz1aZEfCFTZGT_Wf57A" field="TEXT" name="PART_SIZE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Jzxl0FaZEfCFTZGT_Wf57A" field="CHECK" name="SERVER_SIDE_ENCRYPTION" value="false" show="false"/>
+    <elementParameter xmi:id="_Jzxl0VaZEfCFTZGT_Wf57A" field="CHECK" name="INCLUDE_BODY" value="true"/>
+    <elementParameter xmi:id="_Jzxl0laZEfCFTZGT_Wf57A" field="TABLE" name="MESSAGE_HEADERS" show="false"/>
+    <elementParameter xmi:id="_Jzxl01aZEfCFTZGT_Wf57A" field="CHECK" name="USE_MESSAGE_HEADERS_USER_DEFINED" value="false" show="false"/>
+    <elementParameter xmi:id="_Jzxl1FaZEfCFTZGT_Wf57A" field="TABLE" name="MESSAGE_HEADERS_USER_DEFINED" show="false"/>
+    <elementParameter xmi:id="_Jzxl1VaZEfCFTZGT_Wf57A" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_Jzxl1laZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_Jzxl11aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfluFaZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="160">
-    <elementParameter xmi:id="_CSfluVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
-    <elementParameter xmi:id="_CSflulaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSflu1aZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_1&quot;"/>
-    <elementParameter xmi:id="_CSflvFaZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
-    <elementParameter xmi:id="_CSflvVaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
-    <elementParameter xmi:id="_CSflvlaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
-    <elementParameter xmi:id="_CSflv1aZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
-    <elementParameter xmi:id="_CSflwFaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
-    <elementParameter xmi:id="_CSflwVaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
-    <elementParameter xmi:id="_CSflwlaZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
-    <elementParameter xmi:id="_CSflw1aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
-    <elementParameter xmi:id="_CSflxFaZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
-    <elementParameter xmi:id="_CSflxVaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_CSflxlaZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
-    <elementParameter xmi:id="_CSflx1aZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_CSflyFaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSflyVaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_Jzxl2FaZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="160">
+    <elementParameter xmi:id="_Jzxl2VaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_Jzxl2laZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_Jzxl21aZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_1&quot;"/>
+    <elementParameter xmi:id="_Jzxl3FaZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_Jzxl3VaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_Jzxl3laZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_Jzxl31aZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_Jzxl4FaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_Jzxl4VaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_Jzxl4laZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_Jzxl41aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_Jzxl5FaZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_Jzxl5VaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_Jzxl5laZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_Jzxl51aZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_Jzxl6FaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_Jzxl6VaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSflylaZEfCFTZGT_Wf57A" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="160">
-    <elementParameter xmi:id="_CSfly1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
-    <elementParameter xmi:id="_CSflzFaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSflzVaZEfCFTZGT_Wf57A" field="DIRECTORY" name="URI" value="&quot;C:/Talend/S3Test/out&quot;"/>
-    <elementParameter xmi:id="_CSflzlaZEfCFTZGT_Wf57A" field="CHECK" name="NOOP" value="true"/>
-    <elementParameter xmi:id="_CSflz1aZEfCFTZGT_Wf57A" field="CHECK" name="FLATTEN" value="false"/>
-    <elementParameter xmi:id="_CSfl0FaZEfCFTZGT_Wf57A" field="CHECK" name="AUTOCREATE" value="true"/>
-    <elementParameter xmi:id="_CSfl0VaZEfCFTZGT_Wf57A" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
-    <elementParameter xmi:id="_CSfl0laZEfCFTZGT_Wf57A" field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
-    <elementParameter xmi:id="_CSfl01aZEfCFTZGT_Wf57A" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter xmi:id="_CSfl1FaZEfCFTZGT_Wf57A" field="TEXT" name="FILENAME" value="&quot;test.csv&quot;"/>
-    <elementParameter xmi:id="_CSfl1VaZEfCFTZGT_Wf57A" field="TABLE" name="ADVARGUMENTS"/>
-    <elementParameter xmi:id="_CSfl1laZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfl11aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_Jzxl6laZEfCFTZGT_Wf57A" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="160">
+    <elementParameter xmi:id="_Jzxl61aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_Jzxl7FaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_Jzxl7VaZEfCFTZGT_Wf57A" field="DIRECTORY" name="URI" value="&quot;C:/Talend/S3Test/out&quot;"/>
+    <elementParameter xmi:id="_Jzxl7laZEfCFTZGT_Wf57A" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_Jzxl71aZEfCFTZGT_Wf57A" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_Jzxl8FaZEfCFTZGT_Wf57A" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_Jzxl8VaZEfCFTZGT_Wf57A" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_Jzxl8laZEfCFTZGT_Wf57A" field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter xmi:id="_Jzxl81aZEfCFTZGT_Wf57A" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter xmi:id="_Jzxl9FaZEfCFTZGT_Wf57A" field="TEXT" name="FILENAME" value="&quot;test.csv&quot;"/>
+    <elementParameter xmi:id="_Jzxl9VaZEfCFTZGT_Wf57A" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_Jzxl9laZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_Jzxl91aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfl2FaZEfCFTZGT_Wf57A" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="40">
-    <elementParameter xmi:id="_CSfl2VaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
-    <elementParameter xmi:id="_CSfl2laZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSfl21aZEfCFTZGT_Wf57A" field="TEXT" name="URI" value="&quot;from(&quot;minio://helloBucket?accessKey=yourAccessKey&amp;secretKey=yourSecretKey&amp;objectName=hello.txt&quot;)from(&quot;minio://helloBucket?accessKey=yourAccessKey&amp;secretKey=yourSecretKey&amp;objectName=hello.txt&quot;)&quot;"/>
-    <elementParameter xmi:id="_CSfl3FaZEfCFTZGT_Wf57A" field="TABLE" name="HOTLIBS">
-      <elementValue xmi:id="_CSfl3VaZEfCFTZGT_Wf57A" elementRef="LIBPATH" value="MINIO" id="0"/>
+  <node xmi:id="_Jzxl-FaZEfCFTZGT_Wf57A" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="40">
+    <elementParameter xmi:id="_Jzxl-VaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+    <elementParameter xmi:id="_Jzxl-laZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_Jzxl-1aZEfCFTZGT_Wf57A" field="TEXT" name="URI" value="&quot;from(&quot;minio://helloBucket?accessKey=yourAccessKey&amp;secretKey=yourSecretKey&amp;objectName=hello.txt&quot;)from(&quot;minio://helloBucket?accessKey=yourAccessKey&amp;secretKey=yourSecretKey&amp;objectName=hello.txt&quot;)&quot;"/>
+    <elementParameter xmi:id="_Jzxl_FaZEfCFTZGT_Wf57A" field="TABLE" name="HOTLIBS">
+      <elementValue xmi:id="_Jzxl_VaZEfCFTZGT_Wf57A" elementRef="LIBPATH" value="MINIO" id="0"/>
     </elementParameter>
-    <elementParameter xmi:id="_CSfl3laZEfCFTZGT_Wf57A" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
-    <elementParameter xmi:id="_CSfl31aZEfCFTZGT_Wf57A" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_CSfl4FaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfl4VaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_Jzxl_laZEfCFTZGT_Wf57A" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_Jzxl_1aZEfCFTZGT_Wf57A" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_JzxmAFaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmAVaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfl4laZEfCFTZGT_Wf57A" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="240">
-    <elementParameter xmi:id="_CSfl41aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
-    <elementParameter xmi:id="_CSfl5FaZEfCFTZGT_Wf57A" field="TEXT" name="URI" value="&quot;minio:test?accessKey=minioadmin&amp;secretKey=minioadmin&amp;endpoint=http://127.0.0.1:9000&amp;objectName=keepalive.xml&amp;deleteAfterRead=false&amp;repeatCount=10&amp;delay=5000&quot;"/>
-    <elementParameter xmi:id="_CSfl5VaZEfCFTZGT_Wf57A" field="TABLE" name="HOTLIBS">
-      <elementValue xmi:id="_CSfl5laZEfCFTZGT_Wf57A" elementRef="LIBPATH" value="MINIO" id="0"/>
+  <node xmi:id="_JzxmAlaZEfCFTZGT_Wf57A" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="240">
+    <elementParameter xmi:id="_JzxmA1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
+    <elementParameter xmi:id="_JzxmBFaZEfCFTZGT_Wf57A" field="TEXT" name="URI" value="&quot;minio:test?accessKey=minioadmin&amp;secretKey=minioadmin&amp;endpoint=http://127.0.0.1:9000&amp;objectName=keepalive.xml&amp;deleteAfterRead=false&amp;repeatCount=10&amp;delay=5000&quot;"/>
+    <elementParameter xmi:id="_JzxmBVaZEfCFTZGT_Wf57A" field="TABLE" name="HOTLIBS">
+      <elementValue xmi:id="_JzxmBlaZEfCFTZGT_Wf57A" elementRef="LIBPATH" value="MINIO" id="0"/>
     </elementParameter>
-    <elementParameter xmi:id="_CSfl51aZEfCFTZGT_Wf57A" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
-    <elementParameter xmi:id="_CSfl6FaZEfCFTZGT_Wf57A" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_CSfl6VaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfl6laZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_JzxmB1aZEfCFTZGT_Wf57A" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_JzxmCFaZEfCFTZGT_Wf57A" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_JzxmCVaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmClaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfl61aZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="240">
-    <elementParameter xmi:id="_CSfl7FaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
-    <elementParameter xmi:id="_CSfl7VaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSfl7laZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_2&quot;"/>
-    <elementParameter xmi:id="_CSfl71aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
-    <elementParameter xmi:id="_CSfl8FaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
-    <elementParameter xmi:id="_CSfl8VaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
-    <elementParameter xmi:id="_CSfl8laZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
-    <elementParameter xmi:id="_CSfl81aZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
-    <elementParameter xmi:id="_CSfl9FaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
-    <elementParameter xmi:id="_CSfl9VaZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
-    <elementParameter xmi:id="_CSfl9laZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
-    <elementParameter xmi:id="_CSfl91aZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
-    <elementParameter xmi:id="_CSfl-FaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_CSfl-VaZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
-    <elementParameter xmi:id="_CSfl-laZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_CSfl-1aZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfl_FaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxmC1aZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="240">
+    <elementParameter xmi:id="_JzxmDFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_JzxmDVaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_JzxmDlaZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_2&quot;"/>
+    <elementParameter xmi:id="_JzxmD1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_JzxmEFaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_JzxmEVaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_JzxmElaZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_JzxmE1aZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_JzxmFFaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_JzxmFVaZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_JzxmFlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_JzxmF1aZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_JzxmGFaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_JzxmGVaZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_JzxmGlaZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_JzxmG1aZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmHFaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfl_VaZEfCFTZGT_Wf57A" componentName="cXmlParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="240">
-    <elementParameter xmi:id="_CSfl_laZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
-    <elementParameter xmi:id="_CSfl_1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="XML_LIBRARY" value="jacksonxml"/>
-    <elementParameter xmi:id="_CSfmAFaZEfCFTZGT_Wf57A" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
-    <elementParameter xmi:id="_CSfmAVaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
-    <elementParameter xmi:id="_CSfmAlaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfmA1aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxmHVaZEfCFTZGT_Wf57A" componentName="cXmlParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="400" posY="240">
+    <elementParameter xmi:id="_JzxmHlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
+    <elementParameter xmi:id="_JzxmH1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="XML_LIBRARY" value="jacksonxml"/>
+    <elementParameter xmi:id="_JzxmIFaZEfCFTZGT_Wf57A" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
+    <elementParameter xmi:id="_JzxmIVaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_JzxmIlaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmI1aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfmBFaZEfCFTZGT_Wf57A" componentName="cJsonWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="240">
-    <elementParameter xmi:id="_CSfmBVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
-    <elementParameter xmi:id="_CSfmBlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter xmi:id="_CSfmB1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
-    <elementParameter xmi:id="_CSfmCFaZEfCFTZGT_Wf57A" field="CHECK" name="PRETTY_PRINT" value="false"/>
-    <elementParameter xmi:id="_CSfmCVaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
-    <elementParameter xmi:id="_CSfmClaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfmC1aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxmJFaZEfCFTZGT_Wf57A" componentName="cJsonWriter" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="760" posY="240">
+    <elementParameter xmi:id="_JzxmJVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
+    <elementParameter xmi:id="_JzxmJlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_JzxmJ1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Gson"/>
+    <elementParameter xmi:id="_JzxmKFaZEfCFTZGT_Wf57A" field="CHECK" name="PRETTY_PRINT" value="false"/>
+    <elementParameter xmi:id="_JzxmKVaZEfCFTZGT_Wf57A" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_JzxmKlaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmK1aZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfmDFaZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
-    <elementParameter xmi:id="_CSfmDVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
-    <elementParameter xmi:id="_CSfmDlaZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_3&quot;"/>
-    <elementParameter xmi:id="_CSfmD1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
-    <elementParameter xmi:id="_CSfmEFaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
-    <elementParameter xmi:id="_CSfmEVaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
-    <elementParameter xmi:id="_CSfmElaZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
-    <elementParameter xmi:id="_CSfmE1aZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
-    <elementParameter xmi:id="_CSfmFFaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
-    <elementParameter xmi:id="_CSfmFVaZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
-    <elementParameter xmi:id="_CSfmFlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
-    <elementParameter xmi:id="_CSfmF1aZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
-    <elementParameter xmi:id="_CSfmGFaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_CSfmGVaZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
-    <elementParameter xmi:id="_CSfmGlaZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_CSfmG1aZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfmHFaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxmLFaZEfCFTZGT_Wf57A" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="240">
+    <elementParameter xmi:id="_JzxmLVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
+    <elementParameter xmi:id="_JzxmLlaZEfCFTZGT_Wf57A" field="TEXT" name="LOGGING_CATEGORY" value="&quot;s3_route_test.cLog_3&quot;"/>
+    <elementParameter xmi:id="_JzxmL1aZEfCFTZGT_Wf57A" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_JzxmMFaZEfCFTZGT_Wf57A" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_JzxmMVaZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_JzxmMlaZEfCFTZGT_Wf57A" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_JzxmM1aZEfCFTZGT_Wf57A" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_JzxmNFaZEfCFTZGT_Wf57A" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_JzxmNVaZEfCFTZGT_Wf57A" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_JzxmNlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_JzxmN1aZEfCFTZGT_Wf57A" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_JzxmOFaZEfCFTZGT_Wf57A" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_JzxmOVaZEfCFTZGT_Wf57A" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_JzxmOlaZEfCFTZGT_Wf57A" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_JzxmO1aZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmPFaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_CSfmHVaZEfCFTZGT_Wf57A" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="240">
-    <elementParameter xmi:id="_CSfmHlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
-    <elementParameter xmi:id="_CSfmH1aZEfCFTZGT_Wf57A" field="MEMO_EDITOR_JAVA" name="CODE" value="LinkedHashMap&lt;String,String> xml = new LinkedHashMap&lt;String,String>();&#xD;&#xA;xml = exchange.getIn().getBody(LinkedHashMap.class);&#xD;&#xA;//xml.get);&#xD;&#xA;//xml.put(&quot;STATUSDESCRIPTION&quot;,&quot;*TalenD POC&quot;);&#xD;&#xA;System.out.println(xml.get(&quot;Description&quot;));&#xD;&#xA;&#xA;"/>
-    <elementParameter xmi:id="_CSfmIFaZEfCFTZGT_Wf57A" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="import java.util.LinkedHashMap;&#xD;"/>
-    <elementParameter xmi:id="_CSfmIVaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_CSfmIlaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_JzxmPVaZEfCFTZGT_Wf57A" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="240">
+    <elementParameter xmi:id="_JzxmPlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_JzxmP1aZEfCFTZGT_Wf57A" field="MEMO_EDITOR_JAVA" name="CODE" value="LinkedHashMap&lt;String,String> xml = new LinkedHashMap&lt;String,String>();&#xD;&#xA;xml = exchange.getIn().getBody(LinkedHashMap.class);&#xD;&#xA;//xml.get);&#xD;&#xA;//xml.put(&quot;STATUSDESCRIPTION&quot;,&quot;*TalenD POC&quot;);&#xD;&#xA;System.out.println(xml.get(&quot;Description&quot;).getClass());&#xD;&#xA;&#xA;"/>
+    <elementParameter xmi:id="_JzxmQFaZEfCFTZGT_Wf57A" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="import java.util.LinkedHashMap;&#xD;"/>
+    <elementParameter xmi:id="_JzxmQVaZEfCFTZGT_Wf57A" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_JzxmQlaZEfCFTZGT_Wf57A" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <connection xmi:id="_CSfmI1aZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cAWSS3_1" offsetLabelX="0" offsetLabelY="0" source="cAWSS3_1" target="cLog_1">
-    <elementParameter xmi:id="_CSfmJFaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter xmi:id="_CSfmJVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  <connection xmi:id="_JzxmQ1aZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cAWSS3_1" offsetLabelX="0" offsetLabelY="0" source="cAWSS3_1" target="cLog_1">
+    <elementParameter xmi:id="_JzxmRFaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_JzxmRVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
   </connection>
-  <connection xmi:id="_CSfmJlaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cLog_1" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cFile_1">
-    <elementParameter xmi:id="_CSfmJ1aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter xmi:id="_CSfmKFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  <connection xmi:id="_JzxmRlaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cLog_1" offsetLabelX="0" offsetLabelY="0" source="cLog_1" target="cFile_1">
+    <elementParameter xmi:id="_JzxmR1aZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_JzxmSFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
   </connection>
-  <connection xmi:id="_CSfmKVaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cMessagingEndpoint_2" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_2" target="cXmlParser_1">
-    <elementParameter xmi:id="_CSfmKlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  <connection xmi:id="_JzxmSVaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route3" lineStyle="14" metaname="cMessagingEndpoint_2" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_2" target="cXmlParser_1">
+    <elementParameter xmi:id="_JzxmSlaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
   </connection>
-  <connection xmi:id="_CSfmK1aZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route4" lineStyle="14" metaname="cXmlParser_1" offsetLabelX="0" offsetLabelY="0" source="cXmlParser_1" target="cLog_3">
-    <elementParameter xmi:id="_CSfmLFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
+  <connection xmi:id="_JzxmS1aZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route4" lineStyle="14" metaname="cXmlParser_1" offsetLabelX="0" offsetLabelY="0" source="cXmlParser_1" target="cLog_3">
+    <elementParameter xmi:id="_JzxmTFaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
   </connection>
-  <connection xmi:id="_CSfmLVaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cJsonWriter_1" offsetLabelX="0" offsetLabelY="0" source="cJsonWriter_1" target="cLog_2">
-    <elementParameter xmi:id="_CSfmLlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter xmi:id="_CSfmL1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
+  <connection xmi:id="_JzxmTVaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cJsonWriter_1" offsetLabelX="0" offsetLabelY="0" source="cJsonWriter_1" target="cLog_2">
+    <elementParameter xmi:id="_JzxmTlaZEfCFTZGT_Wf57A" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_JzxmT1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
   </connection>
-  <connection xmi:id="_CSfmMFaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cLog_3" offsetLabelX="0" offsetLabelY="0" source="cLog_3" target="cProcessor_1">
-    <elementParameter xmi:id="_CSfmMVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
+  <connection xmi:id="_JzxmUFaZEfCFTZGT_Wf57A" connectorName="ROUTE" label="route6" lineStyle="14" metaname="cLog_3" offsetLabelX="0" offsetLabelY="0" source="cLog_3" target="cProcessor_1">
+    <elementParameter xmi:id="_JzxmUVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
   </connection>
-  <subjob xmi:id="_CSfmMlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmM1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSConnection_1" show="false"/>
+  <subjob xmi:id="_JzxmUlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmU1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSConnection_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmNFaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmNVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSS3_1" show="false"/>
+  <subjob xmi:id="_JzxmVFaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmVVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cAWSS3_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmNlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmN1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+  <subjob xmi:id="_JzxmVlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmV1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmOFaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmOVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  <subjob xmi:id="_JzxmWFaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmWVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmOlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmO1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+  <subjob xmi:id="_JzxmWlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmW1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmPFaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmPVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
+  <subjob xmi:id="_JzxmXFaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmXVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_2" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmPlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmP1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+  <subjob xmi:id="_JzxmXlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmX1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmQFaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmQVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
+  <subjob xmi:id="_JzxmYFaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmYVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cXmlParser_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmQlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmQ1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
+  <subjob xmi:id="_JzxmYlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmY1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cJsonWriter_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmRFaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmRVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
+  <subjob xmi:id="_JzxmZFaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmZVaZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cLog_3" show="false"/>
   </subjob>
-  <subjob xmi:id="_CSfmRlaZEfCFTZGT_Wf57A">
-    <elementParameter xmi:id="_CSfmR1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+  <subjob xmi:id="_JzxmZlaZEfCFTZGT_Wf57A">
+    <elementParameter xmi:id="_JzxmZ1aZEfCFTZGT_Wf57A" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
   </subjob>
 </talendfile:ProcessType>
