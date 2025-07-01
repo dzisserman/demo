@@ -105,7 +105,7 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;.&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="&quot;Status&quot;" id="1"/>
       <elementValue elementRef="NODECHECK" value="false" id="2"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
