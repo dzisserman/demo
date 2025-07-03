@@ -121,6 +121,10 @@
     "id" : "date",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_fEhnMBVCEfCBJdRTYn_DKg - customers",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
