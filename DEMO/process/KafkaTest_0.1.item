@@ -176,10 +176,7 @@
     <elementParameter field="CHECK" name="SET_KRB5_CONF" value="false" show="false"/>
     <elementParameter field="FILE" name="KRB5_CONF" value="&quot;/etc/kafka/krb5.conf&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TABLE" name="KAFKA_PRODUCER_PROPERTIES">
-      <elementValue elementRef="PROPERTY" value="&quot;key&quot;" id="0"/>
-      <elementValue elementRef="VALUE" value="&quot;test&quot;" id="1"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="KAFKA_PRODUCER_PROPERTIES"/>
     <elementParameter field="CHECK" name="APPLY_SECURITY_PROPERTIES_AFTER_ADVANCED" value="false" show="false"/>
     <elementParameter field="CHECK" name="HEADERS" value="false"/>
     <elementParameter field="TABLE" name="KAFKA_HEADERS_PROPERTIES" show="false"/>
