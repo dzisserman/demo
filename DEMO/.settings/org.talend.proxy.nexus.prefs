@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+nexus.proxy.enable=true
 nexus.proxy.type=NEXUS_3
 nexus.proxy.url=http\://localhost\:8081/repository/talend-updates-proxy/
 repository.auth.type=User/Password
