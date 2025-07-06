@@ -94,8 +94,6 @@
   }, {
     "id" : "org.talend.lite.di.jobtemplate.feature.feature.group"
   }, {
-    "id" : "org.talend.lite.di.metadata.mdm.feature.feature.group"
-  }, {
     "id" : "org.talend.lite.di.publish.feature.feature.group"
   }, {
     "id" : "org.talend.lite.di.resource.feature.feature.group"
@@ -108,11 +106,23 @@
   }, {
     "id" : "org.talend.lite.di.wsdl.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.dq.components.spark.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.dq.components.sparkstr.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.dq.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
   }, {
     "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
   }, {
     "id" : "org.talend.lite.tdm.core.feature.feature.group"
+  }, {
+    "id" : "org.talend.lite.tdm.spark.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.bd.bigtable.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.bd.documentDB.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.di.cyberark.feature.feature.group"
   }, {
@@ -121,6 +131,8 @@
     "id" : "org.talend.studio.components.tck.chunk.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.cyberarkrest.connector.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.dataqualityRule.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.embeddingAI.feature.feature.group"
   }, {
@@ -147,6 +159,8 @@
     "id" : "org.talend.studio.components.tck.pinecone.studio.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.qlik.feature.feature.group"
+  }, {
+    "id" : "org.talend.studio.components.tck.qvd.output.feature.feature.group"
   }, {
     "id" : "org.talend.studio.components.tck.salesforcemarketingstudio.feature.feature.group"
   }, {
