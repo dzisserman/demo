@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_ZBCI8FqJEfCVxeyd56aaww" name="TableAnalysis1" creationDate="2025-07-06T19:50:58.054+0300">
-  <clientDependency href="../../metadata/connections/MySQL_Local_0.1.item#_ZAXakFqJEfCVxeyd56aaww"/>
-  <taggedValue xmi:id="_ZBCI8VqJEfCVxeyd56aaww" tag="Status" value="development"/>
-  <taggedValue xmi:id="_ZBCI8lqJEfCVxeyd56aaww" tag="Author" value="daniel.zisserman@qlik.co.il"/>
-  <taggedValue xmi:id="_ZBCI81qJEfCVxeyd56aaww" tag="Purpose"/>
-  <taggedValue xmi:id="_ZBCI9FqJEfCVxeyd56aaww" tag="Description"/>
-  <taggedValue xmi:id="_ZBCI9VqJEfCVxeyd56aaww" tag="Version" value="0.1"/>
-  <context xmi:id="_ZBCI9lqJEfCVxeyd56aaww">
-    <connection href="../../metadata/connections/MySQL_Local_0.1.item#_nphHEBVCEfCBJdRTYn_DKg"/>
-    <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
-  </context>
-  <results xmi:id="_ZBCI91qJEfCVxeyd56aaww">
-    <resultMetadata xmi:id="_ZBCI-FqJEfCVxeyd56aaww"/>
-    <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZBCI-VqJEfCVxeyd56aaww">
-      <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
-      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
-    </indicators>
-  </results>
-  <parameters xmi:id="_ZBCI-lqJEfCVxeyd56aaww" analysisType="Table Analysis"/>
-</dataquality.analysis:Analysis>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_ZBCI8FqJEfCVxeyd56aaww" name="TableAnalysis1" creationDate="2025-07-06T19:50:58.054+0300" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/MySQL_Local_0.1.item#_ZAXakFqJEfCVxeyd56aaww"/>
+    <taggedValue xmi:id="_ZBCI8VqJEfCVxeyd56aaww" tag="Status" value="development"/>
+    <taggedValue xmi:id="_ZBCI8lqJEfCVxeyd56aaww" tag="Author" value="daniel.zisserman@qlik.co.il"/>
+    <taggedValue xmi:id="_ZBCI81qJEfCVxeyd56aaww" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ZBCI9FqJEfCVxeyd56aaww" tag="Description" value=""/>
+    <taggedValue xmi:id="_ZBCI9VqJEfCVxeyd56aaww" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_lQdTMVqJEfCVxeyd56aaww" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_lQkA4FqJEfCVxeyd56aaww" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_ZBCI9lqJEfCVxeyd56aaww">
+      <connection href="../../metadata/connections/MySQL_Local_0.1.item#_nphHEBVCEfCBJdRTYn_DKg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
+    </context>
+    <results xmi:id="_ZBCI91qJEfCVxeyd56aaww">
+      <resultMetadata xmi:id="_ZBCI-FqJEfCVxeyd56aaww"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZBCI-VqJEfCVxeyd56aaww">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_ZBCI-lqJEfCVxeyd56aaww" dataFilter="_lQl2EFqJEfCVxeyd56aaww" analysisType="Table Analysis"/>
+    <contextType xmi:id="_lQdTMFqJEfCVxeyd56aaww" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_lQl2EFqJEfCVxeyd56aaww" name="TableAnalysis1">
+    <ranges xmi:id="_lQl2EVqJEfCVxeyd56aaww">
+      <expressions xmi:id="_lQmdIFqJEfCVxeyd56aaww">
+        <expression xsi:type="relational:TdExpression" xmi:id="_lQmdIVqJEfCVxeyd56aaww" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>
