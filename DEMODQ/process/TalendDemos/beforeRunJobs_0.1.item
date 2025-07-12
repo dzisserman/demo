@@ -120,7 +120,7 @@
     <routinesParameter id="_k9-S4BLvEe2X1KTOOXgCJQ" name="DataMasking"/>
     <routinesParameter id="_k-R04BLvEe2X1KTOOXgCJQ" name="DataQualityDependencies"/>
   </parameters>
-  <node componentName="tFileUnarchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+  <node componentName="tFileUnarchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileUnarchive_1" show="false"/>
     <elementParameter field="FILE" name="ZIPFILE" value="context.workspace.concat(&quot;/&quot;+projectName+&quot;/documentations/talend_files_0.1.item&quot;);"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.root"/>
@@ -138,7 +138,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileUnarchive_1"/>
   </node>
-  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="384">
+  <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileTouch_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.root.concat(&quot;talend_files_0.1/out/empty.txt&quot;)"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="true"/>
@@ -150,7 +150,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <note opaque="false" posX="96" posY="32" sizeHeight="97" sizeWidth="449" text="This job provide several example files used by the DemoProject.&#xD;&#xA;&#xD;&#xA;Before run this job, open the node Contexts (in the Repository)&#xD;&#xA;and check the settings of the variables root of the globalContext."/>
+  <note opaque="false" posX="120" posY="40" sizeHeight="121" sizeWidth="561" text="This job provide several example files used by the DemoProject.&#xD;&#xA;&#xD;&#xA;Before run this job, open the node Contexts (in the Repository)&#xD;&#xA;and check the settings of the variables root of the globalContext."/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileUnarchive_1" show="false"/>
