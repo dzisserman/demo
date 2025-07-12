@@ -2,13 +2,6 @@
   "itemId" : "_NKW6AM2sEe-1bqRZCNFlbw",
   "contextList" : [ {
     "contextName" : "Default",
-    "repoId" : "_muuQ0Pm5Ee-1mcCqmCLJVg",
-    "parameterList" : [ {
-      "id" : "_Fbu5QPnREe-1mcCqmCLJVg",
-      "name" : "baseDir"
-    } ]
-  }, {
-    "contextName" : "Default",
     "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
     "parameterList" : [ {
       "id" : "_7wtTyvKUEeqKdqV-yxpgYQ",
@@ -53,13 +46,6 @@
     } ]
   }, {
     "contextName" : "internalServer",
-    "repoId" : "_muuQ0Pm5Ee-1mcCqmCLJVg",
-    "parameterList" : [ {
-      "id" : "_Fbu5TfnREe-1mcCqmCLJVg",
-      "name" : "baseDir"
-    } ]
-  }, {
-    "contextName" : "internalServer",
     "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
     "parameterList" : [ {
       "id" : "_7wtTyvKUEeqKdqV-yxpgYQ",
@@ -101,13 +87,6 @@
     }, {
       "id" : "_ki7vDG3hEeqolMKugdf3NA",
       "name" : "connection_mysql_training_Server"
-    } ]
-  }, {
-    "contextName" : "externalServer",
-    "repoId" : "_muuQ0Pm5Ee-1mcCqmCLJVg",
-    "parameterList" : [ {
-      "id" : "_Fbu5WvnREe-1mcCqmCLJVg",
-      "name" : "baseDir"
     } ]
   }, {
     "contextName" : "externalServer",
