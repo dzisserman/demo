@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="demo" jobType="Standard">
-  <context confirmationNeeded="false" name="demo">
+  <context confirmationNeeded="false" hide="false" name="demo">
     <contextParameter comment="" name="root" prompt="root?" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\" internalId="_xIAC8BLzEe2X1KTOOXgCJQ"/>
   </context>
   <parameters>
@@ -100,35 +100,19 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
-    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
-    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
-    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
-    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
-    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
-    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
-    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
-    <routinesParameter id="_k-cM8BLvEe2X1KTOOXgCJQ" name="DQTechnical"/>
-    <routinesParameter id="_k-XUcBLvEe2X1KTOOXgCJQ" name="DqStringHandling"/>
-    <routinesParameter id="_k93lMBLvEe2X1KTOOXgCJQ" name="MDM"/>
-    <routinesParameter id="_QKM7QBLqEe23xrGLbk9C2A" name="TalendStringUtil"/>
-    <routinesParameter id="_k-DLYBLvEe2X1KTOOXgCJQ" name="DataQuality"/>
-    <routinesParameter id="_QIm_0BLqEe23xrGLbk9C2A" name="SQLike"/>
-    <routinesParameter id="_k9-S4BLvEe2X1KTOOXgCJQ" name="DataMasking"/>
-    <routinesParameter id="_k-R04BLvEe2X1KTOOXgCJQ" name="DataQualityDependencies"/>
   </parameters>
-  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.root.concat(&quot;talend_files_0.1//in/&quot;)"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/StudentFiles&quot;"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
     <elementParameter field="CHECK" name="ERROR" value="false"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;*.txt&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.txt&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -141,18 +125,18 @@
     <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="256">
+  <node componentName="tIterateToFlow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="200" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tIterateToFlow_1" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="filename"/>
-      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="filename" id="0"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tIterateToFlow_1">
       <column comment="" key="false" length="100" name="filename" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -166,8 +150,8 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="filename"/>
-      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="filename" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -183,14 +167,14 @@
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tIterateToFlow_1" offsetLabelX="0" offsetLabelY="0" source="tIterateToFlow_1" target="tLogRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="filename"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="filename" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <note opaque="true" posX="128" posY="32" sizeHeight="64" sizeWidth="449" text="tIterateToFlow transforms a list into a data flow that can be processed. "/>
+  <note opaque="true" posX="160" posY="40" sizeHeight="80" sizeWidth="561" text="tIterateToFlow transforms a list into a data flow that can be processed. "/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
