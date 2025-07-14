@@ -187,7 +187,9 @@
       <elementValue elementRef="COLUMN" value="lname" id="0"/>
       <elementValue elementRef="GROUP_ID" value="1" id="1"/>
       <elementValue elementRef="COLUMN" value="fname" id="2"/>
-      <elementValue elementRef="GROUP_ID" value="2" id="3"/>
+      <elementValue elementRef="GROUP_ID" value="1" id="3"/>
+      <elementValue elementRef="COLUMN" value="address1" id="4"/>
+      <elementValue elementRef="GROUP_ID" value="2" id="5"/>
     </elementParameter>
     <elementParameter field="TEXT" name="RANDOM_SEED" value="12345678"/>
     <elementParameter field="TEXT" name="SEPERATION_SIZE" value="100000"/>
