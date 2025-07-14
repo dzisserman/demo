@@ -261,14 +261,14 @@
       <elementValue elementRef="ALPHABET" value="BEST_GUESS" id="4"/>
       <elementValue elementRef="EXTRA_PARAMETER" value="&quot;2,20&quot;" id="5"/>
       <elementValue elementRef="KEEP_FORMAT" value="false" id="6"/>
-      <elementValue elementRef="INPUT_COLUMN" value="lname" id="7"/>
+      <elementValue elementRef="INPUT_COLUMN" value="fname" id="7"/>
       <elementValue elementRef="CATEGORY" value="CHARACTER_HANDLING" id="8"/>
       <elementValue elementRef="FUNCTION" value="KEEP_FIRST_AND_GENERATE" id="9"/>
       <elementValue elementRef="METHOD" value="RANDOM" id="10"/>
-      <elementValue elementRef="ALPHABET" value="BEST_GUESS" id="11"/>
+      <elementValue elementRef="ALPHABET" value="DIGITS" id="11"/>
       <elementValue elementRef="EXTRA_PARAMETER" value="&quot;3&quot;" id="12"/>
       <elementValue elementRef="KEEP_FORMAT" value="false" id="13"/>
-      <elementValue elementRef="INPUT_COLUMN" value="lname" id="14"/>
+      <elementValue elementRef="INPUT_COLUMN" value="postal_code" id="14"/>
       <elementValue elementRef="CATEGORY" value="BANK_ACCOUNT_MASKING" id="15"/>
       <elementValue elementRef="FUNCTION" value="GENERATE_UNIQUE_ACCOUNT_NUMBER_KEEP_COUNTRY" id="16"/>
       <elementValue elementRef="METHOD" value="AES_CBC_PRF" id="17"/>
