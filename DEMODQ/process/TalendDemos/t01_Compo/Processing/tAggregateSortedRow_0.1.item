@@ -163,7 +163,7 @@
   <node componentName="tAggregateSortedRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateSortedRow_2" show="false"/>
     <elementParameter field="LABEL" name="NOTE" value="( Enter the accurate number of input rows )"/>
-    <elementParameter field="TEXT" name="ROW_COUNT" value="100"/>
+    <elementParameter field="TEXT" name="ROW_COUNT" value="500"/>
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="OUTPUT_COLUMN" value="number" id="0"/>
       <elementValue elementRef="INPUT_COLUMN" value="number" id="1"/>
