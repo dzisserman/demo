@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="demo" jobType="Standard">
-  <context confirmationNeeded="false" name="demo">
+  <context confirmationNeeded="false" hide="false" name="demo">
     <contextParameter comment="This var is just used on t04_Context/repositoryContext" name="sampleInt" prompt="please define an sample int:" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="100" internalId="_gmsHcDGAEeyj-4OGb9ev2g"/>
     <contextParameter comment="" name="root" prompt="root?" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\" internalId="_w_njABLzEe2X1KTOOXgCJQ"/>
   </context>
@@ -101,50 +101,42 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
-    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
-    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
-    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
-    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
-    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
-    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
-    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
-    <routinesParameter id="_k-cM8BLvEe2X1KTOOXgCJQ" name="DQTechnical"/>
-    <routinesParameter id="_k-XUcBLvEe2X1KTOOXgCJQ" name="DqStringHandling"/>
-    <routinesParameter id="_k93lMBLvEe2X1KTOOXgCJQ" name="MDM"/>
-    <routinesParameter id="_QKM7QBLqEe23xrGLbk9C2A" name="TalendStringUtil"/>
-    <routinesParameter id="_k-DLYBLvEe2X1KTOOXgCJQ" name="DataQuality"/>
-    <routinesParameter id="_QIm_0BLqEe23xrGLbk9C2A" name="SQLike"/>
-    <routinesParameter id="_k9-S4BLvEe2X1KTOOXgCJQ" name="DataMasking"/>
-    <routinesParameter id="_k-R04BLvEe2X1KTOOXgCJQ" name="DataQualityDependencies"/>
   </parameters>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_2" show="false"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="500" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="ARRAY" value="1,2,3,4,5,6,7,8,9,10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="ARRAY" value="&quot;text1&quot;, &quot;text2&quot;, &quot;text3&quot;, &quot;text4&quot;, &quot;text5&quot;, &quot;text6&quot;, &quot;text7&quot;, &quot;text8&quot;, &quot;text9&quot;, &quot;text10&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="ARRAY" value="&quot;2007-01-21&quot;, &quot;2007-02-22&quot;, &quot;2007-03-23&quot;, &quot;2006-04-24&quot;, &quot;2006-05-25&quot;, &quot;2006-06-26&quot;, &quot;2005-07-27&quot;, &quot;2005-08-28&quot;, &quot;2005-08-29&quot;, &quot;2004-11-21&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-      <elementValue elementRef="ARRAY" value="true,false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="number" id="0"/>
+      <elementValue elementRef="ARRAY" value="1,2,3,4,5,6,7,8,9,10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="txt" id="2"/>
+      <elementValue elementRef="ARRAY" value="&quot;text1&quot;, &quot;text2&quot;, &quot;text3&quot;, &quot;text4&quot;, &quot;text5&quot;, &quot;text6&quot;, &quot;text7&quot;, &quot;text8&quot;, &quot;text9&quot;, &quot;text10&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date" id="4"/>
+      <elementValue elementRef="ARRAY" value="&quot;2007-01-21&quot;, &quot;2007-02-22&quot;, &quot;2007-03-23&quot;, &quot;2006-04-24&quot;, &quot;2006-05-25&quot;, &quot;2006-06-26&quot;, &quot;2005-07-27&quot;, &quot;2005-08-28&quot;, &quot;2005-08-29&quot;, &quot;2004-11-21&quot;" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="flag" id="6"/>
+      <elementValue elementRef="ARRAY" value="true,false" id="7"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata comment="" connector="FLOW" name="tRowGenerator_2">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1,2,3,4,5,6,7,8,9,10&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;text1\&quot;, \&quot;text2\&quot;, \&quot;text3\&quot;, \&quot;text4\&quot;, \&quot;text5\&quot;, \&quot;text6\&quot;, \&quot;text7\&quot;, \&quot;text8\&quot;, \&quot;text9\&quot;, \&quot;text10\&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2007-01-21\&quot;, \&quot;2007-02-22\&quot;, \&quot;2007-03-23\&quot;, \&quot;2006-04-24\&quot;, \&quot;2006-05-25\&quot;, \&quot;2006-06-26\&quot;, \&quot;2005-07-27\&quot;, \&quot;2005-08-28\&quot;, \&quot;2005-08-29\&quot;, \&quot;2004-11-21\&quot;&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;true,false&quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
     </metadata>
   </node>
-  <node componentName="tFileOutputXML" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+  <node componentName="tFileOutputXML" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="520" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputXML_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.root.concat(&quot;talend_files_0.1/out/sample.xml&quot;)"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/StudentFiles/regular.xml&quot;"/>
     <elementParameter field="CHECK" name="INPUT_IS_DOCUMENT" value="false"/>
     <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" value="number" show="false"/>
     <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;"/>
@@ -152,25 +144,25 @@
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="100"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="TABLE" name="ROOT_TAGS">
-      <elementValue elementRef="TAG" value="&quot;newLine&quot;"/>
+      <elementValue elementRef="TAG" value="&quot;newLine&quot;" id="0"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-      <elementValue elementRef="AS_ATTRIBUTE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true"/>
-      <elementValue elementRef="LABEL" value="&quot;label&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="number" id="0"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="2"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="txt" id="4"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="6"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date" id="8"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="10"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="11"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="flag" id="12"/>
+      <elementValue elementRef="AS_ATTRIBUTE" value="false" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="14"/>
+      <elementValue elementRef="LABEL" value="&quot;label&quot;" id="15"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
     <elementParameter field="TABLE" name="GROUP_BY" show="false"/>
@@ -193,23 +185,23 @@
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_2" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_2" target="tFileOutputXML_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="number"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="txt"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="date"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="flag"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="number" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="txt" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+      <elementValue elementRef="TRACE_COLUMN" value="date" id="6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="7"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="8"/>
+      <elementValue elementRef="TRACE_COLUMN" value="flag" id="9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="10"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="11"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="449" text="Run this job and open the output file in a text Editor or a XML Editor."/>
+  <note opaque="true" posX="40" posY="40" sizeHeight="80" sizeWidth="561" text="Run this job and open the output file in a text Editor or a XML Editor."/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="50;50;250" show="false"/>
