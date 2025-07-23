@@ -2957,7 +2957,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="previous_code" expression="Var.current_code == null ? 0 : Var.current_code" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="current_code" expression="row10.code" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="calc_code" expression="Var.previous_code != Var.current_code ? 1 : Var.calc_code ++ " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="calc_code" expression="Var.previous_code != Var.current_code ? 1 : Var.calc_code = Var.calc_code + 1 " type="id_Integer" nullable="true"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="code" expression="row10.code " type="id_Integer" nullable="true"/>
