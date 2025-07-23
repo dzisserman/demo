@@ -2955,7 +2955,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="previous_code" expression="row10.calc_code == null ? 0 : row10.calc_code " type="id_String"/>
-        <mapperTableEntries name="calc_code" expression="Var.previous_code == 0 || Var.previous_code &lt;> Var.calc_code ? 1 : Var.calc_code += 1 " type="id_String"/>
+        <mapperTableEntries name="calc_code" expression="Var.previous_code == 0 || Var.previous_code &lt;> Var.calc_code ? 1 : Var.calc_code + 1 " type="id_String"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="code" expression="row10.code " type="id_Integer" nullable="true"/>
