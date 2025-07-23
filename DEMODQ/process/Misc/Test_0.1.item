@@ -2949,18 +2949,21 @@
     <metadata connector="FLOW" name="out2">
       <column comment="" key="false" length="-1" name="code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="previous_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="current_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="calc_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="previous_code" expression="Var.calc_code == null ? 0 : Var.calc_code " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="calc_code" expression="Var.previous_code == 0 || Var.previous_code != Var.calc_code ? 1 : Var.calc_code + 1 " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="previous_code" expression="Var.current_code == null ? 0 : Var.current_code" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="current_code" expression="row10.code" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="calc_code" expression="Var.previous_code != Var.current_code ? 1 : Var.calc_code + 1 " type="id_Integer" nullable="true"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="code" expression="row10.code " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="previous_code" expression="Var.previous_code " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="calc_code" expression="Var.calc_code " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="current_code" expression="Var.current_code " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="calc_code" expression="Var.calc_code" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row10" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="code" type="id_Integer" nullable="true"/>
@@ -2985,8 +2988,10 @@
       <elementValue elementRef="LENGTH" value="10" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="previous_code" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="calc_code" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="current_code" id="4"/>
       <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="calc_code" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -2994,6 +2999,7 @@
     <metadata connector="FLOW" name="tLogRow_6">
       <column comment="" key="false" length="-1" name="code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="previous_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="current_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="calc_code" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
@@ -3095,6 +3101,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_6">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="current_code" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out2" show="false"/>
   </connection>
