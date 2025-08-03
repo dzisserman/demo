@@ -4542,6 +4542,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
   </connection>
+  <note opaque="true" posX="320" posY="40" sizeHeight="80" sizeWidth="120" text="text"/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
   </subjob>
