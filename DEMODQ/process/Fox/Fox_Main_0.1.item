@@ -9,7 +9,7 @@
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms2048M&quot;,&quot;-Xmx8192M&quot;,&quot;-Dfile.encoding=UTF-8&quot;]}" show="false"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="14" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -737,9 +737,10 @@
       <column comment="" key="false" length="7" name="Line_Discount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="5" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="M_SHAT_ADPSA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="S_MSPR_MSMKH" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="VAT" expression="((Double.valueOf(Base.S_MAM_LPRIT_BAT_AMKIRA)+100)/100) " type="id_Double"/>
       </varTables>
@@ -761,6 +762,7 @@
         <mapperTableEntries name="Line_Discount" expression="Base.S_ANCHA_LSHORA " type="id_Float" nullable="true"/>
         <mapperTableEntries name="M_SHAT_ADPSA" expression="Base.M_SHAT_ADPSA " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="S_MSPR_MSMKH" expression="Base.S_MSPR_MSMKH " type="id_Long" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="Base" activateColumnNameFilter="true" columnNameFilter="" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="M_ACHOZ_ANCHA" type="id_Double" nullable="true"/>
@@ -4373,6 +4375,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="LineNumber" id="48"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="49"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="50"/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn" id="51"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="52"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="53"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>

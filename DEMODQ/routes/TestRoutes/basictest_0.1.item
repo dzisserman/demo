@@ -1,65 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_HzYEoFv-EfCenYPo33avUw" defaultContext="Default" jobType="Standard">
-  <context xmi:id="_HzYEoVv-EfCenYPo33avUw" confirmationNeeded="false" hide="false" name="Default"/>
-  <parameters xmi:id="_HzYEolv-EfCenYPo33avUw">
-    <elementParameter xmi:id="_HzYEo1v-EfCenYPo33avUw" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter xmi:id="_HzYEpFv-EfCenYPo33avUw" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_HzYEpVv-EfCenYPo33avUw" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_HzYEplv-EfCenYPo33avUw" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEp1v-EfCenYPo33avUw" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEqFv-EfCenYPo33avUw" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEqVv-EfCenYPo33avUw" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEqlv-EfCenYPo33avUw" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEq1v-EfCenYPo33avUw" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_HzYErFv-EfCenYPo33avUw" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_HzYErVv-EfCenYPo33avUw" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_HzYErlv-EfCenYPo33avUw" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEr1v-EfCenYPo33avUw" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEsFv-EfCenYPo33avUw" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEsVv-EfCenYPo33avUw" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEslv-EfCenYPo33avUw" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEs1v-EfCenYPo33avUw" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_HzYEtFv-EfCenYPo33avUw" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_UtPnAHEbEfCILv0dbwm4JA" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_UtPnAXEbEfCILv0dbwm4JA" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_UtPnAnEbEfCILv0dbwm4JA">
+    <elementParameter xmi:id="_UtPnA3EbEfCILv0dbwm4JA" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_UtPnBHEbEfCILv0dbwm4JA" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_UtPnBXEbEfCILv0dbwm4JA" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_UtPnBnEbEfCILv0dbwm4JA" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnB3EbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnCHEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnCXEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnCnEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnC3EbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnDHEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnDXEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnDnEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnD3EbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnEHEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnEXEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnEnEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnE3EbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_UtPnFHEbEfCILv0dbwm4JA" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
   </parameters>
-  <node xmi:id="_HzYEtVv-EfCenYPo33avUw" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="160">
-    <elementParameter xmi:id="_HzYEtlv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
-    <elementParameter xmi:id="_HzYEt1v-EfCenYPo33avUw" field="TEXT" name="PERIOD" value="1000"/>
-    <elementParameter xmi:id="_HzYEuFv-EfCenYPo33avUw" field="TEXT" name="REPEATCOUNT" value="3"/>
-    <elementParameter xmi:id="_HzYEuVv-EfCenYPo33avUw" field="TEXT" name="DELAY" value="1000"/>
-    <elementParameter xmi:id="_HzYEulv-EfCenYPo33avUw" field="CHECK" name="FIXEDRATE" value="false"/>
-    <elementParameter xmi:id="_HzYEu1v-EfCenYPo33avUw" field="CHECK" name="DAEMON" value="true"/>
-    <elementParameter xmi:id="_HzYEvFv-EfCenYPo33avUw" field="CHECK" name="SET_TIME" value="false"/>
-    <elementParameter xmi:id="_HzYEvVv-EfCenYPo33avUw" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_HzYEvlv-EfCenYPo33avUw" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
-    <elementParameter xmi:id="_HzYEv1v-EfCenYPo33avUw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_HzYEwFv-EfCenYPo33avUw" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_UtPnFXEbEfCILv0dbwm4JA" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="160">
+    <elementParameter xmi:id="_UtPnFnEbEfCILv0dbwm4JA" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_UtPnF3EbEfCILv0dbwm4JA" field="TEXT" name="PERIOD" value="1000"/>
+    <elementParameter xmi:id="_UtPnGHEbEfCILv0dbwm4JA" field="TEXT" name="REPEATCOUNT" value="3"/>
+    <elementParameter xmi:id="_UtPnGXEbEfCILv0dbwm4JA" field="TEXT" name="DELAY" value="1000"/>
+    <elementParameter xmi:id="_UtPnGnEbEfCILv0dbwm4JA" field="CHECK" name="FIXEDRATE" value="false"/>
+    <elementParameter xmi:id="_UtPnG3EbEfCILv0dbwm4JA" field="CHECK" name="DAEMON" value="true"/>
+    <elementParameter xmi:id="_UtPnHHEbEfCILv0dbwm4JA" field="CHECK" name="SET_TIME" value="false"/>
+    <elementParameter xmi:id="_UtPnHXEbEfCILv0dbwm4JA" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_UtPnHnEbEfCILv0dbwm4JA" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
+    <elementParameter xmi:id="_UtPnH3EbEfCILv0dbwm4JA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_UtPnIHEbEfCILv0dbwm4JA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_HzYEwVv-EfCenYPo33avUw" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="160">
-    <elementParameter xmi:id="_HzYEwlv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
-    <elementParameter xmi:id="_HzYEw1v-EfCenYPo33avUw" field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;TEST!&quot;);"/>
-    <elementParameter xmi:id="_HzYExFv-EfCenYPo33avUw" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter xmi:id="_HzYExVv-EfCenYPo33avUw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_HzYExlv-EfCenYPo33avUw" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_UtPnIXEbEfCILv0dbwm4JA" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="160">
+    <elementParameter xmi:id="_UtPnInEbEfCILv0dbwm4JA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_UtPnI3EbEfCILv0dbwm4JA" field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;TEST!&quot;);"/>
+    <elementParameter xmi:id="_UtPnJHEbEfCILv0dbwm4JA" field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_UtPnJXEbEfCILv0dbwm4JA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_UtPnJnEbEfCILv0dbwm4JA" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_HzYEx1v-EfCenYPo33avUw" componentName="cSetProperty" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="360">
-    <elementParameter xmi:id="_HzYEyFv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cSetProperty_1" show="false"/>
-    <elementParameter xmi:id="_HzYEyVv-EfCenYPo33avUw" field="TABLE" name="VALUES"/>
-    <elementParameter xmi:id="_HzYEylv-EfCenYPo33avUw" field="CHECK" name="USE_NAMESPACES" value="false" show="false"/>
-    <elementParameter xmi:id="_HzYEy1v-EfCenYPo33avUw" field="TABLE" name="NAMESPACES" show="false"/>
-    <elementParameter xmi:id="_HzYEzFv-EfCenYPo33avUw" field="LABEL" name="WARNING" value="*Note: For Bean Language, the Expression should be a qualified class name without quotes.&#xA;                     *Note: For None Language, the Value should be a full expression, instead of a plain text.&#xA;                     *Note: For XPath Language, the Namespaces will be used automatically if it's checked." show="false"/>
-    <elementParameter xmi:id="_HzYEzVv-EfCenYPo33avUw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_HzYEzlv-EfCenYPo33avUw" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
-  </node>
-  <connection xmi:id="_HzYEz1v-EfCenYPo33avUw" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cProcessor_1">
-    <elementParameter xmi:id="_HzYE0Fv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  <connection xmi:id="_UtPnJ3EbEfCILv0dbwm4JA" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cProcessor_1">
+    <elementParameter xmi:id="_UtPnKHEbEfCILv0dbwm4JA" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
   </connection>
-  <subjob xmi:id="_HzYE0Vv-EfCenYPo33avUw">
-    <elementParameter xmi:id="_HzYE0lv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+  <subjob xmi:id="_UtPnKXEbEfCILv0dbwm4JA">
+    <elementParameter xmi:id="_UtPnKnEbEfCILv0dbwm4JA" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_HzYE01v-EfCenYPo33avUw">
-    <elementParameter xmi:id="_HzYE1Fv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
-  </subjob>
-  <subjob xmi:id="_HzYE1Vv-EfCenYPo33avUw">
-    <elementParameter xmi:id="_HzYE1lv-EfCenYPo33avUw" field="TEXT" name="UNIQUE_NAME" value="cSetProperty_1" show="false"/>
+  <subjob xmi:id="_UtPnK3EbEfCILv0dbwm4JA">
+    <elementParameter xmi:id="_UtPnLHEbEfCILv0dbwm4JA" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
   </subjob>
 </talendfile:ProcessType>
