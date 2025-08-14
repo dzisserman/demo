@@ -112,6 +112,8 @@
   }, {
     "id" : "org.talend.lite.dq.feature.feature.group"
   }, {
+    "id" : "org.talend.lite.esb.ai.feature.feature.group"
+  }, {
     "id" : "org.talend.lite.esb.apidesigner.feature.feature.group"
   }, {
     "id" : "org.talend.lite.metadata.bridge.feature.feature.group"
