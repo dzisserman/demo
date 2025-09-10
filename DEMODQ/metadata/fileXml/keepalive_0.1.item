@@ -18,18 +18,18 @@
   </TalendMetadata:XmlFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_XP8nzomaEfCMPeNuVvCY-g" name="default" dataManager="_XP8nwImaEfCMPeNuVvCY-g">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XP8nz4maEfCMPeNuVvCY-g" id="_KYiQcImaEfCMPeNuVvCY-g" label="metadata">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n0ImaEfCMPeNuVvCY-g" label="ASSTMP2IN" length="26" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n0YmaEfCMPeNuVvCY-g" label="ASSTMP2OT" length="26" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n0ImaEfCMPeNuVvCY-g" label="ASSTMP2IN" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n0YmaEfCMPeNuVvCY-g" label="ASSTMP2OT" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n0omaEfCMPeNuVvCY-g" label="ASSTMP4IN" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n04maEfCMPeNuVvCY-g" label="ASSTMP4OT" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n1ImaEfCMPeNuVvCY-g" label="Application" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n1YmaEfCMPeNuVvCY-g" label="Record" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n1omaEfCMPeNuVvCY-g" label="KeepAliveTimeStamp" length="26" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n1omaEfCMPeNuVvCY-g" label="KeepAliveTimeStamp" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n14maEfCMPeNuVvCY-g" label="Status" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP8n2ImaEfCMPeNuVvCY-g" label="StatusDescription" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP9O0ImaEfCMPeNuVvCY-g" label="LastMessageID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP9O0YmaEfCMPeNuVvCY-g" label="LastMessageType" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP9O0omaEfCMPeNuVvCY-g" label="LastMessageSuccessTimeStamp" length="26" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XP9O0omaEfCMPeNuVvCY-g" label="LastMessageSuccessTimeStamp" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
