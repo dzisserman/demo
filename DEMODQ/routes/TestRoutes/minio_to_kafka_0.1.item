@@ -1,112 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_WYJAYI5YEfCrzYuJOxILeg" defaultContext="Default" jobType="Standard">
-  <context xmi:id="_WYJAYY5YEfCrzYuJOxILeg" confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter xmi:id="_WYJAYo5YEfCrzYuJOxILeg" comment="" name="cnt" prompt="cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_H2_VkH25EfCFY5ImH2PqAw"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_HuLZMI8PEfCUa7Ca7htF1Q" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_HuLZMY8PEfCUa7Ca7htF1Q" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_HuLZMo8PEfCUa7Ca7htF1Q" comment="" name="cnt" prompt="cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_H2_VkH25EfCFY5ImH2PqAw"/>
   </context>
-  <parameters xmi:id="_WYJAY45YEfCrzYuJOxILeg">
-    <elementParameter xmi:id="_WYJAZI5YEfCrzYuJOxILeg" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter xmi:id="_WYJAZY5YEfCrzYuJOxILeg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_WYJAZo5YEfCrzYuJOxILeg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_WYJAZ45YEfCrzYuJOxILeg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAaI5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAaY5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAao5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAa45YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAbI5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAbY5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAbo5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAb45YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAcI5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAcY5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAco5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAc45YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAdI5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAdY5YEfCrzYuJOxILeg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  <parameters xmi:id="_HuLZM48PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZNI8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_HuLZNY8PEfCUa7Ca7htF1Q" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_HuLZNo8PEfCUa7Ca7htF1Q" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_HuLZN48PEfCUa7Ca7htF1Q" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZOI8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZOY8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZOo8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZO48PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZPI8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZPY8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZPo8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZP48PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZQI8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZQY8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZQo8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZQ48PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZRI8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZRY8PEfCUa7Ca7htF1Q" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
   </parameters>
-  <node xmi:id="_WYJAdo5YEfCrzYuJOxILeg" componentName="cTalendJob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="280">
-    <elementParameter xmi:id="_WYJAd45YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
-    <elementParameter xmi:id="_WYJAeI5YEfCrzYuJOxILeg" field="RADIO" name="FROM_REPOSITORY_JOB" value="true"/>
-    <elementParameter xmi:id="_WYJAeY5YEfCrzYuJOxILeg" field="RADIO" name="FROM_EXTERNAL_JAR" value="false"/>
-    <elementParameter xmi:id="_WYJAeo5YEfCrzYuJOxILeg" field="RADIO" name="USE_SELECTED_CONTEXT" value="true"/>
-    <elementParameter xmi:id="_WYJAe45YEfCrzYuJOxILeg" field="RADIO" name="USE_ROUTE_CONTEXT" value="false"/>
-    <elementParameter xmi:id="_WYJAfI5YEfCrzYuJOxILeg" field="RADIO" name="USE_JOB_CONTEXT" value="false"/>
-    <elementParameter xmi:id="_WYJAfY5YEfCrzYuJOxILeg" field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="XML_to_JSON_route_test"/>
-    <elementParameter xmi:id="_WYJAfo5YEfCrzYuJOxILeg" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter xmi:id="_WYJAf45YEfCrzYuJOxILeg" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_PROCESS" value="_g_84UImREfCmMfZqxLA8eA"/>
-    <elementParameter xmi:id="_WYJAgI5YEfCrzYuJOxILeg" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_VERSION" value="0.1"/>
-    <elementParameter xmi:id="_WYJAgY5YEfCrzYuJOxILeg" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAgo5YEfCrzYuJOxILeg" field="TEXT" name="JOB" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAg45YEfCrzYuJOxILeg" field="TEXT" name="CONTEXT" value="&quot;Default&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAhI5YEfCrzYuJOxILeg" field="TABLE" name="CONTEXTPARAMS"/>
-    <elementParameter xmi:id="_WYJAhY5YEfCrzYuJOxILeg" field="TABLE" name="EXTERNAL_JAR_CONTEXTPARAMS" show="false"/>
-    <elementParameter xmi:id="_WYJAho5YEfCrzYuJOxILeg" field="CHECK" name="PROPAGATE_HEADER" value="false"/>
-    <elementParameter xmi:id="_WYJAh45YEfCrzYuJOxILeg" field="CHECK" name="STICKY_JOB" value="false"/>
-    <elementParameter xmi:id="_WYJAiI5YEfCrzYuJOxILeg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_WYJAiY5YEfCrzYuJOxILeg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_HuLZRo8PEfCUa7Ca7htF1Q" componentName="cTalendJob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="40">
+    <elementParameter xmi:id="_HuLZR48PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
+    <elementParameter xmi:id="_HuLZSI8PEfCUa7Ca7htF1Q" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_HuLZSY8PEfCUa7Ca7htF1Q" field="RADIO" name="FROM_REPOSITORY_JOB" value="true"/>
+    <elementParameter xmi:id="_HuLZSo8PEfCUa7Ca7htF1Q" field="RADIO" name="FROM_EXTERNAL_JAR" value="false"/>
+    <elementParameter xmi:id="_HuLZS48PEfCUa7Ca7htF1Q" field="RADIO" name="USE_SELECTED_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_HuLZTI8PEfCUa7Ca7htF1Q" field="RADIO" name="USE_ROUTE_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_HuLZTY8PEfCUa7Ca7htF1Q" field="RADIO" name="USE_JOB_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_HuLZTo8PEfCUa7Ca7htF1Q" field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="XML_to_JSON_route_test"/>
+    <elementParameter xmi:id="_HuLZT48PEfCUa7Ca7htF1Q" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter xmi:id="_HuLZUI8PEfCUa7Ca7htF1Q" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_PROCESS" value="_g_84UImREfCmMfZqxLA8eA"/>
+    <elementParameter xmi:id="_HuLZUY8PEfCUa7Ca7htF1Q" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_VERSION" value="0.1"/>
+    <elementParameter xmi:id="_HuLZUo8PEfCUa7Ca7htF1Q" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZU48PEfCUa7Ca7htF1Q" field="TEXT" name="JOB" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZVI8PEfCUa7Ca7htF1Q" field="TEXT" name="CONTEXT" value="&quot;Default&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZVY8PEfCUa7Ca7htF1Q" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_HuLZVo8PEfCUa7Ca7htF1Q" field="TABLE" name="EXTERNAL_JAR_CONTEXTPARAMS" show="false"/>
+    <elementParameter xmi:id="_HuLZV48PEfCUa7Ca7htF1Q" field="CHECK" name="PROPAGATE_HEADER" value="false"/>
+    <elementParameter xmi:id="_HuLZWI8PEfCUa7Ca7htF1Q" field="CHECK" name="STICKY_JOB" value="false"/>
+    <elementParameter xmi:id="_HuLZWY8PEfCUa7Ca7htF1Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_HuLZWo8PEfCUa7Ca7htF1Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_WYJAio5YEfCrzYuJOxILeg" componentName="cKafka" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="280">
-    <elementParameter xmi:id="_WYJAi45YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cKafka_3" show="false"/>
-    <elementParameter xmi:id="_WYJAjI5YEfCrzYuJOxILeg" field="TEXT" name="BROKER_LIST" value="&quot;localhost:9092&quot;"/>
-    <elementParameter xmi:id="_WYJAjY5YEfCrzYuJOxILeg" field="TEXT" name="CLIENT_ID" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAjo5YEfCrzYuJOxILeg" field="TEXT" name="TOPIC" value="&quot;json&quot;"/>
-    <elementParameter xmi:id="_WYJAj45YEfCrzYuJOxILeg" field="TEXT" name="GROUP_ID" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAkI5YEfCrzYuJOxILeg" field="TEXT" name="PARTITIONER" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAkY5YEfCrzYuJOxILeg" field="TEXT" name="SERIALIZER_CLASS" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAko5YEfCrzYuJOxILeg" field="TEXT" name="KEY_SERIALIZER_CLASS" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAk45YEfCrzYuJOxILeg" field="OPENED_LIST" name="DESERIALIZER_CLASS" value="org.apache.kafka.common.serialization.StringDeserializer" show="false"/>
-    <elementParameter xmi:id="_WYJAlI5YEfCrzYuJOxILeg" field="CLOSED_LIST" name="COMPRESSION_CODEC" value="none"/>
-    <elementParameter xmi:id="_WYJAlY5YEfCrzYuJOxILeg" field="CHECK" name="AUTO_COMMIT_ENABLE" value="true" show="false"/>
-    <elementParameter xmi:id="_WYJAlo5YEfCrzYuJOxILeg" field="CLOSED_LIST" name="AUTO_OFFSET_RESET" value="latest" show="false"/>
-    <elementParameter xmi:id="_WYJAl45YEfCrzYuJOxILeg" field="CHECK" name="USE_SCHEMA_REGISTRY" value="false"/>
-    <elementParameter xmi:id="_WYJAmI5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_URL" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAmY5YEfCrzYuJOxILeg" field="CLOSED_LIST" name="SCHEMA_REGISTRY_AUTH" value="NONE" show="false"/>
-    <elementParameter xmi:id="_WYJAmo5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_BASIC_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAm45YEfCrzYuJOxILeg" field="PASSWORD" name="SCHEMA_REGISTRY_BASIC_PASSWORD" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAnI5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_TOKEN_ENDPOINT" value="&quot;https://oauth.mydomain.com/token&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAnY5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_CLIENT_ID" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAno5YEfCrzYuJOxILeg" field="PASSWORD" name="SCHEMA_REGISTRY_OAUTH_CLIENT_PASSWORD" value="enc:system.encryption.key.v1:tnc5seMYYE7tI3prAqcC2yKBHAyUhdGTmJcWinDe" show="false"/>
-    <elementParameter xmi:id="_WYJAn45YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAoI5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE_CLAIM_NAME" value="&quot;scope&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAoY5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SUB_CLAIM_NAME" value="&quot;sub&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAoo5YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_LOGICAL_CLUSTER" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJAo45YEfCrzYuJOxILeg" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_IDENTITY_POOL_ID" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_WYJApI5YEfCrzYuJOxILeg" field="TABLE" name="URI_OPTIONS"/>
-    <elementParameter xmi:id="_WYJApY5YEfCrzYuJOxILeg" field="PASSWORD" name="SSL_KEY_PASSWORD" value="enc:system.encryption.key.v1:QvVIyimI4ZltULX7ZR56htBHJl2x5kRbqQRjSMlN"/>
-    <elementParameter xmi:id="_WYJApo5YEfCrzYuJOxILeg" field="TEXT" name="SSL_KEYSTORE_LOCATION" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAp45YEfCrzYuJOxILeg" field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:JuucC3Bi5S3tWMkCK8a6OL+M/CO1nsmiqfebkGks"/>
-    <elementParameter xmi:id="_WYJAqI5YEfCrzYuJOxILeg" field="TEXT" name="SSL_TRUSTSTORE_LOCATION" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAqY5YEfCrzYuJOxILeg" field="PASSWORD" name="SSL_TRUSTSTORE_PASSWORD" value="enc:system.encryption.key.v1:dz2egs9Ftn9UQcHHkrqR8KlsYCciicUDJDtsAg7L"/>
-    <elementParameter xmi:id="_WYJAqo5YEfCrzYuJOxILeg" field="TEXT" name="SSL_CIPHER_SUITS" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJAq45YEfCrzYuJOxILeg" field="TEXT" name="SSL_ENDPOINT_ALGORITHM" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJArI5YEfCrzYuJOxILeg" field="TEXT" name="SASL_KERBEROS_SERVICE_NAME" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_WYJArY5YEfCrzYuJOxILeg" field="CLOSED_LIST" name="SECURITY_PROTOCOL" value="PLAINTEXT"/>
-    <elementParameter xmi:id="_WYJAro5YEfCrzYuJOxILeg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_WYJAr45YEfCrzYuJOxILeg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_HuLZW48PEfCUa7Ca7htF1Q" componentName="cKafka" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="40">
+    <elementParameter xmi:id="_HuLZXI8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cKafka_3" show="false"/>
+    <elementParameter xmi:id="_HuLZXY8PEfCUa7Ca7htF1Q" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_HuLZXo8PEfCUa7Ca7htF1Q" field="TEXT" name="BROKER_LIST" value="&quot;localhost:9092&quot;"/>
+    <elementParameter xmi:id="_HuLZX48PEfCUa7Ca7htF1Q" field="TEXT" name="CLIENT_ID" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZYI8PEfCUa7Ca7htF1Q" field="TEXT" name="TOPIC" value="&quot;json&quot;"/>
+    <elementParameter xmi:id="_HuLZYY8PEfCUa7Ca7htF1Q" field="TEXT" name="GROUP_ID" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZYo8PEfCUa7Ca7htF1Q" field="TEXT" name="PARTITIONER" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZY48PEfCUa7Ca7htF1Q" field="TEXT" name="SERIALIZER_CLASS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZZI8PEfCUa7Ca7htF1Q" field="TEXT" name="KEY_SERIALIZER_CLASS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZZY8PEfCUa7Ca7htF1Q" field="OPENED_LIST" name="DESERIALIZER_CLASS" value="org.apache.kafka.common.serialization.StringDeserializer" show="false"/>
+    <elementParameter xmi:id="_HuLZZo8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="COMPRESSION_CODEC" value="none"/>
+    <elementParameter xmi:id="_HuLZZ48PEfCUa7Ca7htF1Q" field="CHECK" name="AUTO_COMMIT_ENABLE" value="true" show="false"/>
+    <elementParameter xmi:id="_HuLZaI8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="AUTO_OFFSET_RESET" value="latest" show="false"/>
+    <elementParameter xmi:id="_HuLZaY8PEfCUa7Ca7htF1Q" field="CHECK" name="USE_SCHEMA_REGISTRY" value="false"/>
+    <elementParameter xmi:id="_HuLZao8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZa48PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="SCHEMA_REGISTRY_AUTH" value="NONE" show="false"/>
+    <elementParameter xmi:id="_HuLZbI8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_BASIC_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZbY8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SCHEMA_REGISTRY_BASIC_PASSWORD" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZbo8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_TOKEN_ENDPOINT" value="&quot;https://oauth.mydomain.com/token&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZb48PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_CLIENT_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZcI8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SCHEMA_REGISTRY_OAUTH_CLIENT_PASSWORD" value="enc:system.encryption.key.v1:tnc5seMYYE7tI3prAqcC2yKBHAyUhdGTmJcWinDe" show="false"/>
+    <elementParameter xmi:id="_HuLZcY8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZco8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE_CLAIM_NAME" value="&quot;scope&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZc48PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SUB_CLAIM_NAME" value="&quot;sub&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZdI8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_LOGICAL_CLUSTER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZdY8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_IDENTITY_POOL_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZdo8PEfCUa7Ca7htF1Q" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_HuLZd48PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_KEY_PASSWORD" value="enc:system.encryption.key.v1:QvVIyimI4ZltULX7ZR56htBHJl2x5kRbqQRjSMlN"/>
+    <elementParameter xmi:id="_HuLZeI8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_KEYSTORE_LOCATION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZeY8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:JuucC3Bi5S3tWMkCK8a6OL+M/CO1nsmiqfebkGks"/>
+    <elementParameter xmi:id="_HuLZeo8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_TRUSTSTORE_LOCATION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZe48PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_TRUSTSTORE_PASSWORD" value="enc:system.encryption.key.v1:dz2egs9Ftn9UQcHHkrqR8KlsYCciicUDJDtsAg7L"/>
+    <elementParameter xmi:id="_HuLZfI8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_CIPHER_SUITS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZfY8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_ENDPOINT_ALGORITHM" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZfo8PEfCUa7Ca7htF1Q" field="TEXT" name="SASL_KERBEROS_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZf48PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="SECURITY_PROTOCOL" value="PLAINTEXT"/>
+    <elementParameter xmi:id="_HuLZgI8PEfCUa7Ca7htF1Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_HuLZgY8PEfCUa7Ca7htF1Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_WYJAsI5YEfCrzYuJOxILeg" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="280">
-    <elementParameter xmi:id="_WYJAsY5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_3" show="false"/>
-    <elementParameter xmi:id="_WYJAso5YEfCrzYuJOxILeg" field="TEXT" name="URI" value="&quot;minio:test?endpoint=http://127.0.0.1:9000&amp;accessKey=minioadmin&amp;secretKey=minioadmin&amp;objectName=keepalive.xml&amp;deleteAfterRead=false&amp;repeatCount=10&amp;delay=1000&quot;"/>
-    <elementParameter xmi:id="_WYJAs45YEfCrzYuJOxILeg" field="TABLE" name="HOTLIBS">
-      <elementValue xmi:id="_WYJAtI5YEfCrzYuJOxILeg" elementRef="LIBPATH" value="MINIO" id="0"/>
+  <node xmi:id="_HuLZgo8PEfCUa7Ca7htF1Q" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
+    <elementParameter xmi:id="_HuLZg48PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_3" show="false"/>
+    <elementParameter xmi:id="_HuLZhI8PEfCUa7Ca7htF1Q" field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter xmi:id="_HuLZhY8PEfCUa7Ca7htF1Q" field="TEXT" name="URI" value="&quot;minio:test?endpoint=http://127.0.0.1:9000&amp;accessKey=minioadmin&amp;secretKey=minioadmin&amp;objectName=keepalive.xml&amp;deleteAfterRead=false&amp;repeatCount=10&amp;delay=1000&quot;"/>
+    <elementParameter xmi:id="_HuLZho8PEfCUa7Ca7htF1Q" field="TABLE" name="HOTLIBS">
+      <elementValue xmi:id="_HuLZh48PEfCUa7Ca7htF1Q" elementRef="LIBPATH" value="MINIO" id="0"/>
     </elementParameter>
-    <elementParameter xmi:id="_WYJAtY5YEfCrzYuJOxILeg" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
-    <elementParameter xmi:id="_WYJAto5YEfCrzYuJOxILeg" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
-    <elementParameter xmi:id="_WYJAt45YEfCrzYuJOxILeg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_WYJAuI5YEfCrzYuJOxILeg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_HuLZiI8PEfCUa7Ca7htF1Q" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_HuLZiY8PEfCUa7Ca7htF1Q" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZio8PEfCUa7Ca7htF1Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_HuLZi48PEfCUa7Ca7htF1Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <connection xmi:id="_WYJAuY5YEfCrzYuJOxILeg" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cTalendJob_1" offsetLabelX="0" offsetLabelY="0" source="cTalendJob_1" target="cKafka_3">
-    <elementParameter xmi:id="_WYJAuo5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
+  <node xmi:id="_HuLZjI8PEfCUa7Ca7htF1Q" componentName="cMessagingEndpoint" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="160">
+    <elementParameter xmi:id="_HuLZjY8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+    <elementParameter xmi:id="_HuLZjo8PEfCUa7Ca7htF1Q" field="TEXT" name="URI" value="&quot;minio:test?endpoint=http://127.0.0.1:9000&amp;accessKey=minioadmin&amp;secretKey=minioadmin&amp;objectName=quota.txt&amp;deleteAfterRead=false&amp;repeatCount=3&amp;delay=1000&quot;"/>
+    <elementParameter xmi:id="_HuLZj48PEfCUa7Ca7htF1Q" field="TABLE" name="HOTLIBS">
+      <elementValue xmi:id="_HuLZkI8PEfCUa7Ca7htF1Q" elementRef="LIBPATH" value="MINIO" id="0"/>
+    </elementParameter>
+    <elementParameter xmi:id="_HuLZkY8PEfCUa7Ca7htF1Q" field="CHECK" name="USE_CUSTOM_COMPONENT" value="false"/>
+    <elementParameter xmi:id="_HuLZko8PEfCUa7Ca7htF1Q" field="MODULE_LIST" name="LIBRARY" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZk48PEfCUa7Ca7htF1Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_HuLZlI8PEfCUa7Ca7htF1Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_HuLZlY8PEfCUa7Ca7htF1Q" componentName="cKafka" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="160">
+    <elementParameter xmi:id="_HuLZlo8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cKafka_1" show="false"/>
+    <elementParameter xmi:id="_HuLZl48PEfCUa7Ca7htF1Q" field="TEXT" name="BROKER_LIST" value="&quot;localhost:9092&quot;"/>
+    <elementParameter xmi:id="_HuLZmI8PEfCUa7Ca7htF1Q" field="TEXT" name="CLIENT_ID" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZmY8PEfCUa7Ca7htF1Q" field="TEXT" name="TOPIC" value="&quot;json&quot;"/>
+    <elementParameter xmi:id="_HuLZmo8PEfCUa7Ca7htF1Q" field="TEXT" name="GROUP_ID" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZm48PEfCUa7Ca7htF1Q" field="TEXT" name="PARTITIONER" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZnI8PEfCUa7Ca7htF1Q" field="TEXT" name="SERIALIZER_CLASS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZnY8PEfCUa7Ca7htF1Q" field="TEXT" name="KEY_SERIALIZER_CLASS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZno8PEfCUa7Ca7htF1Q" field="OPENED_LIST" name="DESERIALIZER_CLASS" value="org.apache.kafka.common.serialization.StringDeserializer" show="false"/>
+    <elementParameter xmi:id="_HuLZn48PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="COMPRESSION_CODEC" value="none"/>
+    <elementParameter xmi:id="_HuLZoI8PEfCUa7Ca7htF1Q" field="CHECK" name="AUTO_COMMIT_ENABLE" value="true" show="false"/>
+    <elementParameter xmi:id="_HuLZoY8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="AUTO_OFFSET_RESET" value="latest" show="false"/>
+    <elementParameter xmi:id="_HuLZoo8PEfCUa7Ca7htF1Q" field="CHECK" name="USE_SCHEMA_REGISTRY" value="false"/>
+    <elementParameter xmi:id="_HuLZo48PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZpI8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="SCHEMA_REGISTRY_AUTH" value="NONE" show="false"/>
+    <elementParameter xmi:id="_HuLZpY8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_BASIC_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZpo8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SCHEMA_REGISTRY_BASIC_PASSWORD" value="" show="false"/>
+    <elementParameter xmi:id="_HuLZp48PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_TOKEN_ENDPOINT" value="&quot;https://oauth.mydomain.com/token&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZqI8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_CLIENT_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZqY8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SCHEMA_REGISTRY_OAUTH_CLIENT_PASSWORD" value="enc:system.encryption.key.v1:sqN1cxeZbepqkE1S3g+XQjYshFNnpBKDhrJ3NIla" show="false"/>
+    <elementParameter xmi:id="_HuLZqo8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZq48PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SCOPE_CLAIM_NAME" value="&quot;scope&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZrI8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_SUB_CLAIM_NAME" value="&quot;sub&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZrY8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_LOGICAL_CLUSTER" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZro8PEfCUa7Ca7htF1Q" field="TEXT" name="SCHEMA_REGISTRY_OAUTH_IDENTITY_POOL_ID" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_HuLZr48PEfCUa7Ca7htF1Q" field="TABLE" name="URI_OPTIONS"/>
+    <elementParameter xmi:id="_HuLZsI8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_KEY_PASSWORD" value="enc:system.encryption.key.v1:/sm4b1Hd32KzhaO8s08QHLk3R3ZM9Rw0Sc8pqWtw"/>
+    <elementParameter xmi:id="_HuLZsY8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_KEYSTORE_LOCATION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZso8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:LpR8yQQC0N4MqGIEcL30SqcQu4aSZQ/mHbrfYNZF"/>
+    <elementParameter xmi:id="_HuLZs48PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_TRUSTSTORE_LOCATION" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZtI8PEfCUa7Ca7htF1Q" field="PASSWORD" name="SSL_TRUSTSTORE_PASSWORD" value="enc:system.encryption.key.v1:y8Oph6VSYnNRh/KkWVSLzl/A+hF3mX+GujGWNKFW"/>
+    <elementParameter xmi:id="_HuLZtY8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_CIPHER_SUITS" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZto8PEfCUa7Ca7htF1Q" field="TEXT" name="SSL_ENDPOINT_ALGORITHM" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZt48PEfCUa7Ca7htF1Q" field="TEXT" name="SASL_KERBEROS_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_HuLZuI8PEfCUa7Ca7htF1Q" field="CLOSED_LIST" name="SECURITY_PROTOCOL" value="PLAINTEXT"/>
+    <elementParameter xmi:id="_HuLZuY8PEfCUa7Ca7htF1Q" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_HuLZuo8PEfCUa7Ca7htF1Q" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_HuLZu48PEfCUa7Ca7htF1Q" connectorName="ROUTE" label="route5" lineStyle="14" metaname="cTalendJob_1" offsetLabelX="0" offsetLabelY="0" source="cTalendJob_1" target="cKafka_3">
+    <elementParameter xmi:id="_HuLZvI8PEfCUa7Ca7htF1Q" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_HuLZvY8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
   </connection>
-  <connection xmi:id="_WYJAu45YEfCrzYuJOxILeg" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cMessagingEndpoint_3" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_3" target="cTalendJob_1">
-    <elementParameter xmi:id="_WYJAvI5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  <connection xmi:id="_HuLZvo8PEfCUa7Ca7htF1Q" connectorName="ROUTE" label="route2" lineStyle="14" metaname="cMessagingEndpoint_3" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_3" target="cTalendJob_1">
+    <elementParameter xmi:id="_HuLZv48PEfCUa7Ca7htF1Q" field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter xmi:id="_HuLZwI8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
   </connection>
-  <subjob xmi:id="_WYJAvY5YEfCrzYuJOxILeg">
-    <elementParameter xmi:id="_WYJAvo5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
+  <connection xmi:id="_HuLZwY8PEfCUa7Ca7htF1Q" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cMessagingEndpoint_1" offsetLabelX="0" offsetLabelY="0" source="cMessagingEndpoint_1" target="cKafka_1">
+    <elementParameter xmi:id="_HuLZwo8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_HuLZw48PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZxI8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cTalendJob_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_WYJAv45YEfCrzYuJOxILeg">
-    <elementParameter xmi:id="_WYJAwI5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cKafka_3" show="false"/>
+  <subjob xmi:id="_HuLZxY8PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZxo8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cKafka_3" show="false"/>
   </subjob>
-  <subjob xmi:id="_WYJAwY5YEfCrzYuJOxILeg">
-    <elementParameter xmi:id="_WYJAwo5YEfCrzYuJOxILeg" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_3" show="false"/>
+  <subjob xmi:id="_HuLZx48PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZyI8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_3" show="false"/>
+  </subjob>
+  <subjob xmi:id="_HuLZyY8PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZyo8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cMessagingEndpoint_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_HuLZy48PEfCUa7Ca7htF1Q">
+    <elementParameter xmi:id="_HuLZzI8PEfCUa7Ca7htF1Q" field="TEXT" name="UNIQUE_NAME" value="cKafka_1" show="false"/>
   </subjob>
 </talendfile:ProcessType>
