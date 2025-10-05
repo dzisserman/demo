@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_s4VYsJbQEfC70IpBoDyisw" name="Basic_Column_Analysis" creationDate="2025-09-21T12:52:35.758+0300" defaultContext="Default">
+    <taggedValue xmi:id="_s4VYsZbQEfC70IpBoDyisw" tag="Status" value="Draft"/>
+    <taggedValue xmi:id="_s4VYspbQEfC70IpBoDyisw" tag="Author" value="daniel.zisserman@qlik.co.il"/>
+    <taggedValue xmi:id="_s4VYs5bQEfC70IpBoDyisw" tag="Purpose"/>
+    <taggedValue xmi:id="_s4VYtJbQEfC70IpBoDyisw" tag="Description"/>
+    <taggedValue xmi:id="_s4VYtZbQEfC70IpBoDyisw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_v4L1AJbQEfC70IpBoDyisw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_v4L1AZbQEfC70IpBoDyisw" tag="PREVIEW_ROW_NUMBER" value="500"/>
+    <taggedValue xmi:id="_v4L1ApbQEfC70IpBoDyisw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_v4L1A5bQEfC70IpBoDyisw" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_s4VYtpbQEfC70IpBoDyisw">
+      <connection href="../../metadata/connections/MySQL_Local_0.1.item#_nphHEBVCEfCBJdRTYn_DKg"/>
+    </context>
+    <results xmi:id="_s4VYt5bQEfC70IpBoDyisw">
+      <resultMetadata xmi:id="_s4VYuJbQEfC70IpBoDyisw"/>
+    </results>
+    <parameters xmi:id="_s4VYuZbQEfC70IpBoDyisw" dataFilter="_v4NDIJbQEfC70IpBoDyisw" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_v4LN8JbQEfC70IpBoDyisw" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_v4NDIJbQEfC70IpBoDyisw" name="Basic_Column_Analysis">
+    <ranges xmi:id="_v4NDIZbQEfC70IpBoDyisw">
+      <expressions xmi:id="_v4NDIpbQEfC70IpBoDyisw">
+        <expression xsi:type="relational:TdExpression" xmi:id="_v4NDI5bQEfC70IpBoDyisw" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

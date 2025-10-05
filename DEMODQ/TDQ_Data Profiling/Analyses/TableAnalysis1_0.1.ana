@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_ZBCI8FqJEfCVxeyd56aaww" name="TableAnalysis1" creationDate="2025-07-06T19:50:58.054+0300" defaultContext="Default">
+  <dataquality.analysis:Analysis xmi:id="_ZBCI8FqJEfCVxeyd56aaww" name="customers" creationDate="2025-07-06T19:50:58.054+0300" defaultContext="Default">
     <clientDependency href="../../metadata/connections/MySQL_Local_0.1.item#_ZAXakFqJEfCVxeyd56aaww"/>
     <taggedValue xmi:id="_ZBCI8VqJEfCVxeyd56aaww" tag="Status" value="development"/>
     <taggedValue xmi:id="_ZBCI8lqJEfCVxeyd56aaww" tag="Author" value="daniel.zisserman@qlik.co.il"/>
@@ -14,10 +14,17 @@
       <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
     </context>
     <results xmi:id="_ZBCI91qJEfCVxeyd56aaww">
-      <resultMetadata xmi:id="_ZBCI-FqJEfCVxeyd56aaww"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZBCI-VqJEfCVxeyd56aaww">
+      <resultMetadata xmi:id="_ZBCI-FqJEfCVxeyd56aaww" executionDate="2025-09-21T12:51:58.647+0300" executionDuration="810" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ZBCI-VqJEfCVxeyd56aaww" count="10000000" computed="true">
+        <parameters xmi:id="_j5M6gJbQEfC70IpBoDyisw"/>
         <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/MySQL_Local_0.1.item#_QWJugSNJEfCLn6PnLaVGGg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_nWVIsJbQEfC70IpBoDyisw" body="SELECT COUNT(*) FROM `demo`.`customers` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_nWQQMJbQEfC70IpBoDyisw" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_nWQQMZbQEfC70IpBoDyisw" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_nWQQMpbQEfC70IpBoDyisw" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_nWQQM5bQEfC70IpBoDyisw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
       </indicators>
     </results>
     <parameters xmi:id="_ZBCI-lqJEfCVxeyd56aaww" dataFilter="_lQl2EFqJEfCVxeyd56aaww" analysisType="Table Analysis"/>
