@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_JRbIoKpuEfC5rIqraMFcmQ" name="testreport" creationDate="2025-10-16T11:57:29.376+0300">
+  <taggedValue xmi:id="_JRbIoapuEfC5rIqraMFcmQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_JRbIoqpuEfC5rIqraMFcmQ" tag="Author" value="daniel.zisserman@qlik.co.il"/>
+  <taggedValue xmi:id="_JRbIo6puEfC5rIqraMFcmQ" tag="Purpose"/>
+  <taggedValue xmi:id="_JRbIpKpuEfC5rIqraMFcmQ" tag="Description"/>
+  <taggedValue xmi:id="_JRbIpapuEfC5rIqraMFcmQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_JRbIpqpuEfC5rIqraMFcmQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_JRbIp6puEfC5rIqraMFcmQ" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_JRbIqKpuEfC5rIqraMFcmQ" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_JRbIqapuEfC5rIqraMFcmQ" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_JRbIqqpuEfC5rIqraMFcmQ" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_JRbIq6puEfC5rIqraMFcmQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_JRbIrKpuEfC5rIqraMFcmQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_JRbIrapuEfC5rIqraMFcmQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_JRbIrqpuEfC5rIqraMFcmQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_JRbIr6puEfC5rIqraMFcmQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:1rWQsfm5SN+9Ji2bV0wiyzmNd2CtyYpVNAyGkw=="/>
+  <taggedValue xmi:id="_JRbIsKpuEfC5rIqraMFcmQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_JRbIsapuEfC5rIqraMFcmQ" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Talend\8.0.1\studio\workspace-tac\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_JRbIsqpuEfC5rIqraMFcmQ" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_JRbIs6puEfC5rIqraMFcmQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_JRbItKpuEfC5rIqraMFcmQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_JSUggKpuEfC5rIqraMFcmQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_JSVHkKpuEfC5rIqraMFcmQ" tag="OutputType" value="pdf"/>
+</dataquality.reports:TdReport>

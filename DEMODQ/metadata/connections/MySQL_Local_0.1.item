@@ -29,11 +29,13 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QWJuiiNJEfCLn6PnLaVGGg" name="last_name" id="last_name" label="last_name" length="50" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_QWJuiyNJEfCLn6PnLaVGGg" tag="Comment" value=""/>
+        <taggedValue xmi:id="_gt-Sr6puEfC5rIqraMFcmQ" tag="Content Type" value="Nominal"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_QWJujCNJEfCLn6PnLaVGGg" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QWJujSNJEfCLn6PnLaVGGg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QWJujiNJEfCLn6PnLaVGGg" name="city" id="city" label="city" length="50" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_QWJujyNJEfCLn6PnLaVGGg" tag="Comment" value=""/>
+        <taggedValue xmi:id="_acNZoKpuEfC5rIqraMFcmQ" tag="Content Type" value="Nominal"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_QWJukCNJEfCLn6PnLaVGGg" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QWJukSNJEfCLn6PnLaVGGg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
@@ -46,5 +48,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_ZAXakFqJEfCVxeyd56aaww" kind="Usage" supplier="_nphHEBVCEfCBJdRTYn_DKg">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/TableAnalysis1_0.1.ana#_ZBCI8FqJEfCVxeyd56aaww"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/Basic_Column_Analysis_b_0.1.ana#_Pvh0gKpuEfC5rIqraMFcmQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
