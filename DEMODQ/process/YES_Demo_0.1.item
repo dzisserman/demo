@@ -103,16 +103,6 @@
   </parameters>
   <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputXML" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input|XML" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputXML" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Talend\8.0.1\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_XPxooImaEfCMPeNuVvCY-g" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
@@ -120,42 +110,45 @@
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/StudentFiles/xmltest/keepalive.xml&quot;"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/Profile/RecordData&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP2IN" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;@ASSTMP2IN&quot;" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Description" id="0"/>
+      <elementValue elementRef="QUERY" value="&quot;../@Description&quot;" id="1"/>
       <elementValue elementRef="NODECHECK" value="" id="2"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP2OT" id="3"/>
-      <elementValue elementRef="QUERY" value="&quot;@ASSTMP2OT&quot;" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP2IN" id="3"/>
+      <elementValue elementRef="QUERY" value="&quot;@ASSTMP2IN&quot;" id="4"/>
       <elementValue elementRef="NODECHECK" value="" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP4IN" id="6"/>
-      <elementValue elementRef="QUERY" value="&quot;@ASSTMP4IN&quot;" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP2OT" id="6"/>
+      <elementValue elementRef="QUERY" value="&quot;@ASSTMP2OT&quot;" id="7"/>
       <elementValue elementRef="NODECHECK" value="" id="8"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP4OT" id="9"/>
-      <elementValue elementRef="QUERY" value="&quot;@ASSTMP4OT&quot;" id="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP4IN" id="9"/>
+      <elementValue elementRef="QUERY" value="&quot;@ASSTMP4IN&quot;" id="10"/>
       <elementValue elementRef="NODECHECK" value="" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Application" id="12"/>
-      <elementValue elementRef="QUERY" value="&quot;@Application&quot;" id="13"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASSTMP4OT" id="12"/>
+      <elementValue elementRef="QUERY" value="&quot;@ASSTMP4OT&quot;" id="13"/>
       <elementValue elementRef="NODECHECK" value="" id="14"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Record" id="15"/>
-      <elementValue elementRef="QUERY" value="&quot;@Record&quot;" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Application" id="15"/>
+      <elementValue elementRef="QUERY" value="&quot;@Application&quot;" id="16"/>
       <elementValue elementRef="NODECHECK" value="" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="KeepAliveTimeStamp" id="18"/>
-      <elementValue elementRef="QUERY" value="&quot;@KeepAliveTimeStamp&quot;" id="19"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Record" id="18"/>
+      <elementValue elementRef="QUERY" value="&quot;@Record&quot;" id="19"/>
       <elementValue elementRef="NODECHECK" value="" id="20"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Status" id="21"/>
-      <elementValue elementRef="QUERY" value="&quot;@Status&quot;" id="22"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="KeepAliveTimeStamp" id="21"/>
+      <elementValue elementRef="QUERY" value="&quot;@KeepAliveTimeStamp&quot;" id="22"/>
       <elementValue elementRef="NODECHECK" value="" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="StatusDescription" id="24"/>
-      <elementValue elementRef="QUERY" value="&quot;@StatusDescription&quot;" id="25"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Status" id="24"/>
+      <elementValue elementRef="QUERY" value="&quot;@Status&quot;" id="25"/>
       <elementValue elementRef="NODECHECK" value="" id="26"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageID" id="27"/>
-      <elementValue elementRef="QUERY" value="&quot;@LastMessageID&quot;" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StatusDescription" id="27"/>
+      <elementValue elementRef="QUERY" value="&quot;@StatusDescription&quot;" id="28"/>
       <elementValue elementRef="NODECHECK" value="" id="29"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageType" id="30"/>
-      <elementValue elementRef="QUERY" value="&quot;@LastMessageType&quot;" id="31"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageID" id="30"/>
+      <elementValue elementRef="QUERY" value="&quot;@LastMessageID&quot;" id="31"/>
       <elementValue elementRef="NODECHECK" value="" id="32"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageSuccessTimeStamp" id="33"/>
-      <elementValue elementRef="QUERY" value="&quot;@LastMessageSuccessTimeStamp&quot;" id="34"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageType" id="33"/>
+      <elementValue elementRef="QUERY" value="&quot;@LastMessageType&quot;" id="34"/>
       <elementValue elementRef="NODECHECK" value="" id="35"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastMessageSuccessTimeStamp" id="36"/>
+      <elementValue elementRef="QUERY" value="&quot;@LastMessageSuccessTimeStamp&quot;" id="37"/>
+      <elementValue elementRef="NODECHECK" value="" id="38"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value="50"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
@@ -177,6 +170,7 @@
     <elementParameter field="TEXT" name="LABEL" value="metadata"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputXML_1">
+      <column comment="" key="false" length="0" name="Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSTMP2IN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSTMP2OT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="21" name="ASSTMP4IN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -191,6 +185,7 @@
       <column comment="" key="false" length="-1" name="LastMessageSuccessTimeStamp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="0" name="Description" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSTMP2IN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="ASSTMP2OT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="21" name="ASSTMP4IN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -222,39 +217,39 @@
     <metadata connector="FLOW" label="out2" name="out2">
       <column comment="" key="false" length="3" name="StatusDescription" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata label="out3" name="out3">
+    <metadata connector="FLOW" label="out3" name="out3">
       <column comment="" key="false" length="2" name="Status" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <nodes name="ASSTMP2IN" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.0" xpath="row1/ASSTMP2IN"/>
-        <nodes name="ASSTMP2OT" type="id_String" xpath="row1/ASSTMP2OT"/>
-        <nodes name="ASSTMP4IN" type="id_String" xpath="row1/ASSTMP4IN"/>
-        <nodes name="ASSTMP4OT" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.1" xpath="row1/ASSTMP4OT"/>
-        <nodes name="Application" type="id_Integer" xpath="row1/Application"/>
-        <nodes name="Record" type="id_String" xpath="row1/Record"/>
-        <nodes name="KeepAliveTimeStamp" type="id_String" xpath="row1/KeepAliveTimeStamp"/>
-        <nodes name="Status" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.3" xpath="row1/Status"/>
-        <nodes name="StatusDescription" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.2" xpath="row1/StatusDescription"/>
-        <nodes name="LastMessageID" type="id_Integer" xpath="row1/LastMessageID"/>
-        <nodes name="LastMessageType" type="id_String" xpath="row1/LastMessageType"/>
-        <nodes name="LastMessageSuccessTimeStamp" type="id_String" xpath="row1/LastMessageSuccessTimeStamp"/>
+        <nodes name="ASSTMP2IN" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.0" xpath="row1/ASSTMP2IN" objID="n1056433902"/>
+        <nodes name="ASSTMP2OT" type="id_String" xpath="row1/ASSTMP2OT" objID="n101736879"/>
+        <nodes name="ASSTMP4IN" type="id_String" xpath="row1/ASSTMP4IN" objID="n1779167677"/>
+        <nodes name="ASSTMP4OT" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.1" xpath="row1/ASSTMP4OT" objID="n1068031298"/>
+        <nodes name="Application" type="id_Integer" xpath="row1/Application" objID="n122937626"/>
+        <nodes name="Record" type="id_String" xpath="row1/Record" objID="n949288030"/>
+        <nodes name="KeepAliveTimeStamp" type="id_String" xpath="row1/KeepAliveTimeStamp" objID="n390980546"/>
+        <nodes name="Status" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.3" xpath="row1/Status" objID="n781388675"/>
+        <nodes name="StatusDescription" type="id_String" outgoingConnections="//@node.1/@nodeData/@connections.2" xpath="row1/StatusDescription" objID="n708711930"/>
+        <nodes name="LastMessageID" type="id_Integer" xpath="row1/LastMessageID" objID="n592783917"/>
+        <nodes name="LastMessageType" type="id_String" xpath="row1/LastMessageType" objID="n1822083717"/>
+        <nodes name="LastMessageSuccessTimeStamp" type="id_String" xpath="row1/LastMessageSuccessTimeStamp" objID="n139718848"/>
       </inputTrees>
       <outputTrees name="out1">
-        <nodes name="ASSTMP2IN" expression="row1.ASSTMP2IN" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out1/ASSTMP2IN"/>
-        <nodes name="ASSTMP4OT" expression="row1.ASSTMP4OT" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out1/ASSTMP4OT"/>
+        <nodes name="ASSTMP2IN" expression="row1.ASSTMP2IN" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.0" xpath="out1/ASSTMP2IN" objID="n1460052181"/>
+        <nodes name="ASSTMP4OT" expression="row1.ASSTMP4OT" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.1" xpath="out1/ASSTMP4OT" objID="n171439596"/>
       </outputTrees>
       <outputTrees name="out2">
-        <nodes name="StatusDescription" expression="row1.StatusDescription" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.2" xpath="out2/StatusDescription"/>
+        <nodes name="StatusDescription" expression="row1.StatusDescription" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.2" xpath="out2/StatusDescription" objID="n2079202722"/>
       </outputTrees>
       <outputTrees name="out3">
-        <nodes name="Status" expression="row1.Status == &quot;5&quot; ? &quot;YES&quot; : &quot;NO&quot;" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.3" xpath="out3/Status"/>
+        <nodes name="Status" expression="row1.Status == &quot;5&quot; ? &quot;YES&quot; : &quot;NO&quot;" type="id_String" incomingConnections="//@node.1/@nodeData/@connections.3" xpath="out3/Status" objID="n1742731522"/>
       </outputTrees>
       <varTables name="Var" minimized="true"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.3" target="//@node.1/@nodeData/@outputTrees.0/@nodes.1"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.8" target="//@node.1/@nodeData/@outputTrees.1/@nodes.0"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.1/@nodeData/@inputTrees.0/@nodes.7" target="//@node.1/@nodeData/@outputTrees.2/@nodes.0"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="n1056433902" target="n1460052181"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="n1068031298" target="n171439596"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="n708711930" target="n2079202722"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="n781388675" target="n1742731522"/>
     </nodeData>
   </node>
   <node componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
