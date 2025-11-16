@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_31vz0LrzEfCMDKaWwTOd0Q" name="test" creationDate="2025-11-06T11:35:03.539+0200">
+  <taggedValue xmi:id="_31vz0brzEfCMDKaWwTOd0Q" tag="Status" value="development"/>
+  <taggedValue xmi:id="_31vz0rrzEfCMDKaWwTOd0Q" tag="Author" value="daniel.zisserman@qlik.co.il"/>
+  <taggedValue xmi:id="_31vz07rzEfCMDKaWwTOd0Q" tag="Purpose"/>
+  <taggedValue xmi:id="_31vz1LrzEfCMDKaWwTOd0Q" tag="Description"/>
+  <taggedValue xmi:id="_31vz1brzEfCMDKaWwTOd0Q" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_31vz1rrzEfCMDKaWwTOd0Q" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_31vz17rzEfCMDKaWwTOd0Q" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_31vz2LrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_31vz2brzEfCMDKaWwTOd0Q" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_31vz2rrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_31vz27rzEfCMDKaWwTOd0Q" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_31vz3LrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_31vz3brzEfCMDKaWwTOd0Q" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_31vz3rrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_31vz37rzEfCMDKaWwTOd0Q" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:/KMbPE8By7lSAKiXR/Lv0kGRmS67rAdfNWklbQ=="/>
+  <taggedValue xmi:id="_31vz4LrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_31vz4brzEfCMDKaWwTOd0Q" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Talend\8.0.1\studio\workspace-tac\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_31vz4rrzEfCMDKaWwTOd0Q" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_31vz47rzEfCMDKaWwTOd0Q" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_31vz5LrzEfCMDKaWwTOd0Q" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_32jFELrzEfCMDKaWwTOd0Q" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_32jFEbrzEfCMDKaWwTOd0Q" tag="OutputType" value="pdf"/>
+</dataquality.reports:TdReport>
