@@ -246,6 +246,7 @@
     <elementParameter field="CHECK" name="INFORMATION" value="true"/>
     <elementParameter field="MEMO" name="COMMENT" value="Clears Results from Prior Run"/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="HADOOP_VERSION" value="HADOOP3"/>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_1" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_1" target="tHCatalogOperation_2">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
