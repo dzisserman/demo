@@ -1,0 +1,17 @@
+{
+  "itemId" : "_MPFYgDQaEeyptPGBIdpl7g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_EZNaEJKWEemm3akuphpJHQ",
+    "parameterList" : [ {
+      "id" : "_4PSMwDQaEeyptPGBIdpl7g",
+      "name" : "dataprep_password"
+    }, {
+      "id" : "_4PSMwTQaEeyptPGBIdpl7g",
+      "name" : "dataprep_url"
+    }, {
+      "id" : "_4PSMwjQaEeyptPGBIdpl7g",
+      "name" : "dataprep_username"
+    } ]
+  } ]
+}

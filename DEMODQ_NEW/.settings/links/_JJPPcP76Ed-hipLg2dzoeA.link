@@ -1,0 +1,61 @@
+{
+  "itemId" : "_JJPPcP76Ed-hipLg2dzoeA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_LW8jcPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_LW8jcfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_LW8jcvAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_LW8jc_AREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_LW8jdPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_AdditionalParams"
+    }, {
+      "id" : "_LW8jdfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_MuhJYPM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_MuhJYfM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_MuhJYvM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_MuhJY_M9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Database"
+    }, {
+      "id" : "_MuhJZPM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_MuhJZfM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-SfmIPBGEeqJdfYHbzN46A",
+    "parameterList" : [ {
+      "id" : "_ULPU4OSIEeuHUIeVr8iYYQ",
+      "name" : "TDS_Connection_username"
+    }, {
+      "id" : "_ULPU4eSIEeuHUIeVr8iYYQ",
+      "name" : "TDS_Connection_url"
+    }, {
+      "id" : "_ULPU4uSIEeuHUIeVr8iYYQ",
+      "name" : "TDS_Connection_password"
+    } ]
+  } ]
+}

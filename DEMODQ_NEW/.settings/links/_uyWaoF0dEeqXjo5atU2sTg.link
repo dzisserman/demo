@@ -1,0 +1,130 @@
+{
+  "itemId" : "_uyWaoF0dEeqXjo5atU2sTg",
+  "contextList" : [ {
+    "contextName" : "internalServer",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_cj9CAPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Port"
+    }, {
+      "id" : "_cj9CAfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_cj9CAvAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_cj9CA_AREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_cj9CBPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_cj9CBfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "internalServer",
+    "repoId" : "_wbPvsC3gEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_cj9CBvAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_File"
+    }, {
+      "id" : "_cj9CB_AREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_FieldSeparator"
+    }, {
+      "id" : "_cj9CCPAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_Encoding"
+    }, {
+      "id" : "_cj9CCfAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_RowSeparator"
+    }, {
+      "id" : "_cj9CCvAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_Header"
+    } ]
+  }, {
+    "contextName" : "internalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_UA4jwPM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_UA4jwfM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_UA4jwvM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_UA4jw_M9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Database"
+    }, {
+      "id" : "_UA4jxPM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_UA4jxfM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Login"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_wbPvsC3gEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_cj9CC_AREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_File"
+    }, {
+      "id" : "_cj9CDPAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_FieldSeparator"
+    }, {
+      "id" : "_cj9CDfAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_Encoding"
+    }, {
+      "id" : "_cj9CDvAREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_RowSeparator"
+    }, {
+      "id" : "_cj9CD_AREeq1xujM3xH0Vg",
+      "name" : "RetailCustomers_Header"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_cj9CEPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Port"
+    }, {
+      "id" : "_cj9CEfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_cj9CEvAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_cj9CE_AREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_cj9CFPAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_cj9CFfAREeq1xujM3xH0Vg",
+      "name" : "connection_mysql_training_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_UA4jxvM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_UA4jx_M9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_UA4jyPM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_UA4jyfM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Database"
+    }, {
+      "id" : "_UA4jyvM9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_UA4jy_M9EeqG5YnypzQ_iw",
+      "name" : "connection_mysql_amc_Login"
+    } ]
+  } ]
+}

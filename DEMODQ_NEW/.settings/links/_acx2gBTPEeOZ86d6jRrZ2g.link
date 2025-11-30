@@ -1,0 +1,29 @@
+{
+  "itemId" : "_acx2gBTPEeOZ86d6jRrZ2g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_2PvWcA9FEeOlWM5IeMqgUw",
+    "parameterList" : [ {
+      "id" : "_nnQIoBL3Ee2iXYINqGY_kQ",
+      "name" : "HDFS_LOCATION_TARGET"
+    }, {
+      "id" : "_nnQIoRL3Ee2iXYINqGY_kQ",
+      "name" : "KEY_LOGS_DIRECTORY"
+    }, {
+      "id" : "_nnQIohL3Ee2iXYINqGY_kQ",
+      "name" : "MYSQL_DBNAME_TO_MIGRATE"
+    }, {
+      "id" : "_nnQIoxL3Ee2iXYINqGY_kQ",
+      "name" : "MYSQL_HOST_or_IP"
+    }, {
+      "id" : "_nnQIpBL3Ee2iXYINqGY_kQ",
+      "name" : "MYSQL_PORT"
+    }, {
+      "id" : "_nnQIpRL3Ee2iXYINqGY_kQ",
+      "name" : "MYSQL_PWD"
+    }, {
+      "id" : "_nnQvsBL3Ee2iXYINqGY_kQ",
+      "name" : "MYSQL_USERNAME"
+    } ]
+  } ]
+}

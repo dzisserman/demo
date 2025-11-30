@@ -1,0 +1,70 @@
+{
+  "itemId" : "_j2NP4BA7Ee-2SsdxSj_3zw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_TUYNwA31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Login"
+    }, {
+      "id" : "_TUYNwQ31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_TUYNwg31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_TUYNww31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_TUYNxA31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Database"
+    }, {
+      "id" : "_TUYNxQ31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "internalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_TUYNxg31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_TUYNxw31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_TUYNyA31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_TUYNyQ31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_TUYNyg31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Login"
+    }, {
+      "id" : "_TUYNyw31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Database"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_TUYNzA31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_TUYNzQ31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_TUYNzg31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_TUYNzw31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_TUYN0A31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Login"
+    }, {
+      "id" : "_TUYN0Q31Ee-PxfkaqChWCw",
+      "name" : "connection_mysql_amc_Database"
+    } ]
+  } ]
+}

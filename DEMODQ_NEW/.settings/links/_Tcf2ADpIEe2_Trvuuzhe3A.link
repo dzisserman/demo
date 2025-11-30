@@ -1,0 +1,136 @@
+{
+  "itemId" : "_Tcf2ADpIEe2_Trvuuzhe3A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_ylKS8DpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_ylKS8TpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_ylKS8jpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_ylKS8zpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Database"
+    }, {
+      "id" : "_ylKS9DpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_ylKS9TpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_ylKS9jpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_ylKS9zpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_ylKS-DpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_ylKS-TpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_AdditionalParams"
+    }, {
+      "id" : "_ylKS-jpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_ylKS-zpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Port"
+    } ]
+  }, {
+    "contextName" : "internalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_ylKS_DpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_ylKS_TpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_ylKS_jpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_ylKS_zpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_ylKTADpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Login"
+    }, {
+      "id" : "_ylKTATpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Database"
+    } ]
+  }, {
+    "contextName" : "internalServer",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_ylKTAjpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_ylKTAzpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_ylKTBDpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_ylKTBTpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_AdditionalParams"
+    }, {
+      "id" : "_ylKTBjpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_ylKTBzpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Port"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_7wZxwPKUEeqKdqV-yxpgYQ",
+    "parameterList" : [ {
+      "id" : "_ylKTCDpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Port"
+    }, {
+      "id" : "_ylKTCTpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Password"
+    }, {
+      "id" : "_ylKTCjpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_AdditionalParams"
+    }, {
+      "id" : "_ylKTCzpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Server"
+    }, {
+      "id" : "_ylKTDDpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Login"
+    }, {
+      "id" : "_ylKTDTpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_amc_Database"
+    } ]
+  }, {
+    "contextName" : "externalServer",
+    "repoId" : "_UdojYC3iEemax5DxajN3Kg",
+    "parameterList" : [ {
+      "id" : "_ylKTDjpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Login"
+    }, {
+      "id" : "_ylKTDzpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Password"
+    }, {
+      "id" : "_ylKTEDpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Database"
+    }, {
+      "id" : "_ylKTETpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_AdditionalParams"
+    }, {
+      "id" : "_ylKTEjpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Server"
+    }, {
+      "id" : "_ylKTEzpPEe2_Trvuuzhe3A",
+      "name" : "connection_mysql_training_Port"
+    } ]
+  } ]
+}

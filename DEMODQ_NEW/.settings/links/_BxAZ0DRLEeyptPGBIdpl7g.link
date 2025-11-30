@@ -1,0 +1,39 @@
+{
+  "itemId" : "_BxAZ0DRLEeyptPGBIdpl7g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_OpeiwLvfEeyA3-FKp1aGxQ",
+    "parameterList" : [ {
+      "id" : "_h1U6ULvkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Password"
+    }, {
+      "id" : "_h1U6UbvkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Port"
+    }, {
+      "id" : "_h1U6UrvkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_AdditionalParams"
+    }, {
+      "id" : "_h1U6U7vkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Server"
+    }, {
+      "id" : "_h1U6VLvkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Database"
+    }, {
+      "id" : "_h1U6VbvkEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_NPP8cLwLEeyA3-FKp1aGxQ",
+    "parameterList" : [ {
+      "id" : "_VVKToLwLEeyA3-FKp1aGxQ",
+      "name" : "Cloud_url"
+    }, {
+      "id" : "_VVKTobwLEeyA3-FKp1aGxQ",
+      "name" : "Cloud_password"
+    }, {
+      "id" : "_VVKTorwLEeyA3-FKp1aGxQ",
+      "name" : "Cloud_username"
+    } ]
+  } ]
+}

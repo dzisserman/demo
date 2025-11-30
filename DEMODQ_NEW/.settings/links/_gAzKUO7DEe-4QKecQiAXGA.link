@@ -1,0 +1,50 @@
+{
+  "itemId" : "_gAzKUO7DEe-4QKecQiAXGA",
+  "contextList" : [ {
+    "contextName" : "Linux",
+    "repoId" : "_sikBwO7DEe-4QKecQiAXGA",
+    "parameterList" : [ {
+      "id" : "_53xvYO7DEe-4QKecQiAXGA",
+      "name" : "baseDir"
+    } ]
+  }, {
+    "contextName" : "Linux",
+    "repoId" : "_psInMO7DEe-4QKecQiAXGA",
+    "parameterList" : [ {
+      "id" : "_53xvYe7DEe-4QKecQiAXGA",
+      "name" : "mySQL_dbname"
+    }, {
+      "id" : "_53xvYu7DEe-4QKecQiAXGA",
+      "name" : "mySQL_host"
+    }, {
+      "id" : "_53xvY-7DEe-4QKecQiAXGA",
+      "name" : "mySQL_pass"
+    }, {
+      "id" : "_53xvZO7DEe-4QKecQiAXGA",
+      "name" : "mySQL_user"
+    } ]
+  }, {
+    "contextName" : "Windows",
+    "repoId" : "_sikBwO7DEe-4QKecQiAXGA",
+    "parameterList" : [ {
+      "id" : "_53xvZe7DEe-4QKecQiAXGA",
+      "name" : "baseDir"
+    } ]
+  }, {
+    "contextName" : "Windows",
+    "repoId" : "_psInMO7DEe-4QKecQiAXGA",
+    "parameterList" : [ {
+      "id" : "_53xvZu7DEe-4QKecQiAXGA",
+      "name" : "mySQL_dbname"
+    }, {
+      "id" : "_53xvZ-7DEe-4QKecQiAXGA",
+      "name" : "mySQL_host"
+    }, {
+      "id" : "_53xvaO7DEe-4QKecQiAXGA",
+      "name" : "mySQL_pass"
+    }, {
+      "id" : "_53xvae7DEe-4QKecQiAXGA",
+      "name" : "mySQL_user"
+    } ]
+  } ]
+}

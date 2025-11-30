@@ -1,0 +1,23 @@
+{
+  "itemId" : "_aiigQBTPEeOZ86d6jRrZ2g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_BXSNoBL3Ee2iXYINqGY_kQ",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_BXSNoRL3Ee2iXYINqGY_kQ",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_BXSNohL3Ee2iXYINqGY_kQ",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_BXSNoxL3Ee2iXYINqGY_kQ",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_BXSNpBL3Ee2iXYINqGY_kQ",
+      "name" : "user"
+    } ]
+  } ]
+}

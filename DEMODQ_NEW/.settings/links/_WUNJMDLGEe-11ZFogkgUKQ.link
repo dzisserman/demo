@@ -1,0 +1,61 @@
+{
+  "itemId" : "_WUNJMDLGEe-11ZFogkgUKQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_EZNaEJKWEemm3akuphpJHQ",
+    "parameterList" : [ {
+      "id" : "_rj8ekDRGEeyptPGBIdpl7g",
+      "name" : "dataprep_password"
+    }, {
+      "id" : "_rj8ekTRGEeyptPGBIdpl7g",
+      "name" : "dataprep_url"
+    }, {
+      "id" : "_rj8ekjRGEeyptPGBIdpl7g",
+      "name" : "dataprep_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_OpeiwLvfEeyA3-FKp1aGxQ",
+    "parameterList" : [ {
+      "id" : "_UXf4sLvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Password"
+    }, {
+      "id" : "_UXf4sbvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Database"
+    }, {
+      "id" : "_UXf4srvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Port"
+    }, {
+      "id" : "_UXf4s7vjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Login"
+    }, {
+      "id" : "_UXf4tLvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Server"
+    }, {
+      "id" : "_UXf4tbvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_5pzRAL4-Ee2YtdRyUzZwow",
+    "parameterList" : [ {
+      "id" : "_3vOfgMzhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_Login"
+    }, {
+      "id" : "_3vOfgczhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_AdditionalParams"
+    }, {
+      "id" : "_3vOfgszhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_Database"
+    }, {
+      "id" : "_3vPGkMzhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_Password"
+    }, {
+      "id" : "_3vPGkczhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_Server"
+    }, {
+      "id" : "_3vPGkszhEe6XjZoGnwbpbw",
+      "name" : "MySQL_DB_Northwind1_Port"
+    } ]
+  } ]
+}

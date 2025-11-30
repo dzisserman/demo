@@ -1,0 +1,36 @@
+{
+  "itemId" : "_xBX74I8wEeyYSsbxirxGiw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JkeJII8vEeyYSsbxirxGiw",
+    "parameterList" : [ {
+      "id" : "_ZSSF0I8vEeyYSsbxirxGiw",
+      "name" : "API_Token"
+    }, {
+      "id" : "_ZSSF0Y8vEeyYSsbxirxGiw",
+      "name" : "Endpoint"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_OpeiwLvfEeyA3-FKp1aGxQ",
+    "parameterList" : [ {
+      "id" : "_6hDCoLvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Password"
+    }, {
+      "id" : "_6hDCobvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Database"
+    }, {
+      "id" : "_6hDCorvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Port"
+    }, {
+      "id" : "_6hDCo7vjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Login"
+    }, {
+      "id" : "_6hDCpLvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_Server"
+    }, {
+      "id" : "_6hDCpbvjEeyA3-FKp1aGxQ",
+      "name" : "mastering_dq_AdditionalParams"
+    } ]
+  } ]
+}
