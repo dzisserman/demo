@@ -10,4 +10,16 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.report-20251208-2249-00015.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/report-20251208-2249-00015.pdf</location>
+		</link>
+		<link>
+			<name>.report-20251208-2256-00037.pdf</name>
+			<type>1</type>
+			<location>C:/tmp/report-20251208-2256-00037.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
