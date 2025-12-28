@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Linux" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Linux">
-    <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="_sikBwO7DEe-4QKecQiAXGA" type="id_String" value="/home/ec2-user/testfiles/" internalId="_53xvYO7DEe-4QKecQiAXGA"/>
+    <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/ec2-user/testfiles/" internalId="_53xvYO7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_dbname" prompt="mySQL_dbname?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="training" internalId="_53xvYe7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_host" prompt="mySQL_host?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="51.16.221.35" internalId="_53xvYu7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_pass" prompt="mySQL_pass?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_Password" value="enc:system.encryption.key.v1:uCobbXQdqLzo/KlnmbhbJgZUhplnPAB+jWZCYlm5isSUklx51x/P" internalId="_53xvY-7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_user" prompt="mySQL_user?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="talend" internalId="_53xvZO7DEe-4QKecQiAXGA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Windows">
-    <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="_sikBwO7DEe-4QKecQiAXGA" type="id_String" value="c:/talend/testfiles/" internalId="_53xvZe7DEe-4QKecQiAXGA"/>
+    <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="c:/talend/testfiles/" internalId="_53xvZe7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_dbname" prompt="mySQL_dbname?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="demo" internalId="_53xvZu7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_host" prompt="mySQL_host?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_String" value="localhost" internalId="_53xvZ-7DEe-4QKecQiAXGA"/>
     <contextParameter comment="" name="mySQL_pass" prompt="mySQL_pass?" promptNeeded="false" repositoryContextId="_psInMO7DEe-4QKecQiAXGA" type="id_Password" value="enc:system.encryption.key.v1:VO7kNVlQs+U4R0ssu0PhvCxhwzqZCKuUiFJBtMqp+ag=" internalId="_53xvaO7DEe-4QKecQiAXGA"/>
@@ -57,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:zZSPndCcyZ9Q88Y57vFWeQI8hsk0EmL2Qw1jMNqV" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RX4cVofKntbKOfbxcVlQ1ByOjYTaqQGpBY8QyVHb" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -92,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OUFvcBZUyI7a4Vvnxcg6DgclJ6xhnawEzSC/+qo1" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zZbvV5FxKW3LQGfitK0RC+MO1swz0xlCF1S17QOg" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>

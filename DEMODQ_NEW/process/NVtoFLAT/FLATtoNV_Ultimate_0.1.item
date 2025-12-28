@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default">
+  <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="baseDir" prompt="baseDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_KAaEYLDzEeylLbBGN4nvcw"/>
-    <contextParameter comment="" name="bulkSize" prompt="bulkSize?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="100000" internalId="_pSvZYFrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="CatID" prompt="CatID?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="0" internalId="_pSvZYVrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="CatName" prompt="CatName?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="null" internalId="_pSvZYlrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="cnt" prompt="cnt?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="0" internalId="_pSvZY1rdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="DomainID" prompt="DomainID?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="" internalId="_pSvZZFrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="Done" prompt="Done?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Boolean" value="" internalId="_pSvZZVrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="fileInput" prompt="fileInput?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="null" internalId="_pSvZZlrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="fileOutput" prompt="fileOutput?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="null" internalId="_pSvZZ1rdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="" internalId="_pSvZaFrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="Locale" prompt="Locale?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="null" internalId="_pSvZaVrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="LocaleID" prompt="LocaleID?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="" internalId="_pSvZalrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="modnum" prompt="modnum?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="1" internalId="_pSvZa1rdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="multi" prompt="multi?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Boolean" value="" internalId="_pSvZbFrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="prodCount" prompt="prodCount?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="" internalId="_pSvZbVrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="null" internalId="_pSvZblrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="SiteID" prompt="SiteID?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="" internalId="_pSvZb1rdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="TDPass" prompt="TDPass?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Password" value="enc:system.encryption.key.v1:Ih2vG2hfa4+LsCrlGFj0M2M4qj3bCpMeHQN7ozOWRzi9hLDuNsro7EQ4KLNJ" internalId="_pSvZcFrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="TDUser" prompt="TDUser?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_String" value="" internalId="_pSvZcVrdEe246NTLFVq-PQ"/>
-    <contextParameter comment="" name="Threshold" prompt="Threshold?" promptNeeded="false" repositoryContextId="_upkqULn9EeG7EupKFXqr4Q" type="id_Integer" value="90" internalId="_pSvZclrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="bulkSize" prompt="bulkSize?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="100000" internalId="_pSvZYFrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="CatID" prompt="CatID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_pSvZYVrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="CatName" prompt="CatName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_pSvZYlrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="cnt" prompt="cnt?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="0" internalId="_pSvZY1rdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="DomainID" prompt="DomainID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_pSvZZFrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="Done" prompt="Done?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_pSvZZVrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="fileInput" prompt="fileInput?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_pSvZZlrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="fileOutput" prompt="fileOutput?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_pSvZZ1rdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="iteration" prompt="iteration?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_pSvZaFrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="Locale" prompt="Locale?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_pSvZaVrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="LocaleID" prompt="LocaleID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_pSvZalrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="modnum" prompt="modnum?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" internalId="_pSvZa1rdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="multi" prompt="multi?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="" internalId="_pSvZbFrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="prodCount" prompt="prodCount?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="" internalId="_pSvZbVrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="null" internalId="_pSvZblrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="SiteID" prompt="SiteID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_pSvZb1rdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="TDPass" prompt="TDPass?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Ih2vG2hfa4+LsCrlGFj0M2M4qj3bCpMeHQN7ozOWRzi9hLDuNsro7EQ4KLNJ" internalId="_pSvZcFrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="TDUser" prompt="TDUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_pSvZcVrdEe246NTLFVq-PQ"/>
+    <contextParameter comment="" name="Threshold" prompt="Threshold?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="90" internalId="_pSvZclrdEe246NTLFVq-PQ"/>
     <contextParameter comment="" name="AutoRefID" prompt="AutoRefID?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_KAaEYbDzEeylLbBGN4nvcw"/>
     <contextParameter comment="" name="SplitMultiVal" prompt="SplitMultiVal?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_KAaEYrDzEeylLbBGN4nvcw"/>
     <contextParameter comment="" name="RefID" prompt="RefID?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_KAaEY7DzEeylLbBGN4nvcw"/>
@@ -32,7 +32,7 @@
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx16000M&quot;]}" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="23" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -73,7 +73,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:V3k33Q2g6wYvLtJ6fLmIfcuur7KLfNnAUzBVkanG" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RX4cVofKntbKOfbxcVlQ1ByOjYTaqQGpBY8QyVHb" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -88,7 +88,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend801/StudioNew/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/8.0.1/studio/workspace-tac/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -96,7 +96,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
@@ -108,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EciD/da5zxZjVaF+w9NJMfS36Ni/73CI2Q/mfdC+" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zZbvV5FxKW3LQGfitK0RC+MO1swz0xlCF1S17QOg" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -127,49 +127,34 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <routinesParameter id="_sVS0ILsSEeK6wfg3j470Jw" name="DQTechnical"/>
-    <routinesParameter id="_sVb-ELsSEeK6wfg3j470Jw" name="DataOperation"/>
-    <routinesParameter id="_sUFTMLsSEeK6wfg3j470Jw" name="DataQuality"/>
-    <routinesParameter id="_sVN7oLsSEeK6wfg3j470Jw" name="DqStringHandling"/>
-    <routinesParameter id="_sVgPgLsSEeK6wfg3j470Jw" name="Mathematical"/>
-    <routinesParameter id="_sVlIALsSEeK6wfg3j470Jw" name="Numeric"/>
-    <routinesParameter id="_sVpZcLsSEeK6wfg3j470Jw" name="Relational"/>
-    <routinesParameter id="_sVXsoLsSEeK6wfg3j470Jw" name="SQLike"/>
-    <routinesParameter id="_sVtq4LsSEeK6wfg3j470Jw" name="StringHandling"/>
-    <routinesParameter id="_sVyjYLsSEeK6wfg3j470Jw" name="TalendDataGenerator"/>
-    <routinesParameter id="_sV200LsSEeK6wfg3j470Jw" name="TalendDate"/>
-    <routinesParameter id="_sV7GQLsSEeK6wfg3j470Jw" name="TalendString"/>
     <routinesParameter id="_615_0LvAEeK9Iajl7sNYPA" name="Util"/>
-    <routinesParameter id="_wBTi0CbnEeCCl-RxLhiJPw" name="TimeStamp"/>
-    <routinesParameter id="_7RhHAMbzEeKfru_CQ0zXEQ" name="Title"/>
-    <routinesParameter id="_uxvRUIUVEeipqaU3vAkQaQ" name="DataQualityDependencies"/>
-    <routinesParameter id="_8zYjAJg5Eem44-mMkW8cSQ" name="DataMasking"/>
-    <routinesParameter id="_86eCcJg5Eem44-mMkW8cSQ" name="TalendStringUtil"/>
     <routinesParameter id="_8xcjcFJAEeGv_NAowbf6Bw" name="ParseString"/>
   </parameters>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="0">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="40" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="Util.nameList.clear();&#xA;context.colCount = 0;&#xA;&#xA;if (context.AutoRefID)&#xA;{Util.nameList.add(&quot;RefID&quot;);}&#xA;&#xA;TimeStamp.setTimestampPattern(&quot;dd/MM/yyyy_HH:mm&quot;);&#xA;&#xA;//context.baseDir = &quot;c:/tools/flattonv/&quot;;context.fileInput = context.baseDir+&quot;Input/input_for_pivoting.tsv_FLAT.bak&quot;;&#xA;&#xA;System.out.println(&quot;Starting FLATtoNV Process (v2.0)...&quot;);&#xA;System.out.println(&quot;Reading input file...&quot;);"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="Util.nameList.clear();&#xA;context.colCount = 0;&#xA;&#xA;if (context.AutoRefID)&#xA;{Util.nameList.add(&quot;RefID&quot;);}&#xA;&#xA;TimeStamp.setTimestampPattern(&quot;dd/MM/yyyy_HH:mm&quot;);&#xA;&#xA;//context.baseDir = &quot;c:/tools/flattonv/&quot;;context.fileInput = context.baseDir+&quot;Input/input_for_pivoting.tsv_FLAT.bak&quot;;&#xA;&#xA;System.out.println(&quot;Starting FLATtoNV Process (v2.0)...&quot;);&#xA;System.out.println(&quot;Reading input file...&quot;);"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="256">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="40" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_4" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//System.out.println(((Integer)globalMap.get(&quot;tFileInputDelimited_1_NB_LINE&quot;)));&#xA;&#xA;System.out.println(&quot;Starting conversion process... @ &quot;+TimeStamp.etlCurrentTime());&#xA;&#xA;Util.cnt = -1;&#xA;&#xA;context.fileOutput = context.fileInput.replaceAll(&quot;\\..+$&quot;,&quot;&quot;)+&quot;_NV.tsv&quot;;&#xA;Util.outputFile = context.fileOutput;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//System.out.println(((Integer)globalMap.get(&quot;tFileInputDelimited_1_NB_LINE&quot;)));&#xA;&#xA;System.out.println(&quot;Starting conversion process... @ &quot;+TimeStamp.etlCurrentTime());&#xA;&#xA;Util.cnt = -1;&#xA;&#xA;context.fileOutput = context.fileInput.replaceAll(&quot;\\..+$&quot;,&quot;&quot;)+&quot;_NV.tsv&quot;;&#xA;Util.outputFile = context.fileOutput;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_4"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_8" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Conversion complete! @ &quot;+TimeStamp.etlCurrentTime());"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Conversion complete! @ &quot;+TimeStamp.etlCurrentTime());"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_8"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="96">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.fileInput"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -192,8 +177,8 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Props"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Props" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -202,10 +187,11 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Props"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Props" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_1">
@@ -217,18 +203,18 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="DUMMY" value="true" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;//output_row.Props = input_row.Props.replaceAll(&quot;\t+$&quot;,&quot;&quot;);&#xD;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;//output_row.Props = input_row.Props.replaceAll(&quot;\t+$&quot;,&quot;&quot;);&#xD;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
       <column comment="" key="false" length="-1" name="Props" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNormalize_2" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="Props"/>
     <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;\t&quot;"/>
@@ -243,14 +229,14 @@
       <column comment="" key="false" length="-1" name="Props" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_9" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="if (input_row.Props != null &amp;&amp; !input_row.Props.isEmpty())&#xA;{&#xA;&#x9;Util.nameList.add(input_row.Props); &#xA;&#x9;context.colCount++;&#xA;}&#xA;&#xA;//System.out.println(Util.nameList.size()+&quot;/&quot;+context.colCount);&#xA;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="if (input_row.Props != null &amp;&amp; !input_row.Props.isEmpty())&#xA;{&#xA;&#x9;Util.nameList.add(input_row.Props); &#xA;&#x9;context.colCount++;&#xA;}&#xA;&#xA;//System.out.println(Util.nameList.size()+&quot;/&quot;+context.colCount);&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_9"/>
   </node>
-  <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="0">
+  <node componentName="tFileRowCount" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileRowCount_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.fileInput"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -260,8 +246,10 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileRowCount_1"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.fileInput"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -284,8 +272,8 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Product"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Product" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -294,10 +282,11 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Product"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Product" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_2">
@@ -309,7 +298,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="256">
+  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNormalize_3" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="Product"/>
     <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;\t&quot;"/>
@@ -324,10 +313,10 @@
       <column comment="" key="false" length="-1" name="Product" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="256">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="Util.cnt++;&#xA;&#xA;//System.out.println(Util.cnt % Util.nameList.size());&#xA;&#xA;if (Util.cnt % Util.nameList.size() == 0)&#xA;{&#xA;&#x9;output_row.RefID = &quot;XXX&quot;;&#xA;&#x9;if (context.AutoRefID)&#xA;&#x9;{context.RefID = String.valueOf((Util.cnt / Util.nameList.size())+1);}&#xA;&#x9;else&#xA;&#x9;{context.RefID = input_row.Product;}&#xA;}&#xA;else&#xA;{&#xA;&#x9;output_row.RefID = context.RefID;&#xA;&#x9;output_row.Name = Util.nameList.get(Util.cnt % Util.nameList.size());&#xA;&#x9;output_row.Value = input_row.Product;&#xA;}&#xA;&#xA;if ((output_row.Value == null || output_row.Value.isEmpty()) &amp;&amp; context.FilterEmptyVal)&#xA;{output_row.RefID = &quot;XXX&quot;;}&#xA;&#xA;if (((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 100 > 0 &amp;&amp; Util.cnt % Util.nameList.size() == 0)&#xA;{&#xA;&#x9;if (((Util.cnt/Util.nameList.size())+1) % (((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 10) == 0)&#xA;&#x9;{System.out.println(((Util.cnt/Util.nameList.size())+1)/(((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 100) + &quot;% processed at &quot;+TimeStamp.etlCurrentTime());}&#xA;}&#xA;&#xA;&#xA;&#x9;&#xA;&#x9;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="Util.cnt++;&#xA;&#xA;//System.out.println(Util.cnt % Util.nameList.size());&#xA;&#xA;if (Util.cnt % Util.nameList.size() == 0)&#xA;{&#xA;&#x9;output_row.RefID = &quot;XXX&quot;;&#xA;&#x9;if (context.AutoRefID)&#xA;&#x9;{context.RefID = String.valueOf((Util.cnt / Util.nameList.size())+1);}&#xA;&#x9;else&#xA;&#x9;{context.RefID = input_row.Product;}&#xA;}&#xA;else&#xA;{&#xA;&#x9;output_row.RefID = context.RefID;&#xA;&#x9;output_row.Name = Util.nameList.get(Util.cnt % Util.nameList.size());&#xA;&#x9;output_row.Value = input_row.Product;&#xA;}&#xA;&#xA;if ((output_row.Value == null || output_row.Value.isEmpty()) &amp;&amp; context.FilterEmptyVal)&#xA;{output_row.RefID = &quot;XXX&quot;;}&#xA;&#xA;if (((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 100 > 0 &amp;&amp; Util.cnt % Util.nameList.size() == 0)&#xA;{&#xA;&#x9;if (((Util.cnt/Util.nameList.size())+1) % (((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 10) == 0)&#xA;&#x9;{System.out.println(((Util.cnt/Util.nameList.size())+1)/(((Integer)globalMap.get(&quot;tFileRowCount_1_COUNT&quot;)) / 100) + &quot;% processed at &quot;+TimeStamp.etlCurrentTime());}&#xA;}&#xA;&#xA;&#xA;&#x9;&#xA;&#x9;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_2">
       <column comment="" key="false" length="-1" name="RefID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -335,14 +324,14 @@
       <column comment="" key="false" length="-1" name="Value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="256">
+  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_15" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS">
-      <elementValue elementRef="INPUT_COLUMN" value="RefID"/>
-      <elementValue elementRef="FUNCTION" value=""/>
-      <elementValue elementRef="OPERATOR" value="!="/>
-      <elementValue elementRef="RVALUE" value="&quot;XXX&quot;"/>
+      <elementValue elementRef="INPUT_COLUMN" value="RefID" id="0"/>
+      <elementValue elementRef="FUNCTION" value="" id="1"/>
+      <elementValue elementRef="OPERATOR" value="!=" id="2"/>
+      <elementValue elementRef="RVALUE" value="&quot;XXX&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
     <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
@@ -364,7 +353,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -400,8 +389,10 @@
       <column comment="" key="false" length="-1" name="Value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_4" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.baseDir+&quot;OutputTemp.tsv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -424,12 +415,12 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="RefID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropName"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RefID" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropName" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -438,14 +429,15 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="RefID"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropName"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RefID" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropName" id="2"/>
+      <elementValue elementRef="DECODE" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue" id="4"/>
+      <elementValue elementRef="DECODE" value="false" id="5"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_4">
@@ -461,7 +453,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="256">
+  <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNormalize_4" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="PropValue"/>
     <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;;&quot;"/>
@@ -478,7 +470,7 @@
       <column comment="" key="false" length="-1" name="PropValue" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="256">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1080" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_4" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -514,8 +506,10 @@
       <column comment="" key="false" length="-1" name="PropValue" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="320">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_5" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.baseDir+&quot;OutputTemp.tsv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -538,12 +532,12 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="RefID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropName"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RefID" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropName" id="2"/>
+      <elementValue elementRef="TRIM" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue" id="4"/>
+      <elementValue elementRef="TRIM" value="false" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -552,14 +546,15 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="RefID"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropName"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RefID" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropName" id="2"/>
+      <elementValue elementRef="DECODE" value="false" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PropValue" id="4"/>
+      <elementValue elementRef="DECODE" value="false" id="5"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_5">
@@ -575,7 +570,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="320">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_5" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -611,15 +606,17 @@
       <column comment="" key="false" length="-1" name="PropValue" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="760" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Splitting multi-values... @ &quot;+TimeStamp.etlCurrentTime());&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Splitting multi-values... @ &quot;+TimeStamp.etlCurrentTime());&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_3"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="520" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="context.fileInput"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -642,8 +639,8 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Product"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Product" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -652,10 +649,11 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="Product"/>
-      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Product" id="0"/>
+      <elementValue elementRef="DECODE" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_3">
@@ -667,16 +665,16 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_3" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.tabCount = 0;&#xA; &#xA;output_row.Product = input_row.Product;&#xA;&#xA;while (output_row.Product.contains(&quot;\t&quot;))&#xA;{&#xA;&#x9;context.tabCount++;&#xA;&#x9;output_row.Product = output_row.Product.replaceFirst(&quot;\t&quot;,&quot;&quot;);&#xA;}&#xA;&#xA;output_row.Product = input_row.Product;&#xA;&#xA;//System.out.println(context.tabCount);&#xA;&#x9;&#xA;&#xA;"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="context.tabCount = 0;&#xA; &#xA;output_row.Product = input_row.Product;&#xA;&#xA;while (output_row.Product.contains(&quot;\t&quot;))&#xA;{&#xA;&#x9;context.tabCount++;&#xA;&#x9;output_row.Product = output_row.Product.replaceFirst(&quot;\t&quot;,&quot;&quot;);&#xA;}&#xA;&#xA;output_row.Product = input_row.Product;&#xA;&#xA;//System.out.println(context.tabCount);&#xA;&#x9;&#xA;&#xA;"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_3">
       <column comment="" key="false" length="-1" name="Product" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="96">
+  <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_13" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
@@ -694,7 +692,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="96">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -728,7 +726,7 @@
       <column comment="" key="false" length="-1" name="Product" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
@@ -762,7 +760,7 @@
       <column comment="" key="false" length="-1" name="Product" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Faulty Rows Detected!&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -787,9 +785,9 @@
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tJavaRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="Props"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Props" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
