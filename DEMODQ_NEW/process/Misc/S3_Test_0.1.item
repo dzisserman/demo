@@ -142,6 +142,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.checkMethod" value="BY_ACCOUNT_OWNER" show="false"/>
     <elementParameter field="CHECK" name="configuration.enableAccelerate" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="YXdzLXMzI1MzI0xpc3QConnection"/>
   </node>
   <node componentName="S3BucketList" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="280" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3BucketList_1" show="false"/>
@@ -172,6 +173,7 @@
     <elementParameter field="TABLE" name="configuration.dataset.datastore.assumeRoleConfiguration.policyArns" show="false"/>
     <elementParameter field="MEMO" name="configuration.dataset.datastore.assumeRoleConfiguration.policy" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="YXdzLXMzI1MzI0J1Y2tldExpc3Q"/>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
@@ -239,6 +241,7 @@
     <elementParameter field="TEXT" name="configuration.jsonRecordDelimiter" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="CHECK" name="configuration.useTempFilesForParallelDownload" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="YXdzLXMzI1MzI0dldA"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tS3Connection_1" target="tS3BucketList_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
