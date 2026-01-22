@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context name="Default">
+    <contextParameter comment="" name="I22_SOURCE_FILE_FIELD" prompt="" promptNeeded="false" type="id_String" value="&quot;337&quot;" internalId="_hWIRwPdwEfC6bvoLzTbuPQ"/>
+  </context>
+  <node componentName="JDBCInput" componentVersion="2" posX="240" posY="246">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="IP_CkGk_T01X174_CkGk_T01X174"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="PartyCkGk file"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$IP_CkGk_T01X174_CkGk_T01X174.READER.Connection&quot;"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;$IP_CkGk_T01X174_CkGk_T01X174.READER.Query&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TEXT" name="configuration.config.queryTimeout" value="30"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:LaRWOFOmHGjL04zD+HYAw64w8isp4F2FOh0ZRu2l"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
+    <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="true"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TABLE" name="configuration.config.columnTrims">
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Id_Ck"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
+    <metadata connector="FLOW" name="tJDBCInput_1">
+      <column comment="&lt;none>" key="true" length="50" name="Inv_Party_Id_Ck" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="4" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="tAggregateRow" componentVersion="2.1" posX="240" posY="339">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="IP_CkGk_T01X174_CkGk_T01X174_SurviveFields"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TABLE" name="OPERATIONS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="Inv_Party_Id"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Inv_Party_Id"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUPBYS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="Inv_Party_Id_Ck"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Inv_Party_Id_Ck"/>
+    </elementParameter>
+    <metadata connector="FLOW" name="tAggregateRow_1">
+      <column comment="&lt;none>" key="true" length="50" name="Inv_Party_Id_Ck" precision="0" sourceType="" type="id_String"/>
+      <column key="false" length="4" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="JDBCOutput" componentVersion="1" posX="1172" posY="439">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCOutput_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="ML_T01X174_PD_to_ML_0"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Create the data file and script file for MultiLoad T06X30 to the TeraData.&#xA;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$ML_T01X174_PD_to_ML_0.WRITER.Connection&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="INSERT INTO T01X174_INVOLVEMENT_DEMOGRAPH (T01X174_INVOLVEMENT_DEMOGRAPH.Inv_Party_Id,T01X174_INVOLVEMENT_DEMOGRAPH.Related_Inv_Party_Id,T01X174_INVOLVEMENT_DEMOGRAPH.Inv_Party_Structure_Type_Code,T01X174_INVOLVEMENT_DEMOGRAPH.Inv_Party_Relationship_Type_Co,T01X174_INVOLVEMENT_DEMOGRAPH.Demographic_Source_Code,T01X174_INVOLVEMENT_DEMOGRAPH.Demographic_Item_Id,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_Start_Date,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_End_Date,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_Value_Id,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_Nbr,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_Amt,T01X174_INVOLVEMENT_DEMOGRAPH.Involvement_Demog_Date,T01X174_INVOLVEMENT_DEMOGRAPH.Current_Ind,T01X174_INVOLVEMENT_DEMOGRAPH.Source_file,T01X174_INVOLVEMENT_DEMOGRAPH.Last_Change_Date_In_Source,T01X174_INVOLVEMENT_DEMOGRAPH.Date_Updated_To_DW,T01X174_INVOLVEMENT_DEMOGRAPH.Action_Code) VALUES (:1,:2,:3,:4,:5,:6,:7,:8,:9,:10,:11,:12,:13,:14,:15,:16,:17)"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI091dHB1dA"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:b9h6sAKr6rqvepRX3SQMeBvwGg33yOyp9Lz8GvqF"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;Output for table&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataAction" value="INSERT"/>
+    <elementParameter field="CHECK" name="configuration.clearData" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.commitEvery" value="10000"/>
+    <elementParameter field="TABLE" name="configuration.additionalColumns"/>
+    <elementParameter field="CHECK" name="configuration.useFieldOptions" value="false"/>
+    <elementParameter field="TABLE" name="configuration.fieldOptions"/>
+    <elementParameter field="CHECK" name="configuration.debugQuery" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useBatch" value="false"/>
+    <elementParameter field="TEXT" name="configuration.batchSize" value="10000"/>
+    <elementParameter field="CHECK" name="configuration.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.queryTimeout" value="30"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
+    <metadata connector="FLOW" name="tJDBCOutput_1">
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Source_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Item_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="5" name="Involvement_Demog_Nbr" precision="0" sourceType="SMALLINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="15" name="Involvement_Demog_Amt" precision="2" sourceType="DECIMAL" type="id_Double"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="3" name="Current_Ind" precision="0" sourceType="TINYINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="5" name="Source_file" precision="0" sourceType="SMALLINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="10" name="Last_Change_Date_In_Source" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Date_Updated_To_DW" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column key="false" length="1" name="Action_Code" precision="0" sourceType="CHAR" type="id_String"/>
+    </metadata>
+  </node>
+  <node componentName="JDBCInput" componentVersion="2" posX="848" posY="196">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="PD_T01X174_Out_PD_T01X174"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$PD_T01X174_Out_PD_T01X174.READER.Connection&quot;"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;$PD_T01X174_Out_PD_T01X174.READER.Query&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TEXT" name="configuration.config.queryTimeout" value="30"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:suDQPGBZ+PAltkktHVIeWX8pR1ZNx3NFUtsKYvNu"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value=""/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
+    <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="true"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TABLE" name="configuration.config.columnTrims">
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Related_Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Structure_Type_Code"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Relationship_Type_Co"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Demographic_Item_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Involvement_Demog_Value_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
+    <metadata connector="FLOW" name="tJDBCInput_2">
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="8" name="Demographic_Item_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="tAggregateRow" componentVersion="2.1" posX="844" posY="313">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tAggregateRow_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="PD_T01X174_Out_PD_T01X174_SurviveFields"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TABLE" name="OPERATIONS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="Demographic_Item_Id"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Demographic_Item_Id"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Inv_Party_Relationship_Type_Co"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Inv_Party_Relationship_Type_Co"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Inv_Party_Structure_Type_Code"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Inv_Party_Structure_Type_Code"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Involvement_Demog_Value_Id"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Involvement_Demog_Value_Id"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="Related_Inv_Party_Id"/>
+      <elementValue elementRef="FUNCTION" value="last"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Related_Inv_Party_Id"/>
+      <elementValue elementRef="IGNORE_NULL" value="false"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="GROUPBYS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="Inv_Party_Id"/>
+      <elementValue elementRef="INPUT_COLUMN" value="Inv_Party_Id"/>
+    </elementParameter>
+    <metadata connector="FLOW" name="tAggregateRow_2">
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="8" name="Demographic_Item_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="JDBCInput" componentVersion="2" posX="670" posY="453">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="S_T01X174_stg1_Key_to_PD"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$S_T01X174_stg1_Key_to_PD.READER.Connection&quot;"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;$S_T01X174_stg1_Key_to_PD.READER.Query&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TEXT" name="configuration.config.queryTimeout" value="30"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:DRxhrcFavS8UprLzMbt67vFEqgcy7nf5KuYlJ/Ja"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value=""/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
+    <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="true"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TABLE" name="configuration.config.columnTrims">
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Related_Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Structure_Type_Code"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Relationship_Type_Co"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Demographic_Item_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Involvement_Demog_Value_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Involvement_Demog_Start_Date"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Involvement_Demog_End_Date"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
+    <metadata connector="FLOW" name="tJDBCInput_3">
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Demographic_Item_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="JDBCOutput" componentVersion="1" posX="630" posY="428">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCOutput_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="S_T01X174_stg1_L_MGNETICRDRFSL"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$S_T01X174_stg1_L_MGNETICRDRFSL.WRITER.Connection&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="#I22_PATH_STG#\MGNETICRDRFSL"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI091dHB1dA"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:rJGVOVRc6sa51d7HmOXGfmFsy+2nb1bp1ICZzoD4"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;Output for file&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataAction" value="INSERT"/>
+    <elementParameter field="CHECK" name="configuration.clearData" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.commitEvery" value="10000"/>
+    <elementParameter field="TABLE" name="configuration.additionalColumns"/>
+    <elementParameter field="CHECK" name="configuration.useFieldOptions" value="false"/>
+    <elementParameter field="TABLE" name="configuration.fieldOptions"/>
+    <elementParameter field="CHECK" name="configuration.debugQuery" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useBatch" value="false"/>
+    <elementParameter field="TEXT" name="configuration.batchSize" value="10000"/>
+    <elementParameter field="CHECK" name="configuration.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.queryTimeout" value="30"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
+    <metadata connector="FLOW" name="tJDBCOutput_2">
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Demographic_Item_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+    </metadata>
+  </node>
+  <node componentName="JDBCInput" componentVersion="2" posX="48" posY="432">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Src_T01X174_In_T0174"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="T0128 'meforaq' file"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$Src_T01X174_In_T0174.READER.Connection&quot;"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI0lucHV0"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CHECK" name="configuration.config.trimAllStringOrCharColumns" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.config.cursorSize" value="1000"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;$Src_T01X174_In_T0174.READER.Query&quot;"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TEXT" name="configuration.config.queryTimeout" value="30"/>
+    <elementParameter field="CHECK" name="configuration.config.usePreparedStatement" value="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:+z2SdtiWHoFX9hwsx7C9SRIMWHa91RVlsBxjxVjY"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value=""/>
+    <elementParameter field="CLOSED_LIST" name="configuration.config.mapping" value="MYSQL"/>
+    <elementParameter field="CHECK" name="configuration.config.allowSpecialName" value="true"/>
+    <elementParameter field="CHECK" name="configuration.config.enableMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.config.useCursor" value="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TABLE" name="configuration.config.columnTrims">
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Id_Ck"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Related_Inv_Party_Id"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Relat_Start_Date"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Structure_Type_Code"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Relationship_Type_Co"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Branch_Changing_Reason_Code"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="Inv_Party_Relat_End_Date"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="MGNETICRDRFSL"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="DEBITCRDRFSL"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+      <elementValue elementRef="configuration.config.columnTrims[].column" value="REFUSAL_REASON"/>
+      <elementValue elementRef="configuration.config.columnTrims[].trim"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="configuration.config.preparedStatementParameters"/>
+    <metadata connector="FLOW" name="tJDBCInput_4">
+      <column key="false" length="40" name="Inv_Party_Id_Ck" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="40" name="Related_Inv_Party_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="10" name="Inv_Party_Relat_Start_Date" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="7" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Branch_Changing_Reason_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relat_End_Date" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="2" name="MGNETICRDRFSL" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="2" name="DEBITCRDRFSL" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column key="false" length="3" name="REFUSAL_REASON" precision="0" sourceType="VARCHAR" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData"/>
+  </node>
+  <node componentName="JDBCOutput" componentVersion="1" posX="840" posY="673">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCOutput_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="Test_DSLink597"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;$Test_DSLink597.WRITER.Connection&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="#I22_PATH_STG#\Test"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" value="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="bmV3amRiYyNKREJDI091dHB1dA"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrl" value="jdbc:"/>
+    <elementParameter field="TABLE" name="configuration.dataSet.dataStore.jdbcDriver"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:0epEKnnoDuOtsCd5CEkFDL2n2bPpRr/wfCAPsfmD"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;Output for file&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataAction" value="INSERT"/>
+    <elementParameter field="CHECK" name="configuration.clearData" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="TEXT" name="configuration.commitEvery" value="10000"/>
+    <elementParameter field="TABLE" name="configuration.additionalColumns"/>
+    <elementParameter field="CHECK" name="configuration.useFieldOptions" value="false"/>
+    <elementParameter field="TABLE" name="configuration.fieldOptions"/>
+    <elementParameter field="CHECK" name="configuration.debugQuery" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useBatch" value="false"/>
+    <elementParameter field="TEXT" name="configuration.batchSize" value="10000"/>
+    <elementParameter field="CHECK" name="configuration.useQueryTimeout" value="false"/>
+    <elementParameter field="TEXT" name="configuration.queryTimeout" value="30"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1"/>
+    <metadata connector="FLOW" name="tJDBCOutput_3">
+      <column key="false" length="1" name="Action_Code" precision="0" sourceType="CHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="INTEGER" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Source_Code" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Item_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="VARCHAR" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="5" name="Involvement_Demog_Nbr" precision="0" sourceType="SMALLINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="15" name="Involvement_Demog_Amt" precision="2" sourceType="DECIMAL" type="id_Double"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="3" name="Current_Ind" precision="0" sourceType="TINYINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="5" name="Source_file" precision="0" sourceType="SMALLINT" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="10" name="Last_Change_Date_In_Source" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Date_Updated_To_DW" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="DATE" type="id_Date"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" posX="433" posY="427">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Trns_Filter"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="TEXT" name="mainInputTable" value="L_out_T01X174_Temp"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" name="row7">
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Demographic_Item_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
+      <outputTables sizeState="INTERMEDIATE" name="row7" expressionFilter="MITI.len(StringHandling.TRIM(L_out_T01X174_Temp.MGNETICRDRFSL )) > 0" activateExpressionFilter="true">
+        <mapperTableEntries name="Inv_Party_Id" expression="L_out_T01X174_Temp.Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="L_out_T01X174_Temp.Related_Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="L_out_T01X174_Temp.Inv_Party_Structure_Type_Code" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="L_out_T01X174_Temp.Inv_Party_Relationship_Type_Co" type="id_String"/>
+        <mapperTableEntries name="Demographic_Item_Id" expression="&quot;T301V160&quot;" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Value_Id" expression="L_out_T01X174_Temp.MGNETICRDRFSL" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Start_Date" expression="L_out_T01X174_Temp.Inv_Party_Relat_Start_Date" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_End_Date" expression="L_out_T01X174_Temp.Inv_Party_Relat_End_Date" type="id_Date"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="L_out_T01X174_Temp" minimized="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="DEBITCRDRFSL" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Id" expression="" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Relat_End_Date" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relat_Start_Date" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="" type="id_String"/>
+        <mapperTableEntries name="MGNETICRDRFSL" expression="" type="id_String"/>
+        <mapperTableEntries name="REFUSAL_REASON" expression="" type="id_String"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" posX="240" posY="432">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2"/>
+    <elementParameter field="TEXT" name="LABEL" value="Trns_T01X174_Key"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="switch partyCkGk key"/>
+    <elementParameter field="TEXT" name="mainInputTable" value="In_T0174"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" name="L_out_T01X174_Temp">
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="" type="id_String"/>
+      <column key="false" length="10" name="Inv_Party_Relat_Start_Date" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Inv_Party_Relat_End_Date" precision="0" sourceType="" type="id_String"/>
+      <column key="false" length="2" name="MGNETICRDRFSL" precision="0" sourceType="" type="id_String"/>
+      <column key="false" length="2" name="DEBITCRDRFSL" precision="0" sourceType="" type="id_String"/>
+      <column key="false" length="3" name="REFUSAL_REASON" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
+      <outputTables sizeState="INTERMEDIATE" name="L_out_T01X174_Temp">
+        <mapperTableEntries name="Inv_Party_Id" expression="CkGk_T01X174.Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="111" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="In_T0174.Inv_Party_Structure_Type_Code" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="StringHandling.TRIM(In_T0174.Inv_Party_Relationship_Type_Co )" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relat_Start_Date" expression="In_T0174.Inv_Party_Relat_Start_Date" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relat_End_Date" expression="In_T0174.Inv_Party_Relat_End_Date" type="id_String"/>
+        <mapperTableEntries name="MGNETICRDRFSL" expression="In_T0174.MGNETICRDRFSL" type="id_String"/>
+        <mapperTableEntries name="DEBITCRDRFSL" expression="In_T0174.DEBITCRDRFSL" type="id_String"/>
+        <mapperTableEntries name="REFUSAL_REASON" expression="In_T0174.REFUSAL_REASON" type="id_String"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="In_T0174" minimized="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Branch_Changing_Reason_Code" expression="" type="id_String"/>
+        <mapperTableEntries name="DEBITCRDRFSL" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Id_Ck" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relat_End_Date" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relat_Start_Date" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="" type="id_String"/>
+        <mapperTableEntries name="MGNETICRDRFSL" expression="" type="id_String"/>
+        <mapperTableEntries name="REFUSAL_REASON" expression="" type="id_String"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="" type="id_String"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="CkGk_T01X174" minimized="true" expressionFilter="StringHandling.TRIM(In_T0174.Inv_Party_Id_Ck ) == CkGk_T01X174.Inv_Party_Id_Ck" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Inv_Party_Id" expression="" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Id_Ck" expression="TRIM(In_T0174.Inv_Party_Id_Ck)" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" posX="840" posY="431">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3"/>
+    <elementParameter field="TEXT" name="LABEL" value="Trns_T01X174_PD"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value="Check for changes :&#xA;a. set the record as new 'I' if the record is not exsist in the PDfile&#xA;b. set the record as Slowly Changing Dimension 'S' if it had changed"/>
+    <elementParameter field="TEXT" name="mainInputTable" value="Key_to_PD"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <metadata connector="FLOW" name="row4">
+      <column key="false" length="1" name="Action_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Source_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Item_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="5" name="Involvement_Demog_Nbr" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="15" name="Involvement_Demog_Amt" precision="2" sourceType="" type="id_Double"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="3" name="Current_Ind" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="5" name="Source_file" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="10" name="Last_Change_Date_In_Source" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Date_Updated_To_DW" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+    </metadata>
+    <metadata connector="FLOW" name="row10">
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Related_Inv_Party_Id" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Structure_Type_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Inv_Party_Relationship_Type_Co" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Source_Code" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="true" length="10" name="Demographic_Item_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Start_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Value_Id" precision="0" sourceType="" type="id_String"/>
+      <column comment="&lt;none>" key="false" length="5" name="Involvement_Demog_Nbr" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="15" name="Involvement_Demog_Amt" precision="2" sourceType="" type="id_Double"/>
+      <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_Date" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="3" name="Current_Ind" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="5" name="Source_file" precision="0" sourceType="" type="id_Short"/>
+      <column comment="&lt;none>" key="false" length="10" name="Last_Change_Date_In_Source" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column comment="&lt;none>" key="false" length="10" name="Date_Updated_To_DW" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date"/>
+      <column key="false" length="1" name="Action_Code" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="svActionCode" expression="IF MITI.IIF(Out_PD_T01X174.NOTFOUND, &quot;I&quot;, IF MITI.IIF((! MITI.equals(Key_to_PD.Involvement_Demog_Value_Id, Out_PD_T01X174.Involvement_Demog_Value_Id) || (MITI.equals(MITI.len(StringHandling.TRIM(Key_to_PD.Involvement_Demog_Value_Id )), 0) &amp;&amp; MITI.len(StringHandling.TRIM(Out_PD_T01X174.Involvement_Demog_Value_Id )) > 0) || (MITI.len(StringHandling.TRIM(Key_to_PD.Involvement_Demog_Value_Id )) > 0 &amp;&amp; MITI.equals(MITI.len(StringHandling.TRIM(Out_PD_T01X174.Involvement_Demog_Value_Id )), 0))), &quot;S&quot;, &quot;R&quot;))" type="id_String"/>
+      </varTables>
+      <outputTables sizeState="INTERMEDIATE" name="row4" reject="true">
+        <mapperTableEntries name="Action_Code" expression="svActionCode" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Id" expression="Key_to_PD.Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="Key_to_PD.Related_Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="Key_to_PD.Inv_Party_Structure_Type_Code" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="Key_to_PD.Inv_Party_Relationship_Type_Co" type="id_String"/>
+        <mapperTableEntries name="Demographic_Source_Code" expression="context.I22_SOURCE_FILE_FIELD" type="id_String"/>
+        <mapperTableEntries name="Demographic_Item_Id" expression="Key_to_PD.Demographic_Item_Id" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Start_Date" expression="MITI.DateConvertToTD(StringHandling.TRIM(I22_LAST_CHANGE_DATE_IN_SOURCE ))" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_End_Date" expression="MITI.DateConvertToTD(StringHandling.TRIM(Key_to_PD.Involvement_Demog_End_Date ))" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_Value_Id" expression="Key_to_PD.Involvement_Demog_Value_Id" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Nbr" expression="@null" type="id_Short"/>
+        <mapperTableEntries name="Involvement_Demog_Amt" expression="@null" type="id_Double"/>
+        <mapperTableEntries name="Involvement_Demog_Date" expression="@null" type="id_Date"/>
+        <mapperTableEntries name="Current_Ind" expression="1" type="id_Short"/>
+        <mapperTableEntries name="Source_file" expression="context.I22_SOURCE_FILE_FIELD" type="id_Short"/>
+        <mapperTableEntries name="Last_Change_Date_In_Source" expression="MITI.DateConvertToTD(StringHandling.TRIM(I22_LAST_CHANGE_DATE_IN_SOURCE ))" type="id_Date"/>
+        <mapperTableEntries name="Date_Updated_To_DW" expression="MITI.DateConvertToTD(StringHandling.TRIM(GLB_DATE_UPDATE_TO_DW ))" type="id_Date"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="row10" expressionFilter="! MITI.equals(svActionCode, &quot;R&quot;)" activateExpressionFilter="true">
+        <mapperTableEntries name="Inv_Party_Id" expression="Key_to_PD.Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="Key_to_PD.Related_Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="Key_to_PD.Inv_Party_Structure_Type_Code" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="Key_to_PD.Inv_Party_Relationship_Type_Co" type="id_String"/>
+        <mapperTableEntries name="Demographic_Source_Code" expression="context.I22_SOURCE_FILE_FIELD" type="id_String"/>
+        <mapperTableEntries name="Demographic_Item_Id" expression="Key_to_PD.Demographic_Item_Id" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Start_Date" expression="MITI.DateConvertToTD(StringHandling.TRIM(I22_LAST_CHANGE_DATE_IN_SOURCE ))" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_End_Date" expression="MITI.DateConvertToTD(StringHandling.TRIM(Key_to_PD.Involvement_Demog_End_Date ))" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_Value_Id" expression="Key_to_PD.Involvement_Demog_Value_Id" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Nbr" expression="@null" type="id_Short"/>
+        <mapperTableEntries name="Involvement_Demog_Amt" expression="@null" type="id_Double"/>
+        <mapperTableEntries name="Involvement_Demog_Date" expression="@null" type="id_Date"/>
+        <mapperTableEntries name="Current_Ind" expression="1" type="id_Short"/>
+        <mapperTableEntries name="Source_file" expression="context.I22_SOURCE_FILE_FIELD" type="id_Short"/>
+        <mapperTableEntries name="Last_Change_Date_In_Source" expression="MITI.DateConvertToTD(StringHandling.TRIM(I22_LAST_CHANGE_DATE_IN_SOURCE ))" type="id_Date"/>
+        <mapperTableEntries name="Date_Updated_To_DW" expression="MITI.DateConvertToTD(StringHandling.TRIM(GLB_DATE_UPDATE_TO_DW ))" type="id_Date"/>
+        <mapperTableEntries name="Action_Code" expression="svActionCode" type="id_String"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="Key_to_PD" minimized="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Demographic_Item_Id" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Id" expression="" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_End_Date" expression="" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_Start_Date" expression="" type="id_Date"/>
+        <mapperTableEntries name="Involvement_Demog_Value_Id" expression="" type="id_String"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="" type="id_Integer"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="Out_PD_T01X174" minimized="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Demographic_Item_Id" expression="Key_to_PD.Demographic_Item_Id" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Id" expression="Key_to_PD.Inv_Party_Id" type="id_Integer"/>
+        <mapperTableEntries name="Inv_Party_Relationship_Type_Co" expression="Key_to_PD.Inv_Party_Relationship_Type_Co" type="id_String"/>
+        <mapperTableEntries name="Inv_Party_Structure_Type_Code" expression="Key_to_PD.Inv_Party_Structure_Type_Code" type="id_String"/>
+        <mapperTableEntries name="Involvement_Demog_Value_Id" expression="" type="id_String"/>
+        <mapperTableEntries name="Related_Inv_Party_Id" expression="Key_to_PD.Related_Inv_Party_Id" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <connection connectorName="MAIN" label="row1" lineStyle="0" metaname="tJDBCInput_1" source="tJDBCInput_1" target="tAggregateRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
+  <connection connectorName="MAIN" label="row2" lineStyle="0" metaname="tJDBCInput_2" source="tJDBCInput_2" target="tAggregateRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="CkGk_T01X174" lineStyle="8" metaname="tAggregateRow_1" source="tAggregateRow_1" target="tMap_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="DSLink597" source="tMap_3" target="tJDBCOutput_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4"/>
+  </connection>
+  <connection connectorName="MAIN" label="In_T0174" lineStyle="0" metaname="tJDBCInput_4" source="tJDBCInput_4" target="tMap_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5"/>
+  </connection>
+  <connection connectorName="MAIN" label="Key_to_PD" lineStyle="0" metaname="tJDBCInput_3" source="tJDBCInput_3" target="tMap_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6"/>
+  </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="L_MGNETICRDRFSL" source="tMap_1" target="tJDBCOutput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7"/>
+  </connection>
+  <connection connectorName="FLOW" label="L_out_T01X174_Temp" lineStyle="0" metaname="L_out_T01X174_Temp" source="tMap_2" target="tMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8"/>
+  </connection>
+  <connection connectorName="FLOW" label="Out_PD_T01X174" lineStyle="8" metaname="tAggregateRow_2" source="tAggregateRow_2" target="tMap_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="PD_to_ML_0" source="tMap_3" target="tJDBCOutput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10"/>
+  </connection>
+  <note opaque="true" posX="608" posY="32" sizeHeight="193" sizeWidth="545" text="IP_CkGk_T01X174_CkGk_T01X174&#xD;&#xA;&#x9;ODBC reader is not supported by the Talend, used JDBC instead&#xD;&#xA;Trns_Filter&#xD;&#xA;&#x9;Original stage had Abort constraint which is not exported&#xD;&#xA;PD_T01X174_Out_PD_T01X174&#xD;&#xA;&#x9;ODBC reader is not supported by the Talend, used JDBC instead&#xD;&#xA;Test_DSLink597&#xD;&#xA;&#x9;ODBC writer is not supported by the Talend, used JDBC instead&#xD;&#xA;S_T01X174_stg1_Key_to_PD&#xD;&#xA;&#x9;ODBC reader is not supported by the Talend, used JDBC instead&#xD;&#xA;S_T01X174_stg1_L_MGNETICRDRFSL&#xD;&#xA;&#x9;ODBC writer is not supported by the Talend, used JDBC instead&#xD;&#xA;Trns_T01X174_PD&#xD;&#xA;&#x9;Original stage had Abort constraint which is not exported&#xD;&#xA;&#x9;Original stage had Abort constraint which is not exported&#xD;&#xA;&#x9;Check Trns_T01X174_PD component join expressions.&#xD;&#xA;Trns_T01X174_Key&#xD;&#xA;&#x9;Original stage had Abort constraint which is not exported&#xD;&#xA;&#x9;Check Trns_T01X174_Key component join expressions.&#xD;&#xA;Src_T01X174_In_T0174&#xD;&#xA;&#x9;ODBC reader is not supported by the Talend, used JDBC instead&#xD;&#xA;ML_T01X174_PD_to_ML_0&#xD;&#xA;&#x9;ODBC writer is not supported by the Talend, used JDBC instead&#xD;&#xA;">
+    <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+    <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
+    <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
+  </note>
+</talendfile:ProcessType>
