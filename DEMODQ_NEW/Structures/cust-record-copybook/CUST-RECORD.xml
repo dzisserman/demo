@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x19b70cd0973' V1='4' name='CUST-RECORD' incarnation='106'>
+<root t='150' id='1' V150='13' creationTimestamp='0x19b70cd0973' V1='4' name='CUST-RECORD' incarnation='108'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CUST-RECORD'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Record' checksumValid='true' checksum='8W+GMfaAhfmFS9GTLdGk1f+Dy90='>
@@ -39,7 +39,7 @@
       </child>
     </child>
   </rootElem>
-  <defaultRep t='180' id='15' V180='2' V170='10' V703='2' byteOrder='BIG_ENDIAN' largeOccursErrorThreshold='10000' allowAnyCharForPackedDecimals='true' inputAcceptEarlyEndOfFile='true' V690='1' encoding='IBM037' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Cobol'>
+  <defaultRep t='180' id='15' V180='2' V170='10' V703='2' byteOrder='BIG_ENDIAN' largeOccursErrorThreshold='10000' allowAnyCharForPackedDecimals='true' inputAcceptEarlyEndOfFile='true' V690='1' encoding='UTF-8' trimInput='true' ignoreExcluded='true' fixInvalidCharacters='true' V1='4' name='Cobol'>
   </defaultRep>
   <rowElem t='167' idref='3'/>
   <child t='162' id='16' V1='4' name='Representations'>

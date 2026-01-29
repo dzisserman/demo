@@ -1433,7 +1433,7 @@
       <column comment="&lt;none>" key="false" length="10" name="Involvement_Demog_End_Date" nullable="false" pattern="&quot;dd/MM/yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Existing_Unchanged" expressionFilter="row6.Inv_Party_Id != null &amp;&amp; out1.MGNETICRDRFSL.equals(row6.MGNETICRDRFSL)" activateExpressionFilter="true">
         <mapperTableEntries name="Inv_Party_Id" expression="out1.Inv_Party_Id " type="id_Integer" nullable="true"/>
@@ -1620,32 +1620,6 @@
       <column comment="" key="false" length="8" name="Inv_Party_Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tTeradataTPump" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="80">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tTeradataTPump_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="EXECUTION" value="Windows"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mEy4on58kzp1yC79czQp75LIhRkdIZGGP6z063kt"/>
-    <elementParameter field="TEXT" name="TYPE" value="Teradata" show="false"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
-    <elementParameter field="DIRECTORY" name="SCRIPT_PATH" value="&quot;C:/Talend/8.0.1/studio/workspace-tac/&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="ACTION" value="InsertOrUpdate"/>
-    <elementParameter field="TEXT" name="WHERE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="FILE" name="LOAD_FILE" value="&quot;C:/Talend/8.0.1/studio/workspace-tac/test.csv&quot;"/>
-    <elementParameter field="TEXT" name="FIELD_SEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="FILE" name="ERROR_FILE" value="&quot;C:/Talend/8.0.1/studio/workspace-tac/error.log&quot;"/>
-    <elementParameter field="CHECK" name="SPECIFY_LOG_TABLE" value="false"/>
-    <elementParameter field="TEXT" name="LOG_TABLE_TABLE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="BEGINLOAD_ADVANCEDPARAM" value="&quot;SESSIONS 8 PACK 600 ARRAYSUPPORT ON CHECKPOINT 60 TENACITY 2 ERRLIMIT 1000&quot;"/>
-    <elementParameter field="CHECK" name="RETURN_CODE_DIE" value="false"/>
-    <elementParameter field="TEXT" name="RETURN_CODE" value="8" show="false"/>
-    <elementParameter field="CHECK" name="DEFINE_CHARSET" value="false"/>
-    <elementParameter field="TEXT" name="CHARSET" value="&quot;ASCII&quot;" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tTeradataTPump_1"/>
-  </node>
   <node componentName="tTeradataFastLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tTeradataFastLoad_1" show="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
@@ -1828,15 +1802,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Out_PD_T01X174" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="row10" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tJDBCOutput_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="row4" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tJDBCOutput_3">
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="row4" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_3" target="tJDBCOutput_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="row10" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_3" target="tJDBCOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="In_T0174" lineStyle="0" metaname="tJDBCInput_4" offsetLabelX="0" offsetLabelY="0" source="tJDBCInput_4" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1885,15 +1859,15 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Existing_Unchanged" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="Existing_Changed" lineStyle="0" metaname="Existing_Changed" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_5" target="tDBSCD_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Existing_Changed" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="New" lineStyle="0" metaname="New" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_5" target="tDBOutput_1">
+  <connection connectorName="FLOW" label="New" lineStyle="0" metaname="New" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_5" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="New" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="Existing_Changed" lineStyle="0" metaname="Existing_Changed" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_5" target="tDBSCD_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Existing_Changed" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tMap_5">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1917,9 +1891,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputPositional_1" show="false"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tTeradataTPump_1" show="false"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tTeradataFastLoad_1" show="false"/>
