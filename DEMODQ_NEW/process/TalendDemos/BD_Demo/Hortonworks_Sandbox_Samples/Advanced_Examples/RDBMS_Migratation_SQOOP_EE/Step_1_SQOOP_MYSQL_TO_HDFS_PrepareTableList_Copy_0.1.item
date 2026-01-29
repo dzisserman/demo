@@ -133,7 +133,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.MYSQL_DBNAME_TO_MIGRATE"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.MYSQL_USERNAME"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kOxCg77wggB7KPrLUcfre/IpHw7YuBna/emQxtgRmrvj2MvbKh4Vo3Hpo1al"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.MYSQL_PWD"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>

@@ -475,7 +475,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.mastering_dq_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.mastering_dq_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.mastering_dq_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NVLIZoOdRTfeIyt24uiSOvKSMFSu9wj9jyZDWTxHNdXBb830NuhIkUPdcaHPkBTQDvHegU8kgppt"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mastering_dq_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CRM_CUST&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>

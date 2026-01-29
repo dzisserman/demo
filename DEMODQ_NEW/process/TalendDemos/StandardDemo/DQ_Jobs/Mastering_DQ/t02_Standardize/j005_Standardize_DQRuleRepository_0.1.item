@@ -268,7 +268,7 @@
   <node componentName="tDataQualityRules" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataQualityRules_2" show="false"/>
     <elementParameter field="TEXT" name="URL" value="context.Endpoint"/>
-    <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:eobx47nm1GYiXiv7G5iOEcwapY/heFFk00WOu//OOI9kkldjru/Xf/9ysjoB"/>
+    <elementParameter field="PASSWORD" name="TOKEN" value="context.API_Token"/>
     <elementParameter field="TDS_VERSION" name="TDS_VERSION_VALUE" value="1645019199224"/>
     <elementParameter field="EXTERNAL" name="CONFIG" value=""/>
     <elementParameter field="TEXT" name="TDS_VERSION_NAME" value="2022-02-16 14:46:39" show="false"/>

@@ -77,7 +77,7 @@
     <elementParameter xmi:id="_MhYtaN8qEfCn56WXee8D5w" field="CHECK" name="USE_PROPAGATE_CREDENTIAL" value="false" show="false"/>
     <elementParameter xmi:id="_MhYtad8qEfCn56WXee8D5w" field="TEXT" name="ALIASNAME" value="&quot;&quot;" show="false"/>
     <elementParameter xmi:id="_MhYtat8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_soap" show="false"/>
-    <elementParameter xmi:id="_MhYta98qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:e/CoOdcWrFxwg+ZRLGCKHlSH0QtF6lqGfDgAGrEo8tvMTe6FEJ6ZWL8+42Z8gCmXvg==" show="false"/>
+    <elementParameter xmi:id="_MhYta98qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_soap" show="false"/>
     <elementParameter xmi:id="_MhYtbN8qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MhYtbd8qEfCn56WXee8D5w" field="LABEL" name="AUTHORIZATION_LABEL" value="Authorization:" show="false"/>
     <elementParameter xmi:id="_MhYtbt8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
@@ -112,7 +112,7 @@
     <elementParameter xmi:id="_MhYtid8qEfCn56WXee8D5w" field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" value="1" show="false"/>
     <elementParameter xmi:id="_MhYtit8qEfCn56WXee8D5w" field="CHECK" name="AMQ_AUTH" value="true"/>
     <elementParameter xmi:id="_MhYti98qEfCn56WXee8D5w" field="TEXT" name="AMQ_USERNAME" value="context.username_jms"/>
-    <elementParameter xmi:id="_MhYtjN8qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:sItYZm4CYq5dvEPP6nowmhkT/Gzg60ZpB3ed7R86SvOYp685a/A0DiSyHuoiqrjX"/>
+    <elementParameter xmi:id="_MhYtjN8qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="context.password_jms"/>
     <elementParameter xmi:id="_MhYtjd8qEfCn56WXee8D5w" field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false"/>
     <elementParameter xmi:id="_MhYtjt8qEfCn56WXee8D5w" field="TEXT" name="WQM_SEVER" value="&quot;localhost&quot;" show="false"/>
     <elementParameter xmi:id="_MhYtj98qEfCn56WXee8D5w" field="TEXT" name="WMQ_PORT" value="&quot;1414&quot;" show="false"/>

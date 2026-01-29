@@ -72,7 +72,7 @@
     <elementParameter xmi:id="_Mgsw498qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_Mgsw5N8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_Mgsw5d8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_Mgsw5t8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:KMjrL8Vr1Dy7OUGwOFEtLBPCjU5OurDJ7mBKOZjIrF41eQxMYZZNwU8OcTi8Ssy14g==" show="false"/>
+    <elementParameter xmi:id="_Mgsw5t8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_Mgsw598qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_Mgsw6N8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter xmi:id="_Mgsw6d8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -105,7 +105,7 @@
     <elementParameter xmi:id="_MgsxA98qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MgsxBN8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_MgsxBd8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_MgsxBt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:yUeSL5kdzMtpxT7+qqy4x5vDnFhYeNAPjP5NiOJcszfVTejE1OAa1vnWNJMbIT/bFA==" show="false"/>
+    <elementParameter xmi:id="_MgsxBt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_MgsxB98qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MgsxCN8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter xmi:id="_MgsxCd8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -138,7 +138,7 @@
     <elementParameter xmi:id="_MgsxI98qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MgsxJN8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_MgsxJd8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_MgsxJt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:fLuL3AYPXo/W6l+UlXmKfgLnqey4gBNFilFB3NuILvIi2SFTUEC8rRHi5BIxweIDdg==" show="false"/>
+    <elementParameter xmi:id="_MgsxJt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_MgsxJ98qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MgsxKN8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_MgsxKd8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -171,7 +171,7 @@
     <elementParameter xmi:id="_MgsxQ98qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MgsxRN8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_MgsxRd8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_MgsxRt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:d0UBN1jRvALjGeZGeQMEZwgPWSumQ55TPzk/SUWTWcaH5PNhWLFTRTSB77RULVOReg==" show="false"/>
+    <elementParameter xmi:id="_MgsxRt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_MgsxR98qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MgsxSN8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_MgsxSd8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -303,7 +303,7 @@
     <elementParameter xmi:id="_Mgsxv98qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MgsxwN8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_Mgsxwd8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_Mgsxwt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:GMmipphTWmHxu60Jp1RPzSlq0JFAaQcbMmuicMorjzRvhzLMSdD7HEpuqye+KbRk6g==" show="false"/>
+    <elementParameter xmi:id="_Mgsxwt8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_Mgsxw98qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MgsxxN8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_Mgsxxd8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -336,7 +336,7 @@
     <elementParameter xmi:id="_Mgsx398qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_Mgsx4N8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_Mgsx4d8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_Mgsx4t8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:YlfYnViaTOvKPL2qvb/6xhb5sf0S7eYn/VlKwtvKrTMnOkL8mnrbyCCczSCgWXBfig==" show="false"/>
+    <elementParameter xmi:id="_Mgsx4t8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_Mgsx498qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_Mgsx5N8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_Mgsx5d8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>
@@ -399,7 +399,7 @@
     <elementParameter xmi:id="_MgsyGt8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MgsyG98qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_MgsyHN8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_MgsyHd8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:Sennv08jJqch9mOO+9ym6vYK+6mpUsoqz9iKT5CSh+kEAh0+zufrEfYljlvnhr/fmA==" show="false"/>
+    <elementParameter xmi:id="_MgsyHd8qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_MgsyHt8qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MgsyH98qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_MgsyIN8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>

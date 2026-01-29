@@ -151,7 +151,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.connection_mysql_training_Database" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O1MoA1XWbJ2XCylaQwdEXqCrR0o8xlNXAN4lel1GLXS/w5GfezGVrncdKgiJmDuLS3OD2+vuEJGjtlWahTnIwwRlFSiXLw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_training_Port"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
@@ -380,7 +380,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_training_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:StPI5WcBvuBidb1RchP9Utud1kJowC8b40VdC5eKbblFd/gcFUMWUKiHrHDn1/RPFQVo6/GpGPPHfx7m4pH3+GPMqX1/nA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;RetailCustomers_Beni&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>

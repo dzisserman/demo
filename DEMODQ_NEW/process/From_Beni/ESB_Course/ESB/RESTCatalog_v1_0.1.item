@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_amc_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_amc_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RLiJFNL7thljqDqxotDgPhHmqzPFsr6a8xTKro3njTuxrdL3bcyRRV2e9d/wURm6b9CB+Lt8oszT+aBib2Qnq5k="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_amc_Password"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;"/>
@@ -190,7 +190,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ogk7oNqxanf2+e8fRSShm43YssVA0FwAVMzjmMP3hx9NOCUu87UeSFjdmtiK80jh6ct7ovGOufalswgSH7Pf90NBPDzHCA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movies&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -325,7 +325,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dakxHXH0Znxac3eF6qIkHiS8geHc5AMrzxGlnXKCtsiW2Zn/uQmLGBRRRDDNCYYLNCuFd92SQ1MEb6uZHQRWHPPTR47Kag=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;books&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

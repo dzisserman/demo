@@ -108,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_amc_AdditionalParams" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_amc_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DtDNTP7EUWO80spnV4KN2LU0MBfOkXmLxoyyworAHWJu9VlAFzUFzEntnFnIS78hN141ylEH00IY7iiXDpwpMr0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_amc_Password" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;" show="false"/>
@@ -199,7 +199,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vE9SOGJYJOZx+acveB1xZgr3HD5TzaS+YTqiMQQ1u1o12DDaCC30j0UDvD51b7dEtF+WbvxZcRz6E8m08R9bUo1hv8VuXw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;SalesStaging_Beni&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -389,7 +389,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_training_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:00hFmJ9g3tcxBz0Ff2ajJYrG/uDz1FCEvBG9EHVlfduZbsSKGSWvh0B61OCJVxiTcaAj3PBXmoe+ok84dceNGevTRW6d+w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TotalSales_Beni&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -485,7 +485,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Xz9iuxH4FUTyzG7S7GZFmqfPUNmNBFFANHDaJdKNanXMQ5ir5EsXDef6ZPmZzDWm4PWsT3paTaGWQ2n73Ci2GSJJTJDUvw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;RetailProducts_Beni&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -634,7 +634,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5NbRl8DqUC3UBzap++tSYGAT8TqOPtN+GCfc+mVaOx+yQ645Fs+/kInRVI0eNuecYczZ2d8DyHQ+VLFQ/oQKhGAghI2/Nw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;RetailCustomers_Beni&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

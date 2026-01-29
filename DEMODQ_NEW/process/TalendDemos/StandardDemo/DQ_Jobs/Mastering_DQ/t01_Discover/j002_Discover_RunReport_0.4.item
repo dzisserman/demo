@@ -203,7 +203,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.mail_username "/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:Ls5Is37K7cddzQYPz08aQf5mP2w8Lh86HH7NIsXOL5YtusCJNYKhenikfPoioYdF9Q=="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="context.mail_password"/>
     <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:6szFFMMTwqiV6oRnljHPyvaKbNKqTaHx3t65+ms2b96X/PFf8DU=" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>

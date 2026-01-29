@@ -111,7 +111,7 @@
     <elementParameter xmi:id="_MiJiiN8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_SECURITY" value="false"/>
     <elementParameter xmi:id="_MiJiid8qEfCn56WXee8D5w" field="CLOSED_LIST" name="SECURITY_TYPE" value="BASIC" show="false"/>
     <elementParameter xmi:id="_MiJiit8qEfCn56WXee8D5w" field="TEXT" name="USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter xmi:id="_MiJii98qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:9cUi+PpLNRzrkNC8cfG6qzESSGnaWBL6Wq0Fon+m0ABDGJ+iTlkfcYEq9jjqb5ipJg==" show="false"/>
+    <elementParameter xmi:id="_MiJii98qEfCn56WXee8D5w" field="PASSWORD" name="PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter xmi:id="_MiJijN8qEfCn56WXee8D5w" field="CHECK" name="USE_AUTHORIZATION" value="false" show="false"/>
     <elementParameter xmi:id="_MiJijd8qEfCn56WXee8D5w" field="TEXT" name="ROLE_NAME" value="&quot;qqq&quot;" show="false"/>
     <elementParameter xmi:id="_MiJijt8qEfCn56WXee8D5w" field="CHECK" name="ENABLE_CORRELATION" value="false"/>

@@ -108,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_amc_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.mysql_amc_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZCleaxeMAQnZtmjRwtf9RQuBoycy6FphE05meq6bCrllIdpFzvU4jNeYqpWQOD4qRFW8i7aP"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mysql_amc_Password"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;"/>

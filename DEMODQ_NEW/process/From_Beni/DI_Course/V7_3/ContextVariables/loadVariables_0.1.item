@@ -138,7 +138,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_amc_AdditionalParams" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_amc_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DtDNTP7EUWO80spnV4KN2LU0MBfOkXmLxoyyworAHWJu9VlAFzUFzEntnFnIS78hN141ylEH00IY7iiXDpwpMr0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_amc_Password" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;" show="false"/>
@@ -175,7 +175,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pzcQPC/wDyXgN3dclf9OP8cdRnh+NMhx7373favFijEhNQtmM16kWhKWP8bqTI3fxFnPobkIU7eC5T3u6MYQac/LVRNd4g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers_retail&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

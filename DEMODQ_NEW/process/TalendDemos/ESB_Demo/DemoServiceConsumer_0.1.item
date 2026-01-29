@@ -180,7 +180,7 @@
     <elementParameter field="LABEL" name="PROPAGATE_CERT_LABEL" value="" show="false"/>
     <elementParameter field="TEXT" name="AUTH_ALIAS" value="&quot;alias&quot;" show="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.username_soap" show="false"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:DlUj177da6TM6TlgmhQ0b1kL1x5kquDLm8sS6odSeQOSvCkmLKkiOASSTXL6kcSmGg==" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="context.password_soap" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" value="" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>

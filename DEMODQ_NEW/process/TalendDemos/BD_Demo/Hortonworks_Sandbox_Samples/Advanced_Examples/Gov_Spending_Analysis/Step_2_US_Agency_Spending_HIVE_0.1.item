@@ -122,7 +122,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.hive_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q6FrcbiqhxtkaHW3cEuB78jPNlq/MZnemPgymqCNiSvM3mBqH3xERFdWpVQn5F6O"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mysql_passwd"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="HIVE_PRINCIPAL" value="&quot;hive/_HOST@EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="METASTORE_JDBC_URL" value="&quot;jdbc:mysql://&quot;"/>

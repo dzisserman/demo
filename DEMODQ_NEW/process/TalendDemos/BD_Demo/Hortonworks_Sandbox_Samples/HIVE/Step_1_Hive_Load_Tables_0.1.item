@@ -118,7 +118,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.hive_port"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.mysql_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hvJwCxWKfHnIFx2Zhdp8K+qPJZ5PnHuCTHfP2LZjkVq4zf28vNGuhliIkmJFwGEi"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mysql_passwd"/>
     <elementParameter field="CHECK" name="SET_MAPRED_JT" value="true"/>
     <elementParameter field="TEXT" name="MAPRED_JT" value="context.jobtracker_host + &quot;:&quot; + context.jobtracker_port"/>
     <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="true"/>

@@ -238,7 +238,7 @@
     <elementParameter field="TEXT" name="USERNAME" value="context.MYSQL_USERNAME"/>
     <elementParameter field="CHECK" name="PASSWORD_STORED_IN_FILE" value="false"/>
     <elementParameter field="TEXT" name="PASSWORD_FILE" value="&quot;file:///&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:BXpU/yA3trMLFp+5MbogyOCwwhqNFi2csQXCXa2+6V+/rEsBX0ADOxCW5Gt4"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="context.MYSQL_PWD"/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLE" value="((String)globalMap.get(&quot;row1.tableName&quot;))"/>
@@ -409,7 +409,7 @@
     <elementParameter field="TEXT" name="USERNAME" value="context.MYSQL_USERNAME"/>
     <elementParameter field="CHECK" name="PASSWORD_STORED_IN_FILE" value="false"/>
     <elementParameter field="TEXT" name="PASSWORD_FILE" value="&quot;file:///&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:SzGWsnVuaHLzvwWdfbUIifL2IBPWctLC26R9n5PHOnF392J98dkp/NImn424"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="context.MYSQL_PWD"/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLE" value="((String)globalMap.get(&quot;row2.tableName&quot;))"/>

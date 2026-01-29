@@ -169,7 +169,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC" show="false"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.username_rest" show="false"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:pYTyx3UlYHdAYevKfd2piDkIvyNY3Q7rKi9UqrxuWV1+CdS1Tg4f8s9sdoCCzSQdEw==" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="context.password_rest" show="false"/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>

@@ -108,7 +108,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_amc_AdditionalParams" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_amc_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DtDNTP7EUWO80spnV4KN2LU0MBfOkXmLxoyyworAHWJu9VlAFzUFzEntnFnIS78hN141ylEH00IY7iiXDpwpMr0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_amc_Password" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;" show="false"/>
@@ -278,7 +278,7 @@
     <elementParameter field="TEXT" name="PORT" value="context.connection_mysql_training_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.connection_mysql_training_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_training_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:n+DQb5zUEqIK9ymtJvAUhL7nwRGWEODO62GDiSREF2ScwLTgAS2yukFrMVmBIgag7dTh4rfXSB+AIUaUYzDsYr2VmpxV/g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_training_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Customers_Beni&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>

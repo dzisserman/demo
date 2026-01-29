@@ -92,7 +92,7 @@
     <elementParameter xmi:id="_MhxH9t8qEfCn56WXee8D5w" field="CHECK" name="AMQP_SSL" value="false"/>
     <elementParameter xmi:id="_MhxH998qEfCn56WXee8D5w" field="CHECK" name="AMQP_USE_AUTH" value="true"/>
     <elementParameter xmi:id="_MhxH-N8qEfCn56WXee8D5w" field="TEXT" name="AMQP_USERNAME" value="context.username_jms"/>
-    <elementParameter xmi:id="_MhxH-d8qEfCn56WXee8D5w" field="PASSWORD" name="AMQP_PASSWORD" value="enc:system.encryption.key.v1:vvOhAQkyzBNMxPkSBr2pr9jj55hofLy09Ru3EmMpv3yZCKB/ZaioqcXGixQwr5sz"/>
+    <elementParameter xmi:id="_MhxH-d8qEfCn56WXee8D5w" field="PASSWORD" name="AMQP_PASSWORD" value="context.password_jms"/>
     <elementParameter xmi:id="_MhxH-t8qEfCn56WXee8D5w" field="TEXT" name="MQTT_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
     <elementParameter xmi:id="_MhxH-98qEfCn56WXee8D5w" field="TEXT" name="MQTT_PORT" value="1883" show="false"/>
     <elementParameter xmi:id="_MhxH_N8qEfCn56WXee8D5w" field="CHECK" name="MQTT_SSL" value="false" show="false"/>
@@ -187,7 +187,7 @@
     <elementParameter xmi:id="_MhxIUt8qEfCn56WXee8D5w" field="TABLE" name="OTHER_DRIVER_JAR" show="false"/>
     <elementParameter xmi:id="_MhxIU98qEfCn56WXee8D5w" field="CHECK" name="MQTT_AUTH" value="true"/>
     <elementParameter xmi:id="_MhxIVN8qEfCn56WXee8D5w" field="TEXT" name="MQTT_USERNAME" value="context.username_jms"/>
-    <elementParameter xmi:id="_MhxIVd8qEfCn56WXee8D5w" field="PASSWORD" name="MQTT_PASSWORD" value="enc:system.encryption.key.v1:GZ1UMfyq3ne+MNgqFZoKGq8srqCNaI3l4xoEi8Cl5wiXNKavBY9sEbuwLpOkcHbA"/>
+    <elementParameter xmi:id="_MhxIVd8qEfCn56WXee8D5w" field="PASSWORD" name="MQTT_PASSWORD" value="context.password_jms"/>
     <elementParameter xmi:id="_MhxIVt8qEfCn56WXee8D5w" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node xmi:id="_MhxIV98qEfCn56WXee8D5w" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
@@ -296,7 +296,7 @@
     <elementParameter xmi:id="_MhxIuN8qEfCn56WXee8D5w" field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" value="60000" show="false"/>
     <elementParameter xmi:id="_MhxIud8qEfCn56WXee8D5w" field="CHECK" name="AMQ_AUTH" value="true"/>
     <elementParameter xmi:id="_MhxIut8qEfCn56WXee8D5w" field="TEXT" name="AMQ_USERNAME" value="context.username_jms"/>
-    <elementParameter xmi:id="_MhxIu98qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:9khfDcor9PFGRabbIbRpCap5ElWUSXnoEfKqtQ9gy9HxdYjdS5JsNO8C22S8Fw3O"/>
+    <elementParameter xmi:id="_MhxIu98qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="context.password_jms"/>
     <elementParameter xmi:id="_MhxIvN8qEfCn56WXee8D5w" field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false"/>
     <elementParameter xmi:id="_MhxIvd8qEfCn56WXee8D5w" field="TEXT" name="WQM_SEVER" value="&quot;localhost&quot;" show="false"/>
     <elementParameter xmi:id="_MhxIvt8qEfCn56WXee8D5w" field="TEXT" name="WMQ_PORT" value="1414" show="false"/>

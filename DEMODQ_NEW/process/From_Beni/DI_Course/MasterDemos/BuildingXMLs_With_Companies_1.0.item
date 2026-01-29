@@ -278,7 +278,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_mysql_amc_AdditionalParams" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_mysql_amc_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DtDNTP7EUWO80spnV4KN2LU0MBfOkXmLxoyyworAHWJu9VlAFzUFzEntnFnIS78hN141ylEH00IY7iiXDpwpMr0=" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_mysql_amc_Password" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;" show="false"/>
@@ -321,7 +321,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BzyexCJUtogeNs8peocseRUAxw9n0v5gUqWzJ/wOD0udKLCYqZVJBaKBlYWLCk8Za6lulkc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1013,7 +1013,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MotECJ4OpNZrhPjV1DUNJoX2iyTFtNNssJP6xsjvRWFgFOtwEr8hc9zOKi2UA0XGuUao3Ew="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -1098,7 +1098,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iYrg4kkdznLFAQ0wdk+QfdoJVdt+0jl+KBsdK1Nf5NYub0glZPRhgBpZlLa1yPFuD30UBhc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1189,7 +1189,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:K7x85AfeMTzxh3nsMZInTsp7bDezg6rLLOsaicR+ExwB2zfa4HnQouNuKH5XqUhUE6wATkM="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS_PORTION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -1295,7 +1295,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:an2Zbi0Giy0coAemkOMV95U4v8Qc4goIdYzI+IAjHWTZAdG+7U3BgPEasiZVnKO9ly2HqFc="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1357,7 +1357,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QfpeDs2IYG75DjC3eTtnc2dEcvW1Tvu+G+dGbaSpM+RpSzVM+o8I+kPSZmAecT+W2mPd3d4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS_PORTION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -1527,7 +1527,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0d2ip+1mxa8bXr9fOWnMnh6BBjkIKnseSiXhcCbrRbgdCd9El9MHohJHow9D+rIxfuYghAw="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1644,7 +1644,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dkmtyhvKNhWzAqlQTrBfokoXd0bBWY/ewQgQfrpqDC/98iRj64/xS9MjiJhfBDUoUqSE3dQ="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS_PORTION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -1743,7 +1743,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/Dk3ii2cdcYIL/rf/sMzZnbpWaFFvMC8jl74LmmQV1JWgiKYbDj8BoBNsg+IxIHEbA/OChk="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1864,7 +1864,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vHUDPOEqMhroUdbN29d9t5V+TPBInpu3PJEXxeXr8U2+MEtf5WlEeyOanc9pON5tOHD7odI="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1969,7 +1969,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q/r0HzRk+pKBbSjO4q78nnLEb60rxwbSztWw3GgH2O/uWdDNHi+BFygy5f+9+s1W0VSHLbM="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS_PORTION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -2115,7 +2115,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:podcd7fbvIT8hBvJT6ZDLDsC5TUhw5dCUbjd2mHy54xx/pjfpFRptrc+2aT8Rsm05p0yZfw="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2220,7 +2220,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:njhxfec5LSNEpePkKbaEeb67Zt+kjTuew3/sdhge8OQF0wCMorCzQD0lkv8Jd1+tu3UDnwE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;LETTERS_PORTION&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete" show="false"/>
@@ -2373,7 +2373,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DWH_Read_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DWH_Read_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Xpw98wa3j3CMIoE3O2gURR06JDNZrf4JsH4EVaKFDsD/ENRAg4l7+PRdpPAEDxzI5JtdPDE="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.DWH_Read_Password"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>

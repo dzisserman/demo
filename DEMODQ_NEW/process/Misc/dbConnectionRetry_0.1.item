@@ -110,7 +110,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_amc_AdditionalParams" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.mysql_amc_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+DJpk+LaWJXrUM56/Z2ISq4rwxY0hyt1+jl9DE5tdI6G5/V0q6SXFUPrdIkcSbV/e7sXx4Uw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mysql_amc_Password" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statCatcher&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logCatcher&quot;" show="false"/>
@@ -179,7 +179,7 @@
     </elementParameter>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.jdbcClass" value="context.driverClass"/>
     <elementParameter field="TEXT" name="configuration.userId" value="context.user"/>
-    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:1D1cX4dph/90S5H5ZseEaFazn76GlIZusiLsmzlij1iK7n7ARxGJMg=="/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="context.pass"/>
     <elementParameter field="CHECK" name="configuration.useSharedDBConnection" value="false"/>
     <elementParameter field="TEXT" name="configuration.sharedDBConnectionName" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="configuration.useDataSource" value="false"/>
@@ -272,7 +272,7 @@
     </elementParameter>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.dataStore.jdbcClass" value="context.driverClass"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.userId" value="context.user"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="enc:system.encryption.key.v1:4+oXfwOBg43uUYVrfHIs0Umfj1+iLe/GVBuXC2tvLs7K5cC2cXZm1w=="/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.password" value="context.pass"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useSharedDBConnection" value="false" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.useDataSource" value="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dataSourceAlias" value="&quot;&quot;" show="false"/>

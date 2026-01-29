@@ -238,7 +238,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataQualityRules_2" show="false"/>
     <elementParameter field="CLOSED_LIST" name="WEB_APP" value="Data Stewardship"/>
     <elementParameter field="TEXT" name="URL" value="context.Endpoint"/>
-    <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:Sz3Kv1wlz9IhCX8YjHYix3pj4oSo5UTALnbDSlDSfLjf2D60D/L7HqTaD64M"/>
+    <elementParameter field="PASSWORD" name="TOKEN" value="context.API_Token"/>
     <elementParameter field="TDS_VERSION" name="TDS_VERSION_VALUE" value="1648744345071"/>
     <elementParameter field="EXTERNAL" name="CONFIG" value=""/>
     <elementParameter field="TEXT" name="TDS_VERSION_NAME" value="2022-02-16 14:46:39" show="false"/>

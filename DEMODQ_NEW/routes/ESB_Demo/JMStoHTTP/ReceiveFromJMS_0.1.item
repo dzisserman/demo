@@ -74,7 +74,7 @@
     <elementParameter xmi:id="_MhjFdN8qEfCn56WXee8D5w" field="TEXT" name="AMQ_POOL_EXPIRY_TIMEOUT" value="1" show="false"/>
     <elementParameter xmi:id="_MhjFdd8qEfCn56WXee8D5w" field="CHECK" name="AMQ_AUTH" value="true"/>
     <elementParameter xmi:id="_MhjFdt8qEfCn56WXee8D5w" field="TEXT" name="AMQ_USERNAME" value="context.username_jms"/>
-    <elementParameter xmi:id="_MhjFd98qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="enc:system.encryption.key.v1:l2K0ejlL1e3XL68IwOnTB1WIrOyOM84BXtWMC/sOR631E+zdcNHuvolfIs4uzY82"/>
+    <elementParameter xmi:id="_MhjFd98qEfCn56WXee8D5w" field="PASSWORD" name="AMQ_PASSWORD" value="context.password_jms"/>
     <elementParameter xmi:id="_MhjFeN8qEfCn56WXee8D5w" field="CHECK" name="AMQ_USE_RETROACTIVE_CONSUMER" value="false"/>
     <elementParameter xmi:id="_MhjFed8qEfCn56WXee8D5w" field="TEXT" name="WQM_SEVER" value="&quot;localhost&quot;" show="false"/>
     <elementParameter xmi:id="_MhjFet8qEfCn56WXee8D5w" field="TEXT" name="WMQ_PORT" value="&quot;1414&quot;" show="false"/>

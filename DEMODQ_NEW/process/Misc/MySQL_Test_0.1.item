@@ -121,7 +121,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.mySQL_dbname"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.mySQL_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dp5KDll8rnQkdQqw9QYgbXCGCKubUdTMTI0OU1VBPP2hnJ57gg3XaCJV7eQ26g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.mySQL_pass"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
